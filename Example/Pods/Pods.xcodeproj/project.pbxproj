@@ -1,0 +1,1620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00998883DE39AC75AF08E9C0FCCE4533 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFF909907D9794E4C781DAC1693A7018 /* UIKit.framework */; };
+		04CA58D4E35B0B140CD182B8D40C7F11 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A85AE9E36F67A1B513CB8DA940771B4F /* Masonry-dummy.m */; };
+		0B73D050F8ABC37D02E7F792900B1BCA /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = D12E9F350C1C8076BE92719B89951AD8 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7DF3FC3AFFAE7734930CF7308412C4 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = A78D3443F105E00FC21FE5A357C8F716 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0FADFE0DF558AC6071F1CB32DCD6C170 /* EmotionKeyboard.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 14821CCD76005AEAD265C71E204F9391 /* EmotionKeyboard.bundle */; };
+		0FEBD3813791BE1D44C1FDD0E50FA45B /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4497913DB548AE2E03103D3A97F34F /* View+MASAdditions.m */; };
+		166F8C9766B298B981B9B0BF745A7222 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28147EF640D73DD5BE8B797CFD199606 /* Foundation.framework */; };
+		18607DED52B68DC460EE59A674F98197 /* Pods-EmotionKeyboard_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D8F42FCB31116F8C62E3D9E3C59DB1 /* Pods-EmotionKeyboard_Tests-dummy.m */; };
+		1D26D6DF5577E5CA078F3312FA651252 /* SSChatKeyboardEmotionData.m in Sources */ = {isa = PBXBuildFile; fileRef = 04013FD5EC5DAB048BF5184340C1669D /* SSChatKeyboardEmotionData.m */; };
+		1D4536491772501FC91F95B2113CE2B4 /* Pods-EmotionKeyboard_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FBA0C4645ADD17123AD056476557C78 /* Pods-EmotionKeyboard_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21CBA1D9C3EFA7EF285B34DD69EB744F /* Pods-EmotionKeyboard_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 313FF480AE528242E07C4199CC62532C /* Pods-EmotionKeyboard_Example-dummy.m */; };
+		23CF00A1C078EB6CDD8843FC2F6E03C3 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 607937A372913475EE7EAE532760ACD4 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A63E04C2DFC9375B596F7572CC8C848 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 02CA69FDFD4D7BB11F8E3E2E7A0B9879 /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B76F8F6B1B54BDDB8693FBF69B7897E /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 470C5CD1265270E95A8A89443C727427 /* MASConstraintMaker.m */; };
+		36A8F5BBFDAACE7FE57F869B7F48398A /* SSChatKeyboardEmotionUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 510457DA5F770C6324F1649B251A4C98 /* SSChatKeyboardEmotionUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C6A2D776A1151A97EC2801DD0C0DA12 /* CHCommonUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C748B2C4587AAEF539CBAF7111A8711 /* CHCommonUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A11F3DDDEB70531BA5E4F570E372844 /* UIColor+CHSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = EB8E5D9491330363E2FEFB55621111B8 /* UIColor+CHSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A8759171BB94B8231A82FB181B7AFCB /* NSAttributedString+EmojiExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = F396F84FBD0ED3600CAB5B28F77D7B58 /* NSAttributedString+EmojiExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AADCA33A67464187138DA3BE6D211F8 /* SSChatEmotionBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AB05821E1D984DA556954AB79B1B2197 /* SSChatEmotionBaseCell.m */; };
+		4FA462D8557907152691DB2506D30ADC /* SSChatKeyboardEmotionUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B90B924DC8F13F0318F5372C17C2A0 /* SSChatKeyboardEmotionUtil.m */; };
+		58647DAF3585D7CD683311E01BFA1471 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = E7851906D7976272A721C8C4E0CE9092 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FCD16B01755DE4545AEE8D398D8CFEE /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 30EC6C5D191587619B42076546EDC448 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		658833265E824660197798417A9FDD65 /* UIColor+CHSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 243AD45E9F83DAFC8EA616E417137A98 /* UIColor+CHSocket.m */; };
+		681323C794FDDFD599C3309B9EC5C8EA /* SSChatEmotionImageCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C11BEE527A2D0997ED3FD242BE9E3CC /* SSChatEmotionImageCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72E5D3B3EE95C4DF5F83D6AC403F504A /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A95F8027E3EB86CB9AE2D7539201FE /* MASViewConstraint.m */; };
+		7746C6538279C5232E95F38AC36A50A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28147EF640D73DD5BE8B797CFD199606 /* Foundation.framework */; };
+		79108975905CC2177250A418217A0ABB /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E17443EA85E103F4DD0553AB6BB942A /* MASLayoutConstraint.m */; };
+		7E0AAC7864FE4AF4B8208EBFC115BD7D /* NSAttributedString+CHAttrs.m in Sources */ = {isa = PBXBuildFile; fileRef = C8264EB252D7BE9DA0E0CFD2EC87CB82 /* NSAttributedString+CHAttrs.m */; };
+		805C61BB110758E4B89C49A30E3FE6DD /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 837834476F3329FA118B081516D4FC28 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		827F9EE446735B888144B37221588459 /* CHCommonUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 64303C5A0C901D8B900B990B4F42FC0C /* CHCommonUtil.m */; };
+		828E296FC215A4BF6F3D22CCA6F00451 /* EmojiTextAttachment.h in Headers */ = {isa = PBXBuildFile; fileRef = 76A1D63EC6DCE61B5514E644F0D27894 /* EmojiTextAttachment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84B4C109DE2D7CFB74A749ADE59C524A /* SSChatKeyboardEmotionViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = B4FD75426BB27FB643889A0589E37EC4 /* SSChatKeyboardEmotionViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84F5CCBB6C6D19216F0FC9C4F2FD3DA3 /* NSAttributedString+EmojiExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = ED375D063274405770D307BF2725ED73 /* NSAttributedString+EmojiExtension.m */; };
+		8654AEDD46F1C88A6EA55C8FE2511C32 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7CC7527FD599A1064055C060E14B43 /* MASCompositeConstraint.m */; };
+		9250BA6D6F691CFD707A373DDB5FE7AB /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 86765B456E483806C4E13D2DD50E40A4 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9744546101B87F4396C5C314E67A46DB /* SSChatKeyboardEmotionData.h in Headers */ = {isa = PBXBuildFile; fileRef = C6024C9DB133C8C47255026B949978C5 /* SSChatKeyboardEmotionData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98AB790134B94BEDFADB67706D3D9B69 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BCCE8C6C17F326AFEDF4357C62ADAF /* MASViewAttribute.m */; };
+		9D64DA06D2EB652D8DD6FCFE4B6187C2 /* WWChatEmotionCollectionLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 156AB8D8EB3B8CA2DDA11311915A0667 /* WWChatEmotionCollectionLayout.m */; };
+		9DC12C285C3F100AED74FD057BA4A35F /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AD89987EC7EAE20D7034EEF9935E7CC /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA9A1FC57A6BD6DD6BB9E37702208046 /* WWCustomPageControl.h in Headers */ = {isa = PBXBuildFile; fileRef = FE9E32E91330B85DE94914989ED5E4F0 /* WWCustomPageControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC989FE9E2F600AC1834D8EB31DF5BAF /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FF4AF21902029EC43C354AC0978CE49 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE3557547E9DB06FDF8711D0129A075A /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEEBD88282BA13360CAA867D8465C75 /* NSArray+MASAdditions.m */; };
+		B1B33E55360C7333058000CF22F45F3B /* SSChatEmotionTitleCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 797878C1C66879841672085E231C842C /* SSChatEmotionTitleCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4758D284F0B83BFBEBEBA4772F21005 /* WWCustomPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 4914B156C85AE4B816E77446F108831A /* WWCustomPageControl.m */; };
+		B5A4D7BB3BF748C4C9F694F54CC07567 /* SSChatEmotionImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 43BC373C840A2097C0CEF81653E1DE03 /* SSChatEmotionImageCell.m */; };
+		B8B6352FC25700EB3D3F6D37713F4D5F /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 27E12E3D2779B5C7A8301A94F715DB4C /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB6586E733768E798C146A1CF7CA461F /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 071EEE0A3CE36E163E09EA7F7915F1DE /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		BBAB27E305A7AF9CAECBDC6DC520379D /* WWChatEmotionCollectionLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 33FA6A430677DD60966CD1224F466938 /* WWChatEmotionCollectionLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BCCD6FF4E4D41437700B2A6DFB79D866 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 55960467D1B758EC688A18A171012E78 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD4BF52FC163FBE2263E93B232832825 /* SSChatKeyboardEmotionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5700C5C9AB4054200EA156FCE087AF93 /* SSChatKeyboardEmotionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDA1A6E4E92BD074382FB31F75D5EDA4 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CF8069504999FB8BF5FA1529175AA74 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C02B3F9B9D7D6AF5CB6361326155E3A4 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 047EE388CF208BD5F57049BD98558C94 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C299C8839F42AC63713BAB3368D371AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28147EF640D73DD5BE8B797CFD199606 /* Foundation.framework */; };
+		C510415BA661B08B457CC3344DB87BD7 /* SSChatKeyboardEmotionViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6950381EDD7F535642F575FBE9204B /* SSChatKeyboardEmotionViewModel.m */; };
+		C552AC0289C9141BE6458E5993C1CF0E /* NSAttributedString+CHAttrs.h in Headers */ = {isa = PBXBuildFile; fileRef = 56DD7BC1470F8FB1172071AB3BB8A4EE /* NSAttributedString+CHAttrs.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB7714BAAC2A0D898650E17A1881D349 /* EmotionKeyboard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BA21E5B27CA16E58667FDC441377F2B /* EmotionKeyboard-dummy.m */; };
+		CE54A4FB04AA5730AA2141847BA08706 /* SSChatEmotionTitleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FDED80665E21C10D0C66C714F9F2FA /* SSChatEmotionTitleCell.m */; };
+		CFDEE341BA1230CDFDD3BBC06239D47F /* EmojiTextAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C01D533BEC822059C477BDF2E44F637 /* EmojiTextAttachment.m */; };
+		D83EF10192A71E5316EB21402AD2ED31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28147EF640D73DD5BE8B797CFD199606 /* Foundation.framework */; };
+		D8B8336E9CDDDC6B221C4D9057521D5A /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 342C4D9B5E1E36390E7AF01E35444998 /* ViewController+MASAdditions.m */; };
+		DFD7E907E79DF3BF7A9A426548A2912F /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9073C3B74BC30C55B4EB5B2A596EAD72 /* MASConstraint.m */; };
+		E4373F6C2574EC350076A264 /* 21.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F212574EC350076A264 /* 21.gif */; };
+		E4373F6D2574EC350076A264 /* 35.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F222574EC350076A264 /* 35.gif */; };
+		E4373F6E2574EC350076A264 /* 34.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F232574EC350076A264 /* 34.gif */; };
+		E4373F6F2574EC350076A264 /* 20.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F242574EC350076A264 /* 20.gif */; };
+		E4373F702574EC350076A264 /* 36.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F252574EC350076A264 /* 36.gif */; };
+		E4373F712574EC350076A264 /* 22.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F262574EC350076A264 /* 22.gif */; };
+		E4373F722574EC350076A264 /* 23.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F272574EC350076A264 /* 23.gif */; };
+		E4373F732574EC350076A264 /* 37.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F282574EC350076A264 /* 37.gif */; };
+		E4373F742574EC350076A264 /* DeleteEmoticonBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E4373F292574EC350076A264 /* DeleteEmoticonBtn@2x.png */; };
+		E4373F752574EC350076A264 /* 33.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F2A2574EC350076A264 /* 33.gif */; };
+		E4373F762574EC350076A264 /* 27.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F2B2574EC350076A264 /* 27.gif */; };
+		E4373F772574EC350076A264 /* 26.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F2C2574EC350076A264 /* 26.gif */; };
+		E4373F782574EC350076A264 /* 32.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F2D2574EC350076A264 /* 32.gif */; };
+		E4373F792574EC350076A264 /* 18.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F2E2574EC350076A264 /* 18.gif */; };
+		E4373F7A2574EC350076A264 /* 24.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F2F2574EC350076A264 /* 24.gif */; };
+		E4373F7B2574EC350076A264 /* 30.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F302574EC350076A264 /* 30.gif */; };
+		E4373F7C2574EC350076A264 /* 31.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F312574EC350076A264 /* 31.gif */; };
+		E4373F7D2574EC350076A264 /* 25.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F322574EC350076A264 /* 25.gif */; };
+		E4373F7E2574EC350076A264 /* 19.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F332574EC350076A264 /* 19.gif */; };
+		E4373F7F2574EC350076A264 /* 42.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F342574EC350076A264 /* 42.gif */; };
+		E4373F802574EC350076A264 /* 56.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F352574EC350076A264 /* 56.gif */; };
+		E4373F812574EC350076A264 /* 4.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F362574EC350076A264 /* 4.gif */; };
+		E4373F822574EC350076A264 /* 57.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F372574EC350076A264 /* 57.gif */; };
+		E4373F832574EC350076A264 /* 5.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F382574EC350076A264 /* 5.gif */; };
+		E4373F842574EC350076A264 /* 43.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F392574EC350076A264 /* 43.gif */; };
+		E4373F852574EC350076A264 /* 7.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F3A2574EC350076A264 /* 7.gif */; };
+		E4373F862574EC350076A264 /* 55.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F3B2574EC350076A264 /* 55.gif */; };
+		E4373F872574EC350076A264 /* 41.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F3C2574EC350076A264 /* 41.gif */; };
+		E4373F882574EC350076A264 /* 69.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F3D2574EC350076A264 /* 69.gif */; };
+		E4373F892574EC350076A264 /* 68.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F3E2574EC350076A264 /* 68.gif */; };
+		E4373F8A2574EC350076A264 /* 40.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F3F2574EC350076A264 /* 40.gif */; };
+		E4373F8B2574EC350076A264 /* 6.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F402574EC350076A264 /* 6.gif */; };
+		E4373F8C2574EC350076A264 /* 54.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F412574EC350076A264 /* 54.gif */; };
+		E4373F8D2574EC350076A264 /* 50.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F422574EC350076A264 /* 50.gif */; };
+		E4373F8E2574EC350076A264 /* 2.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F432574EC350076A264 /* 2.gif */; };
+		E4373F8F2574EC350076A264 /* 44.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F442574EC350076A264 /* 44.gif */; };
+		E4373F902574EC350076A264 /* 45.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F452574EC350076A264 /* 45.gif */; };
+		E4373F912574EC350076A264 /* 51.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F462574EC350076A264 /* 51.gif */; };
+		E4373F922574EC350076A264 /* 3.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F472574EC350076A264 /* 3.gif */; };
+		E4373F932574EC350076A264 /* 47.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F482574EC350076A264 /* 47.gif */; };
+		E4373F942574EC350076A264 /* 1.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F492574EC350076A264 /* 1.gif */; };
+		E4373F952574EC350076A264 /* 53.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F4A2574EC350076A264 /* 53.gif */; };
+		E4373F962574EC350076A264 /* 0.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F4B2574EC350076A264 /* 0.gif */; };
+		E4373F972574EC350076A264 /* 52.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F4C2574EC350076A264 /* 52.gif */; };
+		E4373F982574EC350076A264 /* 46.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F4D2574EC350076A264 /* 46.gif */; };
+		E4373F992574EC350076A264 /* 63.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F4E2574EC350076A264 /* 63.gif */; };
+		E4373F9A2574EC350076A264 /* 62.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F4F2574EC350076A264 /* 62.gif */; };
+		E4373F9B2574EC350076A264 /* 60.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F502574EC350076A264 /* 60.gif */; };
+		E4373F9C2574EC350076A264 /* 48.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F512574EC350076A264 /* 48.gif */; };
+		E4373F9D2574EC350076A264 /* 49.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F522574EC350076A264 /* 49.gif */; };
+		E4373F9E2574EC350076A264 /* 61.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F532574EC350076A264 /* 61.gif */; };
+		E4373F9F2574EC350076A264 /* 59.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F542574EC350076A264 /* 59.gif */; };
+		E4373FA02574EC350076A264 /* 71.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F552574EC350076A264 /* 71.gif */; };
+		E4373FA12574EC350076A264 /* 65.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F562574EC350076A264 /* 65.gif */; };
+		E4373FA22574EC350076A264 /* 64.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F572574EC350076A264 /* 64.gif */; };
+		E4373FA32574EC350076A264 /* 70.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F582574EC350076A264 /* 70.gif */; };
+		E4373FA42574EC350076A264 /* 58.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F592574EC350076A264 /* 58.gif */; };
+		E4373FA52574EC350076A264 /* 8.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F5A2574EC350076A264 /* 8.gif */; };
+		E4373FA62574EC350076A264 /* 66.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F5B2574EC350076A264 /* 66.gif */; };
+		E4373FA72574EC350076A264 /* emotion.txt in Resources */ = {isa = PBXBuildFile; fileRef = E4373F5C2574EC350076A264 /* emotion.txt */; };
+		E4373FA82574EC350076A264 /* 67.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F5D2574EC350076A264 /* 67.gif */; };
+		E4373FA92574EC350076A264 /* 9.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F5E2574EC350076A264 /* 9.gif */; };
+		E4373FAA2574EC350076A264 /* 14.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F5F2574EC350076A264 /* 14.gif */; };
+		E4373FAB2574EC350076A264 /* 28.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F602574EC350076A264 /* 28.gif */; };
+		E4373FAC2574EC350076A264 /* 29.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F612574EC350076A264 /* 29.gif */; };
+		E4373FAD2574EC350076A264 /* 15.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F622574EC350076A264 /* 15.gif */; };
+		E4373FAE2574EC350076A264 /* 17.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F632574EC350076A264 /* 17.gif */; };
+		E4373FAF2574EC350076A264 /* 16.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F642574EC350076A264 /* 16.gif */; };
+		E4373FB02574EC350076A264 /* 12.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F652574EC350076A264 /* 12.gif */; };
+		E4373FB12574EC350076A264 /* DeleteEmoticonBtnHL@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E4373F662574EC350076A264 /* DeleteEmoticonBtnHL@2x.png */; };
+		E4373FB22574EC350076A264 /* 13.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F672574EC350076A264 /* 13.gif */; };
+		E4373FB32574EC350076A264 /* 39.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F682574EC350076A264 /* 39.gif */; };
+		E4373FB42574EC350076A264 /* 11.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F692574EC350076A264 /* 11.gif */; };
+		E4373FB52574EC350076A264 /* 10.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F6A2574EC350076A264 /* 10.gif */; };
+		E4373FB62574EC350076A264 /* 38.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F6B2574EC350076A264 /* 38.gif */; };
+		E88DEF0ADC63B04D6D8D11A076B2F5E2 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = EDA8A3885BC33F25CB32442EB2449111 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED1AC64A6FC5A21D96E8B7D66449D1BF /* EmotionKeyboard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A5ADC23440A22ECE151C5C183F4A4C2 /* EmotionKeyboard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F18D8FA991154E504F9B0BC0054DED80 /* Pods-EmotionKeyboard_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7225738EA99373D1604E40774D1FAA9B /* Pods-EmotionKeyboard_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5EDD09CE9F612A8FEA603869E0D3FDC /* SSChatKeyboardEmotionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DEE59E39F58A05D4E7A2E28CEBC2A31 /* SSChatKeyboardEmotionView.m */; };
+		FCADC8EF82EB9A4444574B20E59A47B6 /* SSChatEmotionBaseCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 72D7C7F2EA3A107DFF654649430D228F /* SSChatEmotionBaseCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FDDB24C84B63EF7FD59DFCDCA82C55AA /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = B28EC2F4C626ED77509645BE3805CB29 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEBEBF4FB4725BBB59A03C660989FFCE /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B28864E3F11E1DDE7AEF55AFFD8B0FE /* Masonry.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00F732CF7C7B40071A1734DF88F4E0E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D67BA460DE80959EE06EE261F2AC6910;
+			remoteInfo = EmotionKeyboard;
+		};
+		6B8D1F5357CB441D06FB6AA7FD6C33B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
+			remoteInfo = Masonry;
+		};
+		AD60AC636869343EB186EBC3ECA702F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B88EA9A9C3F6E1256C43956C1C4C247A;
+			remoteInfo = "Pods-EmotionKeyboard_Example";
+		};
+		C8E0DF5F8F1D71E51E9DDC513A3E947A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44257D9B5304609FA8855C78F2C483FB;
+			remoteInfo = "EmotionKeyboard-EmotionKeyboard";
+		};
+		F95DCEDE38DEA02D698326036CED9D41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
+			remoteInfo = Masonry;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02CA69FDFD4D7BB11F8E3E2E7A0B9879 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		04013FD5EC5DAB048BF5184340C1669D /* SSChatKeyboardEmotionData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SSChatKeyboardEmotionData.m; sourceTree = "<group>"; };
+		047EE388CF208BD5F57049BD98558C94 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		071EEE0A3CE36E163E09EA7F7915F1DE /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		098FD72F80A71A8A651F3CC4EE316BCA /* Pods-EmotionKeyboard_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EmotionKeyboard_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0C01D533BEC822059C477BDF2E44F637 /* EmojiTextAttachment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EmojiTextAttachment.m; path = EmotionKeyboard/Classes/Emotion/EmojiTextAttachment.m; sourceTree = "<group>"; };
+		0E1BEFDAD5175825EEBB8C05723923E6 /* EmotionKeyboard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EmotionKeyboard.modulemap; sourceTree = "<group>"; };
+		145A9305E8AA7D5A4D28B444DD2161E3 /* EmotionKeyboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EmotionKeyboard.debug.xcconfig; sourceTree = "<group>"; };
+		14821CCD76005AEAD265C71E204F9391 /* EmotionKeyboard.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmotionKeyboard.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		156AB8D8EB3B8CA2DDA11311915A0667 /* WWChatEmotionCollectionLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WWChatEmotionCollectionLayout.m; sourceTree = "<group>"; };
+		17E620F30061BAB4EAC5F3D88E19C5C6 /* Pods-EmotionKeyboard_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EmotionKeyboard_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1A5ADC23440A22ECE151C5C183F4A4C2 /* EmotionKeyboard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EmotionKeyboard-umbrella.h"; sourceTree = "<group>"; };
+		1BA21E5B27CA16E58667FDC441377F2B /* EmotionKeyboard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EmotionKeyboard-dummy.m"; sourceTree = "<group>"; };
+		1C11BEE527A2D0997ED3FD242BE9E3CC /* SSChatEmotionImageCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SSChatEmotionImageCell.h; sourceTree = "<group>"; };
+		1FFED36A657123030ABB700256D73F15 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23AED61E3DBCE3C8DD656111186E36B5 /* Pods-EmotionKeyboard_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EmotionKeyboard_Tests-Info.plist"; sourceTree = "<group>"; };
+		243AD45E9F83DAFC8EA616E417137A98 /* UIColor+CHSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+CHSocket.m"; path = "EmotionKeyboard/Classes/Emotion/UIColor+CHSocket.m"; sourceTree = "<group>"; };
+		27E12E3D2779B5C7A8301A94F715DB4C /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		28147EF640D73DD5BE8B797CFD199606 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		2C748B2C4587AAEF539CBAF7111A8711 /* CHCommonUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CHCommonUtil.h; path = EmotionKeyboard/Classes/Emotion/CHCommonUtil.h; sourceTree = "<group>"; };
+		2FBA0C4645ADD17123AD056476557C78 /* Pods-EmotionKeyboard_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EmotionKeyboard_Tests-umbrella.h"; sourceTree = "<group>"; };
+		30EC6C5D191587619B42076546EDC448 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		313FF480AE528242E07C4199CC62532C /* Pods-EmotionKeyboard_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EmotionKeyboard_Example-dummy.m"; sourceTree = "<group>"; };
+		33FA6A430677DD60966CD1224F466938 /* WWChatEmotionCollectionLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WWChatEmotionCollectionLayout.h; sourceTree = "<group>"; };
+		342C4D9B5E1E36390E7AF01E35444998 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		35FDED80665E21C10D0C66C714F9F2FA /* SSChatEmotionTitleCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SSChatEmotionTitleCell.m; sourceTree = "<group>"; };
+		3B84FF314D7E409CF51EF952F6E2E3E3 /* EmotionKeyboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EmotionKeyboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DEE59E39F58A05D4E7A2E28CEBC2A31 /* SSChatKeyboardEmotionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SSChatKeyboardEmotionView.m; sourceTree = "<group>"; };
+		3E537C1F47DA8B06DA4A71E3D14F4DE4 /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
+		419A961AD957E23BAB6A998ED7623134 /* Masonry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.release.xcconfig; sourceTree = "<group>"; };
+		43BC373C840A2097C0CEF81653E1DE03 /* SSChatEmotionImageCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SSChatEmotionImageCell.m; sourceTree = "<group>"; };
+		470C5CD1265270E95A8A89443C727427 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
+		480F2E76C643A72242D5289A8E66E263 /* EmotionKeyboard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EmotionKeyboard-prefix.pch"; sourceTree = "<group>"; };
+		4914B156C85AE4B816E77446F108831A /* WWCustomPageControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WWCustomPageControl.m; sourceTree = "<group>"; };
+		4AD89987EC7EAE20D7034EEF9935E7CC /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
+		510457DA5F770C6324F1649B251A4C98 /* SSChatKeyboardEmotionUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SSChatKeyboardEmotionUtil.h; sourceTree = "<group>"; };
+		55960467D1B758EC688A18A171012E78 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		56DD7BC1470F8FB1172071AB3BB8A4EE /* NSAttributedString+CHAttrs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSAttributedString+CHAttrs.h"; path = "EmotionKeyboard/Classes/Emotion/NSAttributedString+CHAttrs.h"; sourceTree = "<group>"; };
+		5700C5C9AB4054200EA156FCE087AF93 /* SSChatKeyboardEmotionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SSChatKeyboardEmotionView.h; sourceTree = "<group>"; };
+		57868399F89B6C4580B0468E40EF78AF /* Pods-EmotionKeyboard_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EmotionKeyboard_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5D726C6F9569D5B262A5BCBC4B726F40 /* EmotionKeyboard.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = EmotionKeyboard.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		607937A372913475EE7EAE532760ACD4 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
+		60B90B924DC8F13F0318F5372C17C2A0 /* SSChatKeyboardEmotionUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SSChatKeyboardEmotionUtil.m; sourceTree = "<group>"; };
+		64303C5A0C901D8B900B990B4F42FC0C /* CHCommonUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CHCommonUtil.m; path = EmotionKeyboard/Classes/Emotion/CHCommonUtil.m; sourceTree = "<group>"; };
+		6B28864E3F11E1DDE7AEF55AFFD8B0FE /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CF8069504999FB8BF5FA1529175AA74 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
+		6E17443EA85E103F4DD0553AB6BB942A /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		6FF4AF21902029EC43C354AC0978CE49 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		7225738EA99373D1604E40774D1FAA9B /* Pods-EmotionKeyboard_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EmotionKeyboard_Example-umbrella.h"; sourceTree = "<group>"; };
+		72A95F8027E3EB86CB9AE2D7539201FE /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
+		72D7C7F2EA3A107DFF654649430D228F /* SSChatEmotionBaseCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SSChatEmotionBaseCell.h; sourceTree = "<group>"; };
+		75B8E5494CC8FFBDF411AD829C7B0424 /* Pods_EmotionKeyboard_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EmotionKeyboard_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76A1D63EC6DCE61B5514E644F0D27894 /* EmojiTextAttachment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EmojiTextAttachment.h; path = EmotionKeyboard/Classes/Emotion/EmojiTextAttachment.h; sourceTree = "<group>"; };
+		797878C1C66879841672085E231C842C /* SSChatEmotionTitleCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SSChatEmotionTitleCell.h; sourceTree = "<group>"; };
+		837834476F3329FA118B081516D4FC28 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		86765B456E483806C4E13D2DD50E40A4 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		8AEEBD88282BA13360CAA867D8465C75 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		8D6FEF08BEE1537AFF3FDCDBCBAFCD18 /* ResourceBundle-EmotionKeyboard-EmotionKeyboard-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-EmotionKeyboard-EmotionKeyboard-Info.plist"; sourceTree = "<group>"; };
+		8DC21FEC866EB59FE7583D4473C2BE9A /* EmotionKeyboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EmotionKeyboard.release.xcconfig; sourceTree = "<group>"; };
+		8E23757325C51F2EFFF2F9C14E940347 /* Pods-EmotionKeyboard_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EmotionKeyboard_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9073C3B74BC30C55B4EB5B2A596EAD72 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
+		9C5278AC89EDC4C6F1AB62B03F478B56 /* Pods-EmotionKeyboard_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EmotionKeyboard_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A78D3443F105E00FC21FE5A357C8F716 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		A7E8057DE6AB91E7A4E90DA78A67311D /* Pods-EmotionKeyboard_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EmotionKeyboard_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A85AE9E36F67A1B513CB8DA940771B4F /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
+		A8BCCE8C6C17F326AFEDF4357C62ADAF /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
+		AB05821E1D984DA556954AB79B1B2197 /* SSChatEmotionBaseCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SSChatEmotionBaseCell.m; sourceTree = "<group>"; };
+		AF4497913DB548AE2E03103D3A97F34F /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
+		B1D8F42FCB31116F8C62E3D9E3C59DB1 /* Pods-EmotionKeyboard_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EmotionKeyboard_Tests-dummy.m"; sourceTree = "<group>"; };
+		B28EC2F4C626ED77509645BE3805CB29 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
+		B4FD75426BB27FB643889A0589E37EC4 /* SSChatKeyboardEmotionViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SSChatKeyboardEmotionViewModel.h; sourceTree = "<group>"; };
+		B968F8459CB86D68D5893580B0ABA2CE /* Pods-EmotionKeyboard_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EmotionKeyboard_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		BDB676D9D5D3AFD89D8DDCE3369D4BAC /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
+		C27D6C561E8F43A041FF2FC011EE88AF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C45E0212834EF78AE5CD92F498310A2A /* Pods-EmotionKeyboard_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EmotionKeyboard_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C6024C9DB133C8C47255026B949978C5 /* SSChatKeyboardEmotionData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SSChatKeyboardEmotionData.h; sourceTree = "<group>"; };
+		C6773F6685035B819FD4D9AFEBED046C /* Pods_EmotionKeyboard_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EmotionKeyboard_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8264EB252D7BE9DA0E0CFD2EC87CB82 /* NSAttributedString+CHAttrs.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSAttributedString+CHAttrs.m"; path = "EmotionKeyboard/Classes/Emotion/NSAttributedString+CHAttrs.m"; sourceTree = "<group>"; };
+		C86FE1C1906012A813989E52BA19B056 /* Pods-EmotionKeyboard_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EmotionKeyboard_Example-frameworks.sh"; sourceTree = "<group>"; };
+		CF6950381EDD7F535642F575FBE9204B /* SSChatKeyboardEmotionViewModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SSChatKeyboardEmotionViewModel.m; sourceTree = "<group>"; };
+		CF76023D03D160C0D8A56AA4B36905A3 /* Pods-EmotionKeyboard_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EmotionKeyboard_Example-Info.plist"; sourceTree = "<group>"; };
+		D12E9F350C1C8076BE92719B89951AD8 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		DB4E6CBA541FF93B9BB4F91903FB6CEB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		DFA1012B6A8BD076CD9F09831AE37A01 /* Masonry-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Masonry-Info.plist"; sourceTree = "<group>"; };
+		E4373F212574EC350076A264 /* 21.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 21.gif; sourceTree = "<group>"; };
+		E4373F222574EC350076A264 /* 35.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 35.gif; sourceTree = "<group>"; };
+		E4373F232574EC350076A264 /* 34.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 34.gif; sourceTree = "<group>"; };
+		E4373F242574EC350076A264 /* 20.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 20.gif; sourceTree = "<group>"; };
+		E4373F252574EC350076A264 /* 36.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 36.gif; sourceTree = "<group>"; };
+		E4373F262574EC350076A264 /* 22.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 22.gif; sourceTree = "<group>"; };
+		E4373F272574EC350076A264 /* 23.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 23.gif; sourceTree = "<group>"; };
+		E4373F282574EC350076A264 /* 37.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 37.gif; sourceTree = "<group>"; };
+		E4373F292574EC350076A264 /* DeleteEmoticonBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DeleteEmoticonBtn@2x.png"; sourceTree = "<group>"; };
+		E4373F2A2574EC350076A264 /* 33.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 33.gif; sourceTree = "<group>"; };
+		E4373F2B2574EC350076A264 /* 27.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 27.gif; sourceTree = "<group>"; };
+		E4373F2C2574EC350076A264 /* 26.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 26.gif; sourceTree = "<group>"; };
+		E4373F2D2574EC350076A264 /* 32.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 32.gif; sourceTree = "<group>"; };
+		E4373F2E2574EC350076A264 /* 18.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 18.gif; sourceTree = "<group>"; };
+		E4373F2F2574EC350076A264 /* 24.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 24.gif; sourceTree = "<group>"; };
+		E4373F302574EC350076A264 /* 30.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 30.gif; sourceTree = "<group>"; };
+		E4373F312574EC350076A264 /* 31.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 31.gif; sourceTree = "<group>"; };
+		E4373F322574EC350076A264 /* 25.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 25.gif; sourceTree = "<group>"; };
+		E4373F332574EC350076A264 /* 19.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 19.gif; sourceTree = "<group>"; };
+		E4373F342574EC350076A264 /* 42.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 42.gif; sourceTree = "<group>"; };
+		E4373F352574EC350076A264 /* 56.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 56.gif; sourceTree = "<group>"; };
+		E4373F362574EC350076A264 /* 4.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 4.gif; sourceTree = "<group>"; };
+		E4373F372574EC350076A264 /* 57.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 57.gif; sourceTree = "<group>"; };
+		E4373F382574EC350076A264 /* 5.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 5.gif; sourceTree = "<group>"; };
+		E4373F392574EC350076A264 /* 43.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 43.gif; sourceTree = "<group>"; };
+		E4373F3A2574EC350076A264 /* 7.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 7.gif; sourceTree = "<group>"; };
+		E4373F3B2574EC350076A264 /* 55.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 55.gif; sourceTree = "<group>"; };
+		E4373F3C2574EC350076A264 /* 41.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 41.gif; sourceTree = "<group>"; };
+		E4373F3D2574EC350076A264 /* 69.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 69.gif; sourceTree = "<group>"; };
+		E4373F3E2574EC350076A264 /* 68.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 68.gif; sourceTree = "<group>"; };
+		E4373F3F2574EC350076A264 /* 40.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 40.gif; sourceTree = "<group>"; };
+		E4373F402574EC350076A264 /* 6.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 6.gif; sourceTree = "<group>"; };
+		E4373F412574EC350076A264 /* 54.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 54.gif; sourceTree = "<group>"; };
+		E4373F422574EC350076A264 /* 50.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 50.gif; sourceTree = "<group>"; };
+		E4373F432574EC350076A264 /* 2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 2.gif; sourceTree = "<group>"; };
+		E4373F442574EC350076A264 /* 44.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 44.gif; sourceTree = "<group>"; };
+		E4373F452574EC350076A264 /* 45.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 45.gif; sourceTree = "<group>"; };
+		E4373F462574EC350076A264 /* 51.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 51.gif; sourceTree = "<group>"; };
+		E4373F472574EC350076A264 /* 3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 3.gif; sourceTree = "<group>"; };
+		E4373F482574EC350076A264 /* 47.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 47.gif; sourceTree = "<group>"; };
+		E4373F492574EC350076A264 /* 1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 1.gif; sourceTree = "<group>"; };
+		E4373F4A2574EC350076A264 /* 53.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 53.gif; sourceTree = "<group>"; };
+		E4373F4B2574EC350076A264 /* 0.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 0.gif; sourceTree = "<group>"; };
+		E4373F4C2574EC350076A264 /* 52.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 52.gif; sourceTree = "<group>"; };
+		E4373F4D2574EC350076A264 /* 46.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 46.gif; sourceTree = "<group>"; };
+		E4373F4E2574EC350076A264 /* 63.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 63.gif; sourceTree = "<group>"; };
+		E4373F4F2574EC350076A264 /* 62.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 62.gif; sourceTree = "<group>"; };
+		E4373F502574EC350076A264 /* 60.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 60.gif; sourceTree = "<group>"; };
+		E4373F512574EC350076A264 /* 48.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 48.gif; sourceTree = "<group>"; };
+		E4373F522574EC350076A264 /* 49.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 49.gif; sourceTree = "<group>"; };
+		E4373F532574EC350076A264 /* 61.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 61.gif; sourceTree = "<group>"; };
+		E4373F542574EC350076A264 /* 59.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 59.gif; sourceTree = "<group>"; };
+		E4373F552574EC350076A264 /* 71.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 71.gif; sourceTree = "<group>"; };
+		E4373F562574EC350076A264 /* 65.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 65.gif; sourceTree = "<group>"; };
+		E4373F572574EC350076A264 /* 64.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 64.gif; sourceTree = "<group>"; };
+		E4373F582574EC350076A264 /* 70.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 70.gif; sourceTree = "<group>"; };
+		E4373F592574EC350076A264 /* 58.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 58.gif; sourceTree = "<group>"; };
+		E4373F5A2574EC350076A264 /* 8.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 8.gif; sourceTree = "<group>"; };
+		E4373F5B2574EC350076A264 /* 66.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 66.gif; sourceTree = "<group>"; };
+		E4373F5C2574EC350076A264 /* emotion.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = emotion.txt; sourceTree = "<group>"; };
+		E4373F5D2574EC350076A264 /* 67.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 67.gif; sourceTree = "<group>"; };
+		E4373F5E2574EC350076A264 /* 9.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 9.gif; sourceTree = "<group>"; };
+		E4373F5F2574EC350076A264 /* 14.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 14.gif; sourceTree = "<group>"; };
+		E4373F602574EC350076A264 /* 28.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 28.gif; sourceTree = "<group>"; };
+		E4373F612574EC350076A264 /* 29.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 29.gif; sourceTree = "<group>"; };
+		E4373F622574EC350076A264 /* 15.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 15.gif; sourceTree = "<group>"; };
+		E4373F632574EC350076A264 /* 17.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 17.gif; sourceTree = "<group>"; };
+		E4373F642574EC350076A264 /* 16.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 16.gif; sourceTree = "<group>"; };
+		E4373F652574EC350076A264 /* 12.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 12.gif; sourceTree = "<group>"; };
+		E4373F662574EC350076A264 /* DeleteEmoticonBtnHL@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DeleteEmoticonBtnHL@2x.png"; sourceTree = "<group>"; };
+		E4373F672574EC350076A264 /* 13.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 13.gif; sourceTree = "<group>"; };
+		E4373F682574EC350076A264 /* 39.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 39.gif; sourceTree = "<group>"; };
+		E4373F692574EC350076A264 /* 11.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 11.gif; sourceTree = "<group>"; };
+		E4373F6A2574EC350076A264 /* 10.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 10.gif; sourceTree = "<group>"; };
+		E4373F6B2574EC350076A264 /* 38.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 38.gif; sourceTree = "<group>"; };
+		E7851906D7976272A721C8C4E0CE9092 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		EB7CC7527FD599A1064055C060E14B43 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		EB8E5D9491330363E2FEFB55621111B8 /* UIColor+CHSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+CHSocket.h"; path = "EmotionKeyboard/Classes/Emotion/UIColor+CHSocket.h"; sourceTree = "<group>"; };
+		ED375D063274405770D307BF2725ED73 /* NSAttributedString+EmojiExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSAttributedString+EmojiExtension.m"; path = "EmotionKeyboard/Classes/Emotion/NSAttributedString+EmojiExtension.m"; sourceTree = "<group>"; };
+		EDA8A3885BC33F25CB32442EB2449111 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
+		EFF909907D9794E4C781DAC1693A7018 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		F0D8822C23981DEDFA1203DE0074CE13 /* EmotionKeyboard-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EmotionKeyboard-Info.plist"; sourceTree = "<group>"; };
+		F139D932040499669F57BBEA75EB97A8 /* Pods-EmotionKeyboard_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EmotionKeyboard_Tests.modulemap"; sourceTree = "<group>"; };
+		F287598D192FA586BD4AECCD85B988A4 /* Masonry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.debug.xcconfig; sourceTree = "<group>"; };
+		F396F84FBD0ED3600CAB5B28F77D7B58 /* NSAttributedString+EmojiExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSAttributedString+EmojiExtension.h"; path = "EmotionKeyboard/Classes/Emotion/NSAttributedString+EmojiExtension.h"; sourceTree = "<group>"; };
+		F6BB02B60EFA4BEE9AB483A43D889F58 /* Pods-EmotionKeyboard_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EmotionKeyboard_Example.modulemap"; sourceTree = "<group>"; };
+		FE9E32E91330B85DE94914989ED5E4F0 /* WWCustomPageControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WWCustomPageControl.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		065AE1F4A094815A5A4B52F4FC8CD9A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		482F3B3655A4B756F07096B36EA9F166 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				166F8C9766B298B981B9B0BF745A7222 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D769364C098D49F5DFD8234BD5D885B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D83EF10192A71E5316EB21402AD2ED31 /* Foundation.framework in Frameworks */,
+				00998883DE39AC75AF08E9C0FCCE4533 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C772A10DEB683E7E52AC78E8E5B6DD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7746C6538279C5232E95F38AC36A50A6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1830A98227227677CA22D28CD791135 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C299C8839F42AC63713BAB3368D371AF /* Foundation.framework in Frameworks */,
+				FEBEBF4FB4725BBB59A03C660989FFCE /* Masonry.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CCC0CD98AB951949302B433AFE762AD /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				4AD89987EC7EAE20D7034EEF9935E7CC /* MASCompositeConstraint.h */,
+				EB7CC7527FD599A1064055C060E14B43 /* MASCompositeConstraint.m */,
+				02CA69FDFD4D7BB11F8E3E2E7A0B9879 /* MASConstraint.h */,
+				9073C3B74BC30C55B4EB5B2A596EAD72 /* MASConstraint.m */,
+				837834476F3329FA118B081516D4FC28 /* MASConstraint+Private.h */,
+				B28EC2F4C626ED77509645BE3805CB29 /* MASConstraintMaker.h */,
+				470C5CD1265270E95A8A89443C727427 /* MASConstraintMaker.m */,
+				6FF4AF21902029EC43C354AC0978CE49 /* MASLayoutConstraint.h */,
+				6E17443EA85E103F4DD0553AB6BB942A /* MASLayoutConstraint.m */,
+				EDA8A3885BC33F25CB32442EB2449111 /* Masonry.h */,
+				607937A372913475EE7EAE532760ACD4 /* MASUtilities.h */,
+				A78D3443F105E00FC21FE5A357C8F716 /* MASViewAttribute.h */,
+				A8BCCE8C6C17F326AFEDF4357C62ADAF /* MASViewAttribute.m */,
+				D12E9F350C1C8076BE92719B89951AD8 /* MASViewConstraint.h */,
+				72A95F8027E3EB86CB9AE2D7539201FE /* MASViewConstraint.m */,
+				30EC6C5D191587619B42076546EDC448 /* NSArray+MASAdditions.h */,
+				8AEEBD88282BA13360CAA867D8465C75 /* NSArray+MASAdditions.m */,
+				27E12E3D2779B5C7A8301A94F715DB4C /* NSArray+MASShorthandAdditions.h */,
+				E7851906D7976272A721C8C4E0CE9092 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				071EEE0A3CE36E163E09EA7F7915F1DE /* NSLayoutConstraint+MASDebugAdditions.m */,
+				047EE388CF208BD5F57049BD98558C94 /* View+MASAdditions.h */,
+				AF4497913DB548AE2E03103D3A97F34F /* View+MASAdditions.m */,
+				86765B456E483806C4E13D2DD50E40A4 /* View+MASShorthandAdditions.h */,
+				55960467D1B758EC688A18A171012E78 /* ViewController+MASAdditions.h */,
+				342C4D9B5E1E36390E7AF01E35444998 /* ViewController+MASAdditions.m */,
+				C84A449C2DE4F91F0620A5147DD42E0F /* Support Files */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		1CFBC4509860A81EB8E75C1260110F03 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA13103D39152EC8C85D0677185C8521 /* Pods-EmotionKeyboard_Example */,
+				F622ED583314B5AE904DFA5BC90F1891 /* Pods-EmotionKeyboard_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5E8591D5BFC6C3F85ECE8EB8285057C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14821CCD76005AEAD265C71E204F9391 /* EmotionKeyboard.bundle */,
+				3B84FF314D7E409CF51EF952F6E2E3E3 /* EmotionKeyboard.framework */,
+				1FFED36A657123030ABB700256D73F15 /* Masonry.framework */,
+				75B8E5494CC8FFBDF411AD829C7B0424 /* Pods_EmotionKeyboard_Example.framework */,
+				C6773F6685035B819FD4D9AFEBED046C /* Pods_EmotionKeyboard_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60AB7568E4B40D2BAC8AA48E9AAF52E3 /* EmotionKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				E4373F202574EC350076A264 /* Assets */,
+				2C748B2C4587AAEF539CBAF7111A8711 /* CHCommonUtil.h */,
+				64303C5A0C901D8B900B990B4F42FC0C /* CHCommonUtil.m */,
+				76A1D63EC6DCE61B5514E644F0D27894 /* EmojiTextAttachment.h */,
+				0C01D533BEC822059C477BDF2E44F637 /* EmojiTextAttachment.m */,
+				56DD7BC1470F8FB1172071AB3BB8A4EE /* NSAttributedString+CHAttrs.h */,
+				C8264EB252D7BE9DA0E0CFD2EC87CB82 /* NSAttributedString+CHAttrs.m */,
+				F396F84FBD0ED3600CAB5B28F77D7B58 /* NSAttributedString+EmojiExtension.h */,
+				ED375D063274405770D307BF2725ED73 /* NSAttributedString+EmojiExtension.m */,
+				EB8E5D9491330363E2FEFB55621111B8 /* UIColor+CHSocket.h */,
+				243AD45E9F83DAFC8EA616E417137A98 /* UIColor+CHSocket.m */,
+				8BC6550147B9EE8CC6F03CE43E3EDB6F /* Model */,
+				6A9303141418F72AD2FCB4C61F2B8BA0 /* View */,
+				64B557ECF8818D59CB42708E356B42EF /* Pod */,
+				928EE1B6405FA1F013CE14416E724804 /* Support Files */,
+			);
+			name = EmotionKeyboard;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		64B557ECF8818D59CB42708E356B42EF /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				5D726C6F9569D5B262A5BCBC4B726F40 /* EmotionKeyboard.podspec */,
+				DB4E6CBA541FF93B9BB4F91903FB6CEB /* LICENSE */,
+				C27D6C561E8F43A041FF2FC011EE88AF /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		6A9303141418F72AD2FCB4C61F2B8BA0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5700C5C9AB4054200EA156FCE087AF93 /* SSChatKeyboardEmotionView.h */,
+				3DEE59E39F58A05D4E7A2E28CEBC2A31 /* SSChatKeyboardEmotionView.m */,
+				33FA6A430677DD60966CD1224F466938 /* WWChatEmotionCollectionLayout.h */,
+				156AB8D8EB3B8CA2DDA11311915A0667 /* WWChatEmotionCollectionLayout.m */,
+				FE9E32E91330B85DE94914989ED5E4F0 /* WWCustomPageControl.h */,
+				4914B156C85AE4B816E77446F108831A /* WWCustomPageControl.m */,
+				D8DE76F7628193191F2273D3161C585F /* Cell */,
+			);
+			name = View;
+			path = EmotionKeyboard/Classes/Emotion/View;
+			sourceTree = "<group>";
+		};
+		7529FD53BCE26816CCD46658378AAF1B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0CCC0CD98AB951949302B433AFE762AD /* Masonry */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8BC6550147B9EE8CC6F03CE43E3EDB6F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C6024C9DB133C8C47255026B949978C5 /* SSChatKeyboardEmotionData.h */,
+				04013FD5EC5DAB048BF5184340C1669D /* SSChatKeyboardEmotionData.m */,
+				510457DA5F770C6324F1649B251A4C98 /* SSChatKeyboardEmotionUtil.h */,
+				60B90B924DC8F13F0318F5372C17C2A0 /* SSChatKeyboardEmotionUtil.m */,
+				B4FD75426BB27FB643889A0589E37EC4 /* SSChatKeyboardEmotionViewModel.h */,
+				CF6950381EDD7F535642F575FBE9204B /* SSChatKeyboardEmotionViewModel.m */,
+			);
+			name = Model;
+			path = EmotionKeyboard/Classes/Emotion/Model;
+			sourceTree = "<group>";
+		};
+		928EE1B6405FA1F013CE14416E724804 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E1BEFDAD5175825EEBB8C05723923E6 /* EmotionKeyboard.modulemap */,
+				1BA21E5B27CA16E58667FDC441377F2B /* EmotionKeyboard-dummy.m */,
+				F0D8822C23981DEDFA1203DE0074CE13 /* EmotionKeyboard-Info.plist */,
+				480F2E76C643A72242D5289A8E66E263 /* EmotionKeyboard-prefix.pch */,
+				1A5ADC23440A22ECE151C5C183F4A4C2 /* EmotionKeyboard-umbrella.h */,
+				145A9305E8AA7D5A4D28B444DD2161E3 /* EmotionKeyboard.debug.xcconfig */,
+				8DC21FEC866EB59FE7583D4473C2BE9A /* EmotionKeyboard.release.xcconfig */,
+				8D6FEF08BEE1537AFF3FDCDBCBAFCD18 /* ResourceBundle-EmotionKeyboard-EmotionKeyboard-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/EmotionKeyboard";
+			sourceTree = "<group>";
+		};
+		B8E2C472EF7E7FDC3762375EC6A7F033 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				28147EF640D73DD5BE8B797CFD199606 /* Foundation.framework */,
+				EFF909907D9794E4C781DAC1693A7018 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C84A449C2DE4F91F0620A5147DD42E0F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E537C1F47DA8B06DA4A71E3D14F4DE4 /* Masonry.modulemap */,
+				A85AE9E36F67A1B513CB8DA940771B4F /* Masonry-dummy.m */,
+				DFA1012B6A8BD076CD9F09831AE37A01 /* Masonry-Info.plist */,
+				BDB676D9D5D3AFD89D8DDCE3369D4BAC /* Masonry-prefix.pch */,
+				6CF8069504999FB8BF5FA1529175AA74 /* Masonry-umbrella.h */,
+				F287598D192FA586BD4AECCD85B988A4 /* Masonry.debug.xcconfig */,
+				419A961AD957E23BAB6A998ED7623134 /* Masonry.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Masonry";
+			sourceTree = "<group>";
+		};
+		CA13103D39152EC8C85D0677185C8521 /* Pods-EmotionKeyboard_Example */ = {
+			isa = PBXGroup;
+			children = (
+				F6BB02B60EFA4BEE9AB483A43D889F58 /* Pods-EmotionKeyboard_Example.modulemap */,
+				8E23757325C51F2EFFF2F9C14E940347 /* Pods-EmotionKeyboard_Example-acknowledgements.markdown */,
+				B968F8459CB86D68D5893580B0ABA2CE /* Pods-EmotionKeyboard_Example-acknowledgements.plist */,
+				313FF480AE528242E07C4199CC62532C /* Pods-EmotionKeyboard_Example-dummy.m */,
+				C86FE1C1906012A813989E52BA19B056 /* Pods-EmotionKeyboard_Example-frameworks.sh */,
+				CF76023D03D160C0D8A56AA4B36905A3 /* Pods-EmotionKeyboard_Example-Info.plist */,
+				7225738EA99373D1604E40774D1FAA9B /* Pods-EmotionKeyboard_Example-umbrella.h */,
+				9C5278AC89EDC4C6F1AB62B03F478B56 /* Pods-EmotionKeyboard_Example.debug.xcconfig */,
+				C45E0212834EF78AE5CD92F498310A2A /* Pods-EmotionKeyboard_Example.release.xcconfig */,
+			);
+			name = "Pods-EmotionKeyboard_Example";
+			path = "Target Support Files/Pods-EmotionKeyboard_Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				FC5AF048E814DCCF9A010185FAC62FD7 /* Development Pods */,
+				DF275781DF9628A2D5BF35F5D74F7BC1 /* Frameworks */,
+				7529FD53BCE26816CCD46658378AAF1B /* Pods */,
+				5E8591D5BFC6C3F85ECE8EB8285057C7 /* Products */,
+				1CFBC4509860A81EB8E75C1260110F03 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D8DE76F7628193191F2273D3161C585F /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				72D7C7F2EA3A107DFF654649430D228F /* SSChatEmotionBaseCell.h */,
+				AB05821E1D984DA556954AB79B1B2197 /* SSChatEmotionBaseCell.m */,
+				1C11BEE527A2D0997ED3FD242BE9E3CC /* SSChatEmotionImageCell.h */,
+				43BC373C840A2097C0CEF81653E1DE03 /* SSChatEmotionImageCell.m */,
+				797878C1C66879841672085E231C842C /* SSChatEmotionTitleCell.h */,
+				35FDED80665E21C10D0C66C714F9F2FA /* SSChatEmotionTitleCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		DF275781DF9628A2D5BF35F5D74F7BC1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B28864E3F11E1DDE7AEF55AFFD8B0FE /* Masonry.framework */,
+				B8E2C472EF7E7FDC3762375EC6A7F033 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4373F202574EC350076A264 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				E4373F212574EC350076A264 /* 21.gif */,
+				E4373F222574EC350076A264 /* 35.gif */,
+				E4373F232574EC350076A264 /* 34.gif */,
+				E4373F242574EC350076A264 /* 20.gif */,
+				E4373F252574EC350076A264 /* 36.gif */,
+				E4373F262574EC350076A264 /* 22.gif */,
+				E4373F272574EC350076A264 /* 23.gif */,
+				E4373F282574EC350076A264 /* 37.gif */,
+				E4373F292574EC350076A264 /* DeleteEmoticonBtn@2x.png */,
+				E4373F2A2574EC350076A264 /* 33.gif */,
+				E4373F2B2574EC350076A264 /* 27.gif */,
+				E4373F2C2574EC350076A264 /* 26.gif */,
+				E4373F2D2574EC350076A264 /* 32.gif */,
+				E4373F2E2574EC350076A264 /* 18.gif */,
+				E4373F2F2574EC350076A264 /* 24.gif */,
+				E4373F302574EC350076A264 /* 30.gif */,
+				E4373F312574EC350076A264 /* 31.gif */,
+				E4373F322574EC350076A264 /* 25.gif */,
+				E4373F332574EC350076A264 /* 19.gif */,
+				E4373F342574EC350076A264 /* 42.gif */,
+				E4373F352574EC350076A264 /* 56.gif */,
+				E4373F362574EC350076A264 /* 4.gif */,
+				E4373F372574EC350076A264 /* 57.gif */,
+				E4373F382574EC350076A264 /* 5.gif */,
+				E4373F392574EC350076A264 /* 43.gif */,
+				E4373F3A2574EC350076A264 /* 7.gif */,
+				E4373F3B2574EC350076A264 /* 55.gif */,
+				E4373F3C2574EC350076A264 /* 41.gif */,
+				E4373F3D2574EC350076A264 /* 69.gif */,
+				E4373F3E2574EC350076A264 /* 68.gif */,
+				E4373F3F2574EC350076A264 /* 40.gif */,
+				E4373F402574EC350076A264 /* 6.gif */,
+				E4373F412574EC350076A264 /* 54.gif */,
+				E4373F422574EC350076A264 /* 50.gif */,
+				E4373F432574EC350076A264 /* 2.gif */,
+				E4373F442574EC350076A264 /* 44.gif */,
+				E4373F452574EC350076A264 /* 45.gif */,
+				E4373F462574EC350076A264 /* 51.gif */,
+				E4373F472574EC350076A264 /* 3.gif */,
+				E4373F482574EC350076A264 /* 47.gif */,
+				E4373F492574EC350076A264 /* 1.gif */,
+				E4373F4A2574EC350076A264 /* 53.gif */,
+				E4373F4B2574EC350076A264 /* 0.gif */,
+				E4373F4C2574EC350076A264 /* 52.gif */,
+				E4373F4D2574EC350076A264 /* 46.gif */,
+				E4373F4E2574EC350076A264 /* 63.gif */,
+				E4373F4F2574EC350076A264 /* 62.gif */,
+				E4373F502574EC350076A264 /* 60.gif */,
+				E4373F512574EC350076A264 /* 48.gif */,
+				E4373F522574EC350076A264 /* 49.gif */,
+				E4373F532574EC350076A264 /* 61.gif */,
+				E4373F542574EC350076A264 /* 59.gif */,
+				E4373F552574EC350076A264 /* 71.gif */,
+				E4373F562574EC350076A264 /* 65.gif */,
+				E4373F572574EC350076A264 /* 64.gif */,
+				E4373F582574EC350076A264 /* 70.gif */,
+				E4373F592574EC350076A264 /* 58.gif */,
+				E4373F5A2574EC350076A264 /* 8.gif */,
+				E4373F5B2574EC350076A264 /* 66.gif */,
+				E4373F5C2574EC350076A264 /* emotion.txt */,
+				E4373F5D2574EC350076A264 /* 67.gif */,
+				E4373F5E2574EC350076A264 /* 9.gif */,
+				E4373F5F2574EC350076A264 /* 14.gif */,
+				E4373F602574EC350076A264 /* 28.gif */,
+				E4373F612574EC350076A264 /* 29.gif */,
+				E4373F622574EC350076A264 /* 15.gif */,
+				E4373F632574EC350076A264 /* 17.gif */,
+				E4373F642574EC350076A264 /* 16.gif */,
+				E4373F652574EC350076A264 /* 12.gif */,
+				E4373F662574EC350076A264 /* DeleteEmoticonBtnHL@2x.png */,
+				E4373F672574EC350076A264 /* 13.gif */,
+				E4373F682574EC350076A264 /* 39.gif */,
+				E4373F692574EC350076A264 /* 11.gif */,
+				E4373F6A2574EC350076A264 /* 10.gif */,
+				E4373F6B2574EC350076A264 /* 38.gif */,
+			);
+			name = Assets;
+			path = EmotionKeyboard/Assets;
+			sourceTree = "<group>";
+		};
+		F622ED583314B5AE904DFA5BC90F1891 /* Pods-EmotionKeyboard_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F139D932040499669F57BBEA75EB97A8 /* Pods-EmotionKeyboard_Tests.modulemap */,
+				098FD72F80A71A8A651F3CC4EE316BCA /* Pods-EmotionKeyboard_Tests-acknowledgements.markdown */,
+				57868399F89B6C4580B0468E40EF78AF /* Pods-EmotionKeyboard_Tests-acknowledgements.plist */,
+				B1D8F42FCB31116F8C62E3D9E3C59DB1 /* Pods-EmotionKeyboard_Tests-dummy.m */,
+				23AED61E3DBCE3C8DD656111186E36B5 /* Pods-EmotionKeyboard_Tests-Info.plist */,
+				2FBA0C4645ADD17123AD056476557C78 /* Pods-EmotionKeyboard_Tests-umbrella.h */,
+				A7E8057DE6AB91E7A4E90DA78A67311D /* Pods-EmotionKeyboard_Tests.debug.xcconfig */,
+				17E620F30061BAB4EAC5F3D88E19C5C6 /* Pods-EmotionKeyboard_Tests.release.xcconfig */,
+			);
+			name = "Pods-EmotionKeyboard_Tests";
+			path = "Target Support Files/Pods-EmotionKeyboard_Tests";
+			sourceTree = "<group>";
+		};
+		FC5AF048E814DCCF9A010185FAC62FD7 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				60AB7568E4B40D2BAC8AA48E9AAF52E3 /* EmotionKeyboard */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		47DF94AD86CD95531FF80B108DFCF3C3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DC12C285C3F100AED74FD057BA4A35F /* MASCompositeConstraint.h in Headers */,
+				805C61BB110758E4B89C49A30E3FE6DD /* MASConstraint+Private.h in Headers */,
+				2A63E04C2DFC9375B596F7572CC8C848 /* MASConstraint.h in Headers */,
+				FDDB24C84B63EF7FD59DFCDCA82C55AA /* MASConstraintMaker.h in Headers */,
+				AC989FE9E2F600AC1834D8EB31DF5BAF /* MASLayoutConstraint.h in Headers */,
+				BDA1A6E4E92BD074382FB31F75D5EDA4 /* Masonry-umbrella.h in Headers */,
+				E88DEF0ADC63B04D6D8D11A076B2F5E2 /* Masonry.h in Headers */,
+				23CF00A1C078EB6CDD8843FC2F6E03C3 /* MASUtilities.h in Headers */,
+				0B7DF3FC3AFFAE7734930CF7308412C4 /* MASViewAttribute.h in Headers */,
+				0B73D050F8ABC37D02E7F792900B1BCA /* MASViewConstraint.h in Headers */,
+				5FCD16B01755DE4545AEE8D398D8CFEE /* NSArray+MASAdditions.h in Headers */,
+				B8B6352FC25700EB3D3F6D37713F4D5F /* NSArray+MASShorthandAdditions.h in Headers */,
+				58647DAF3585D7CD683311E01BFA1471 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				C02B3F9B9D7D6AF5CB6361326155E3A4 /* View+MASAdditions.h in Headers */,
+				9250BA6D6F691CFD707A373DDB5FE7AB /* View+MASShorthandAdditions.h in Headers */,
+				BCCD6FF4E4D41437700B2A6DFB79D866 /* ViewController+MASAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F750145C9BF91EAFE42E2336BDE36D7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D4536491772501FC91F95B2113CE2B4 /* Pods-EmotionKeyboard_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB111DD0FDA110CA18CCFF71ADF3F4F8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C6A2D776A1151A97EC2801DD0C0DA12 /* CHCommonUtil.h in Headers */,
+				828E296FC215A4BF6F3D22CCA6F00451 /* EmojiTextAttachment.h in Headers */,
+				ED1AC64A6FC5A21D96E8B7D66449D1BF /* EmotionKeyboard-umbrella.h in Headers */,
+				C552AC0289C9141BE6458E5993C1CF0E /* NSAttributedString+CHAttrs.h in Headers */,
+				4A8759171BB94B8231A82FB181B7AFCB /* NSAttributedString+EmojiExtension.h in Headers */,
+				FCADC8EF82EB9A4444574B20E59A47B6 /* SSChatEmotionBaseCell.h in Headers */,
+				681323C794FDDFD599C3309B9EC5C8EA /* SSChatEmotionImageCell.h in Headers */,
+				B1B33E55360C7333058000CF22F45F3B /* SSChatEmotionTitleCell.h in Headers */,
+				9744546101B87F4396C5C314E67A46DB /* SSChatKeyboardEmotionData.h in Headers */,
+				36A8F5BBFDAACE7FE57F869B7F48398A /* SSChatKeyboardEmotionUtil.h in Headers */,
+				BD4BF52FC163FBE2263E93B232832825 /* SSChatKeyboardEmotionView.h in Headers */,
+				84B4C109DE2D7CFB74A749ADE59C524A /* SSChatKeyboardEmotionViewModel.h in Headers */,
+				4A11F3DDDEB70531BA5E4F570E372844 /* UIColor+CHSocket.h in Headers */,
+				BBAB27E305A7AF9CAECBDC6DC520379D /* WWChatEmotionCollectionLayout.h in Headers */,
+				AA9A1FC57A6BD6DD6BB9E37702208046 /* WWCustomPageControl.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5B737763D91A7AA3289B6895A8C8115 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F18D8FA991154E504F9B0BC0054DED80 /* Pods-EmotionKeyboard_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		24EDF73ADDDE9B2BF2FC2CE3562E759D /* Pods-EmotionKeyboard_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93586013F07C80EDBBBB0F1A81ACC2CD /* Build configuration list for PBXNativeTarget "Pods-EmotionKeyboard_Tests" */;
+			buildPhases = (
+				8F750145C9BF91EAFE42E2336BDE36D7 /* Headers */,
+				3B014903EF7A934FEAE76245EDBC25EF /* Sources */,
+				482F3B3655A4B756F07096B36EA9F166 /* Frameworks */,
+				DF538D0B0C193E590B4BA24D01A3D3BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4ADCF238C8346CDAC399BD828102E5AA /* PBXTargetDependency */,
+			);
+			name = "Pods-EmotionKeyboard_Tests";
+			productName = "Pods-EmotionKeyboard_Tests";
+			productReference = C6773F6685035B819FD4D9AFEBED046C /* Pods_EmotionKeyboard_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		44257D9B5304609FA8855C78F2C483FB /* EmotionKeyboard-EmotionKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D693AD62667FFAD38DD9BFA872451CC0 /* Build configuration list for PBXNativeTarget "EmotionKeyboard-EmotionKeyboard" */;
+			buildPhases = (
+				6DAF32C74DF1179491F3E4C1B55409B2 /* Sources */,
+				065AE1F4A094815A5A4B52F4FC8CD9A3 /* Frameworks */,
+				324702E63209735D258E81A6B7D9AEEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EmotionKeyboard-EmotionKeyboard";
+			productName = "EmotionKeyboard-EmotionKeyboard";
+			productReference = 14821CCD76005AEAD265C71E204F9391 /* EmotionKeyboard.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		55AF53E6C77A10ED4985E04D74A8878E /* Masonry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D07EEE55D998C384B786603F69B24867 /* Build configuration list for PBXNativeTarget "Masonry" */;
+			buildPhases = (
+				47DF94AD86CD95531FF80B108DFCF3C3 /* Headers */,
+				CAEBE0B3CED62C9CF84043B772912AF2 /* Sources */,
+				6D769364C098D49F5DFD8234BD5D885B /* Frameworks */,
+				B76E7C07ED5E5A7C56C5A7E8379A2F37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Masonry;
+			productName = Masonry;
+			productReference = 1FFED36A657123030ABB700256D73F15 /* Masonry.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B88EA9A9C3F6E1256C43956C1C4C247A /* Pods-EmotionKeyboard_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12C9C5DBDDC624A204FCF86C8528EAC1 /* Build configuration list for PBXNativeTarget "Pods-EmotionKeyboard_Example" */;
+			buildPhases = (
+				C5B737763D91A7AA3289B6895A8C8115 /* Headers */,
+				D74BE003B66B21EB00AA5DD6F5326302 /* Sources */,
+				9C772A10DEB683E7E52AC78E8E5B6DD4 /* Frameworks */,
+				42A8CE3FABEEF7CB633F4BC17AF48549 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DFBECF0E43E1DA2B97775837CFAA1AB /* PBXTargetDependency */,
+				7F52F9BBC5D52328B29D76C9A7BD0DB0 /* PBXTargetDependency */,
+			);
+			name = "Pods-EmotionKeyboard_Example";
+			productName = "Pods-EmotionKeyboard_Example";
+			productReference = 75B8E5494CC8FFBDF411AD829C7B0424 /* Pods_EmotionKeyboard_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D67BA460DE80959EE06EE261F2AC6910 /* EmotionKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38DBCBDD58BA2620732F85EFF8871B11 /* Build configuration list for PBXNativeTarget "EmotionKeyboard" */;
+			buildPhases = (
+				BB111DD0FDA110CA18CCFF71ADF3F4F8 /* Headers */,
+				C5FB04B098F7438098FA3F0ED1F3F747 /* Sources */,
+				E1830A98227227677CA22D28CD791135 /* Frameworks */,
+				F8A75AD8316D00EBC733726EE55244E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EF25CB8834438DA0B18E7D5B30BE2CE /* PBXTargetDependency */,
+				F2F9EBEE70F4CB2881C20FC4E86E4FF8 /* PBXTargetDependency */,
+			);
+			name = EmotionKeyboard;
+			productName = EmotionKeyboard;
+			productReference = 3B84FF314D7E409CF51EF952F6E2E3E3 /* EmotionKeyboard.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 5E8591D5BFC6C3F85ECE8EB8285057C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D67BA460DE80959EE06EE261F2AC6910 /* EmotionKeyboard */,
+				44257D9B5304609FA8855C78F2C483FB /* EmotionKeyboard-EmotionKeyboard */,
+				55AF53E6C77A10ED4985E04D74A8878E /* Masonry */,
+				B88EA9A9C3F6E1256C43956C1C4C247A /* Pods-EmotionKeyboard_Example */,
+				24EDF73ADDDE9B2BF2FC2CE3562E759D /* Pods-EmotionKeyboard_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		324702E63209735D258E81A6B7D9AEEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42A8CE3FABEEF7CB633F4BC17AF48549 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B76E7C07ED5E5A7C56C5A7E8379A2F37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF538D0B0C193E590B4BA24D01A3D3BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8A75AD8316D00EBC733726EE55244E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4373FAB2574EC350076A264 /* 28.gif in Resources */,
+				E4373FA92574EC350076A264 /* 9.gif in Resources */,
+				E4373F8B2574EC350076A264 /* 6.gif in Resources */,
+				E4373FA32574EC350076A264 /* 70.gif in Resources */,
+				E4373F9F2574EC350076A264 /* 59.gif in Resources */,
+				E4373F7E2574EC350076A264 /* 19.gif in Resources */,
+				E4373F812574EC350076A264 /* 4.gif in Resources */,
+				E4373F8E2574EC350076A264 /* 2.gif in Resources */,
+				E4373FA12574EC350076A264 /* 65.gif in Resources */,
+				E4373F982574EC350076A264 /* 46.gif in Resources */,
+				E4373FAF2574EC350076A264 /* 16.gif in Resources */,
+				E4373F922574EC350076A264 /* 3.gif in Resources */,
+				E4373F7A2574EC350076A264 /* 24.gif in Resources */,
+				E4373F772574EC350076A264 /* 26.gif in Resources */,
+				E4373F802574EC350076A264 /* 56.gif in Resources */,
+				E4373F6F2574EC350076A264 /* 20.gif in Resources */,
+				E4373F852574EC350076A264 /* 7.gif in Resources */,
+				E4373FAA2574EC350076A264 /* 14.gif in Resources */,
+				E4373FA02574EC350076A264 /* 71.gif in Resources */,
+				0FADFE0DF558AC6071F1CB32DCD6C170 /* EmotionKeyboard.bundle in Resources */,
+				E4373F7B2574EC350076A264 /* 30.gif in Resources */,
+				E4373FA82574EC350076A264 /* 67.gif in Resources */,
+				E4373FB22574EC350076A264 /* 13.gif in Resources */,
+				E4373F9E2574EC350076A264 /* 61.gif in Resources */,
+				E4373F742574EC350076A264 /* DeleteEmoticonBtn@2x.png in Resources */,
+				E4373FA72574EC350076A264 /* emotion.txt in Resources */,
+				E4373FB02574EC350076A264 /* 12.gif in Resources */,
+				E4373F8C2574EC350076A264 /* 54.gif in Resources */,
+				E4373F912574EC350076A264 /* 51.gif in Resources */,
+				E4373F992574EC350076A264 /* 63.gif in Resources */,
+				E4373F752574EC350076A264 /* 33.gif in Resources */,
+				E4373F7F2574EC350076A264 /* 42.gif in Resources */,
+				E4373FB32574EC350076A264 /* 39.gif in Resources */,
+				E4373F8F2574EC350076A264 /* 44.gif in Resources */,
+				E4373FAE2574EC350076A264 /* 17.gif in Resources */,
+				E4373F942574EC350076A264 /* 1.gif in Resources */,
+				E4373FAD2574EC350076A264 /* 15.gif in Resources */,
+				E4373F862574EC350076A264 /* 55.gif in Resources */,
+				E4373F902574EC350076A264 /* 45.gif in Resources */,
+				E4373F7D2574EC350076A264 /* 25.gif in Resources */,
+				E4373FA22574EC350076A264 /* 64.gif in Resources */,
+				E4373FA62574EC350076A264 /* 66.gif in Resources */,
+				E4373F8A2574EC350076A264 /* 40.gif in Resources */,
+				E4373FA42574EC350076A264 /* 58.gif in Resources */,
+				E4373F792574EC350076A264 /* 18.gif in Resources */,
+				E4373F952574EC350076A264 /* 53.gif in Resources */,
+				E4373F892574EC350076A264 /* 68.gif in Resources */,
+				E4373FAC2574EC350076A264 /* 29.gif in Resources */,
+				E4373F882574EC350076A264 /* 69.gif in Resources */,
+				E4373F8D2574EC350076A264 /* 50.gif in Resources */,
+				E4373F9C2574EC350076A264 /* 48.gif in Resources */,
+				E4373F842574EC350076A264 /* 43.gif in Resources */,
+				E4373F6E2574EC350076A264 /* 34.gif in Resources */,
+				E4373FA52574EC350076A264 /* 8.gif in Resources */,
+				E4373F972574EC350076A264 /* 52.gif in Resources */,
+				E4373F712574EC350076A264 /* 22.gif in Resources */,
+				E4373F9A2574EC350076A264 /* 62.gif in Resources */,
+				E4373F702574EC350076A264 /* 36.gif in Resources */,
+				E4373F9D2574EC350076A264 /* 49.gif in Resources */,
+				E4373F932574EC350076A264 /* 47.gif in Resources */,
+				E4373F962574EC350076A264 /* 0.gif in Resources */,
+				E4373FB62574EC350076A264 /* 38.gif in Resources */,
+				E4373F762574EC350076A264 /* 27.gif in Resources */,
+				E4373F872574EC350076A264 /* 41.gif in Resources */,
+				E4373F9B2574EC350076A264 /* 60.gif in Resources */,
+				E4373FB42574EC350076A264 /* 11.gif in Resources */,
+				E4373F782574EC350076A264 /* 32.gif in Resources */,
+				E4373F6D2574EC350076A264 /* 35.gif in Resources */,
+				E4373FB12574EC350076A264 /* DeleteEmoticonBtnHL@2x.png in Resources */,
+				E4373F7C2574EC350076A264 /* 31.gif in Resources */,
+				E4373F832574EC350076A264 /* 5.gif in Resources */,
+				E4373FB52574EC350076A264 /* 10.gif in Resources */,
+				E4373F6C2574EC350076A264 /* 21.gif in Resources */,
+				E4373F722574EC350076A264 /* 23.gif in Resources */,
+				E4373F822574EC350076A264 /* 57.gif in Resources */,
+				E4373F732574EC350076A264 /* 37.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B014903EF7A934FEAE76245EDBC25EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18607DED52B68DC460EE59A674F98197 /* Pods-EmotionKeyboard_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DAF32C74DF1179491F3E4C1B55409B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5FB04B098F7438098FA3F0ED1F3F747 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				827F9EE446735B888144B37221588459 /* CHCommonUtil.m in Sources */,
+				CFDEE341BA1230CDFDD3BBC06239D47F /* EmojiTextAttachment.m in Sources */,
+				CB7714BAAC2A0D898650E17A1881D349 /* EmotionKeyboard-dummy.m in Sources */,
+				7E0AAC7864FE4AF4B8208EBFC115BD7D /* NSAttributedString+CHAttrs.m in Sources */,
+				84F5CCBB6C6D19216F0FC9C4F2FD3DA3 /* NSAttributedString+EmojiExtension.m in Sources */,
+				4AADCA33A67464187138DA3BE6D211F8 /* SSChatEmotionBaseCell.m in Sources */,
+				B5A4D7BB3BF748C4C9F694F54CC07567 /* SSChatEmotionImageCell.m in Sources */,
+				CE54A4FB04AA5730AA2141847BA08706 /* SSChatEmotionTitleCell.m in Sources */,
+				1D26D6DF5577E5CA078F3312FA651252 /* SSChatKeyboardEmotionData.m in Sources */,
+				4FA462D8557907152691DB2506D30ADC /* SSChatKeyboardEmotionUtil.m in Sources */,
+				F5EDD09CE9F612A8FEA603869E0D3FDC /* SSChatKeyboardEmotionView.m in Sources */,
+				C510415BA661B08B457CC3344DB87BD7 /* SSChatKeyboardEmotionViewModel.m in Sources */,
+				658833265E824660197798417A9FDD65 /* UIColor+CHSocket.m in Sources */,
+				9D64DA06D2EB652D8DD6FCFE4B6187C2 /* WWChatEmotionCollectionLayout.m in Sources */,
+				B4758D284F0B83BFBEBEBA4772F21005 /* WWCustomPageControl.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAEBE0B3CED62C9CF84043B772912AF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8654AEDD46F1C88A6EA55C8FE2511C32 /* MASCompositeConstraint.m in Sources */,
+				DFD7E907E79DF3BF7A9A426548A2912F /* MASConstraint.m in Sources */,
+				2B76F8F6B1B54BDDB8693FBF69B7897E /* MASConstraintMaker.m in Sources */,
+				79108975905CC2177250A418217A0ABB /* MASLayoutConstraint.m in Sources */,
+				04CA58D4E35B0B140CD182B8D40C7F11 /* Masonry-dummy.m in Sources */,
+				98AB790134B94BEDFADB67706D3D9B69 /* MASViewAttribute.m in Sources */,
+				72E5D3B3EE95C4DF5F83D6AC403F504A /* MASViewConstraint.m in Sources */,
+				AE3557547E9DB06FDF8711D0129A075A /* NSArray+MASAdditions.m in Sources */,
+				BB6586E733768E798C146A1CF7CA461F /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				0FEBD3813791BE1D44C1FDD0E50FA45B /* View+MASAdditions.m in Sources */,
+				D8B8336E9CDDDC6B221C4D9057521D5A /* ViewController+MASAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D74BE003B66B21EB00AA5DD6F5326302 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21CBA1D9C3EFA7EF285B34DD69EB744F /* Pods-EmotionKeyboard_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4ADCF238C8346CDAC399BD828102E5AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-EmotionKeyboard_Example";
+			target = B88EA9A9C3F6E1256C43956C1C4C247A /* Pods-EmotionKeyboard_Example */;
+			targetProxy = AD60AC636869343EB186EBC3ECA702F8 /* PBXContainerItemProxy */;
+		};
+		4DFBECF0E43E1DA2B97775837CFAA1AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EmotionKeyboard;
+			target = D67BA460DE80959EE06EE261F2AC6910 /* EmotionKeyboard */;
+			targetProxy = 00F732CF7C7B40071A1734DF88F4E0E0 /* PBXContainerItemProxy */;
+		};
+		5EF25CB8834438DA0B18E7D5B30BE2CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "EmotionKeyboard-EmotionKeyboard";
+			target = 44257D9B5304609FA8855C78F2C483FB /* EmotionKeyboard-EmotionKeyboard */;
+			targetProxy = C8E0DF5F8F1D71E51E9DDC513A3E947A /* PBXContainerItemProxy */;
+		};
+		7F52F9BBC5D52328B29D76C9A7BD0DB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = F95DCEDE38DEA02D698326036CED9D41 /* PBXContainerItemProxy */;
+		};
+		F2F9EBEE70F4CB2881C20FC4E86E4FF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = 6B8D1F5357CB441D06FB6AA7FD6C33B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		15365D6AA16F575093EB853284D95239 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F287598D192FA586BD4AECCD85B988A4 /* Masonry.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		17435AB200F6075EB3938C9B2C0FD1BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7E8057DE6AB91E7A4E90DA78A67311D /* Pods-EmotionKeyboard_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EmotionKeyboard_Tests/Pods-EmotionKeyboard_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EmotionKeyboard_Tests/Pods-EmotionKeyboard_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3692D05364B941D00F21A5E214407288 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 419A961AD957E23BAB6A998ED7623134 /* Masonry.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		5B03B6E1FE52E421E8C6A3E511C619BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DC21FEC866EB59FE7583D4473C2BE9A /* EmotionKeyboard.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/EmotionKeyboard";
+				IBSC_MODULE = EmotionKeyboard;
+				INFOPLIST_FILE = "Target Support Files/EmotionKeyboard/ResourceBundle-EmotionKeyboard-EmotionKeyboard-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = EmotionKeyboard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		5EE85338376DC4ECCA817BA9EDCB20BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 145A9305E8AA7D5A4D28B444DD2161E3 /* EmotionKeyboard.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EmotionKeyboard/EmotionKeyboard-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EmotionKeyboard/EmotionKeyboard-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EmotionKeyboard/EmotionKeyboard.modulemap";
+				PRODUCT_MODULE_NAME = EmotionKeyboard;
+				PRODUCT_NAME = EmotionKeyboard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		628224544BF7748736AE2A19B3525A16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C5278AC89EDC4C6F1AB62B03F478B56 /* Pods-EmotionKeyboard_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EmotionKeyboard_Example/Pods-EmotionKeyboard_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EmotionKeyboard_Example/Pods-EmotionKeyboard_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		65BF9557B7253D6DFC72F0E78FBAEE16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17E620F30061BAB4EAC5F3D88E19C5C6 /* Pods-EmotionKeyboard_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EmotionKeyboard_Tests/Pods-EmotionKeyboard_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EmotionKeyboard_Tests/Pods-EmotionKeyboard_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6C7AAE7E6516EAF61394E63C910C3DDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C45E0212834EF78AE5CD92F498310A2A /* Pods-EmotionKeyboard_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EmotionKeyboard_Example/Pods-EmotionKeyboard_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EmotionKeyboard_Example/Pods-EmotionKeyboard_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D3BD4E161158218C3EECBD6148FAB3FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DC21FEC866EB59FE7583D4473C2BE9A /* EmotionKeyboard.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EmotionKeyboard/EmotionKeyboard-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EmotionKeyboard/EmotionKeyboard-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EmotionKeyboard/EmotionKeyboard.modulemap";
+				PRODUCT_MODULE_NAME = EmotionKeyboard;
+				PRODUCT_NAME = EmotionKeyboard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E30C5D31D1858FEC71571F6EE41C065D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 145A9305E8AA7D5A4D28B444DD2161E3 /* EmotionKeyboard.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/EmotionKeyboard";
+				IBSC_MODULE = EmotionKeyboard;
+				INFOPLIST_FILE = "Target Support Files/EmotionKeyboard/ResourceBundle-EmotionKeyboard-EmotionKeyboard-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = EmotionKeyboard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12C9C5DBDDC624A204FCF86C8528EAC1 /* Build configuration list for PBXNativeTarget "Pods-EmotionKeyboard_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				628224544BF7748736AE2A19B3525A16 /* Debug */,
+				6C7AAE7E6516EAF61394E63C910C3DDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38DBCBDD58BA2620732F85EFF8871B11 /* Build configuration list for PBXNativeTarget "EmotionKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EE85338376DC4ECCA817BA9EDCB20BD /* Debug */,
+				D3BD4E161158218C3EECBD6148FAB3FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93586013F07C80EDBBBB0F1A81ACC2CD /* Build configuration list for PBXNativeTarget "Pods-EmotionKeyboard_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17435AB200F6075EB3938C9B2C0FD1BA /* Debug */,
+				65BF9557B7253D6DFC72F0E78FBAEE16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D07EEE55D998C384B786603F69B24867 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15365D6AA16F575093EB853284D95239 /* Debug */,
+				3692D05364B941D00F21A5E214407288 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D693AD62667FFAD38DD9BFA872451CC0 /* Build configuration list for PBXNativeTarget "EmotionKeyboard-EmotionKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E30C5D31D1858FEC71571F6EE41C065D /* Debug */,
+				5B03B6E1FE52E421E8C6A3E511C619BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

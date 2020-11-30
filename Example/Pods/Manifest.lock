@@ -1,0 +1,23 @@
+PODS:
+  - EmotionKeyboard (0.0.1):
+    - Masonry
+  - Masonry (1.1.0)
+
+DEPENDENCIES:
+  - EmotionKeyboard (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Masonry
+
+EXTERNAL SOURCES:
+  EmotionKeyboard:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  EmotionKeyboard: ed843bc2815b0a17f496ab5790ad7f4cb9a80e3a
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+
+PODFILE CHECKSUM: 6a2213ab972feaa24e868f01d9f2fac0125250e9
+
+COCOAPODS: 1.9.0.beta.2

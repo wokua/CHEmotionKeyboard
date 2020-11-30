@@ -1,0 +1,6 @@
+framework module EmotionKeyboard {
+  umbrella header "EmotionKeyboard-umbrella.h"
+
+  export *
+  module * { export * }
+}
