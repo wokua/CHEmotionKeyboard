@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'EmotionKeyboard'
-  s.version          = '0.0.1'
-  s.summary          = 'A short description of EmotionKeyboard.'
+  s.version          = '0.0.2'
+  s.summary          = 'custom EmotionKeyboard '
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-表情键盘
+表情键盘 使用见测试 
                        DESC
 
   s.homepage         = 'https://github.com/wokua/CHEmotionKeyboard'
