@@ -7,6 +7,7 @@
 //
 
 #import "SSChatKeyboardEmotionData.h"
+#import "NSBundle+Emotion.h"
 
 @implementation SSChatKeyboardEmotionData
 
@@ -73,7 +74,7 @@
     model.code = [NSString stringWithFormat:@"[%d]", index];
     model.name = [NSString stringWithFormat:@"%d.gif", index];
     model.type = SSChatKeyboardEmotionDataTypeImage;
-    model.icon =  [UIImage imageNamed:model.name inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil];
+    model.icon =  [UIImage imageNamed:model.name inBundle:[NSBundle currentBundleWithClass:self.class] compatibleWithTraitCollection:nil];
     return model;
     
 }

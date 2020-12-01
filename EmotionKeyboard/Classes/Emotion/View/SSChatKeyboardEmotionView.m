@@ -14,6 +14,7 @@
 #import "UIColor+CHSocket.h"
 #import <Masonry/Masonry.h>
 #import "CHCommonUtil.h"
+#import "NSBundle+Emotion.h"
 
 @interface SSChatKeyboardEmotionView()<UICollectionViewDelegate,UICollectionViewDataSource,WWChatEmotionCollectionLayoutDelegate,UIScrollViewDelegate,SSChatKeyBordBottomViewDelegate>
 
@@ -396,8 +397,8 @@
         SSChatKeyboardEmotionData * data = self.datas[i];
         UIButton * btn = [UIButton new];
         btn.tag = i;
-        [btn setImage:[UIImage imageNamed:data.typeNormalImgName inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil] forState:UIControlStateNormal];
-        [btn setImage:[UIImage imageNamed:data.typeSelectedImgName inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil] forState:UIControlStateSelected];
+        [btn setImage:[UIImage imageNamed:data.typeNormalImgName inBundle:[NSBundle currentBundleWithClass:self.class] compatibleWithTraitCollection:nil] forState:UIControlStateNormal];
+        [btn setImage:[UIImage imageNamed:data.typeSelectedImgName inBundle:[NSBundle currentBundleWithClass:self.class] compatibleWithTraitCollection:nil] forState:UIControlStateSelected];
         if (i == self.selectIndex) {
             btn.backgroundColor = [UIColor colorWithHex:0xFAFAFA];
             btn.selected = YES;

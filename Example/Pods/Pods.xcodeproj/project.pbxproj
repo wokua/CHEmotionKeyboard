@@ -7,149 +7,151 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00998883DE39AC75AF08E9C0FCCE4533 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFF909907D9794E4C781DAC1693A7018 /* UIKit.framework */; };
-		04CA58D4E35B0B140CD182B8D40C7F11 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A85AE9E36F67A1B513CB8DA940771B4F /* Masonry-dummy.m */; };
-		0B73D050F8ABC37D02E7F792900B1BCA /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = D12E9F350C1C8076BE92719B89951AD8 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0B7DF3FC3AFFAE7734930CF7308412C4 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = A78D3443F105E00FC21FE5A357C8F716 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0FADFE0DF558AC6071F1CB32DCD6C170 /* EmotionKeyboard.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 14821CCD76005AEAD265C71E204F9391 /* EmotionKeyboard.bundle */; };
-		0FEBD3813791BE1D44C1FDD0E50FA45B /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4497913DB548AE2E03103D3A97F34F /* View+MASAdditions.m */; };
+		00016CE08587ED5AD1FC8A48AC313B3C /* 7.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3B3B6D76066D29008A3B3D16574DD478 /* 7.gif */; };
+		0418BF052695FC343B19E864899F15D2 /* WWChatEmotionCollectionLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 5184E43F870B6EB634A72610D7B2264D /* WWChatEmotionCollectionLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		063D5746321E75C2926778E9318722E3 /* 43.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4231588254C44B21383ED7442048FB6E /* 43.gif */; };
+		0770F3AC410B6D5A104504E0DCE8BC63 /* 56.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1B35B8DF6CD2AAF0A7C7977FF259D0E9 /* 56.gif */; };
+		0793F184EA5141B8A114094D8F09814D /* 52.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0B7B1E303516F04BB1FE0F76F1AE0A75 /* 52.gif */; };
+		07D5C99F5BE42AD6007E78C5E5324B4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28147EF640D73DD5BE8B797CFD199606 /* Foundation.framework */; };
+		0A62A372EE7ED8C1F001C4DB0A0F6F5A /* 33.gif in Resources */ = {isa = PBXBuildFile; fileRef = 778B03F6345FAA29E36E7943CA2B15A6 /* 33.gif */; };
+		0BD99088D01F0DE0CC700633D7A63099 /* 57.gif in Resources */ = {isa = PBXBuildFile; fileRef = E1B5AD1F4B4654DE3D2F59D7397934C5 /* 57.gif */; };
+		0CF1747A6C013FB9CB5573032F0E632D /* NSAttributedString+EmojiExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B6F43453819EC846C2329EBF6C782B3 /* NSAttributedString+EmojiExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EC547E336B1A74FB9B6EE32E277AB40 /* 22.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8DA7407FA43C3226DC3778C1AF79E61C /* 22.gif */; };
+		0F514D07120ED7C3155A2994AC8CCE65 /* 17.gif in Resources */ = {isa = PBXBuildFile; fileRef = B191B17D8EC6ED098241E2DB3C8ADB64 /* 17.gif */; };
+		10595DC0D9123AC40B6B6CBF2EF681C9 /* SSChatEmotionBaseCell.h in Headers */ = {isa = PBXBuildFile; fileRef = BD65DE3F5CA35C406967178D687A0EBC /* SSChatEmotionBaseCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10D309F7075BCF31A7F30CA8E02A09EF /* 3.gif in Resources */ = {isa = PBXBuildFile; fileRef = B7A00C4F3F1D913C7207B879921F9CAC /* 3.gif */; };
+		11C229C0667DD3DD14C521AC38559418 /* DeleteEmoticonBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 479FED84E8F82E88B002F33F788A93D6 /* DeleteEmoticonBtn@2x.png */; };
+		161E4ECF241830C6101D33A731FA41A7 /* 2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 540D11348E31AE15C052FA7E546E0636 /* 2.gif */; };
 		166F8C9766B298B981B9B0BF745A7222 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28147EF640D73DD5BE8B797CFD199606 /* Foundation.framework */; };
+		1691963E190143CBEB70DB18F6600614 /* 31.gif in Resources */ = {isa = PBXBuildFile; fileRef = 31A779398B2AB51B2DEDE768B8ED2151 /* 31.gif */; };
+		16AB41A6B4EAF5A4043D64181FAB0EE3 /* EmotionKeyboard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E3741B2945707F7D26ED2FFB0D706B7B /* EmotionKeyboard-dummy.m */; };
 		18607DED52B68DC460EE59A674F98197 /* Pods-EmotionKeyboard_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D8F42FCB31116F8C62E3D9E3C59DB1 /* Pods-EmotionKeyboard_Tests-dummy.m */; };
-		1D26D6DF5577E5CA078F3312FA651252 /* SSChatKeyboardEmotionData.m in Sources */ = {isa = PBXBuildFile; fileRef = 04013FD5EC5DAB048BF5184340C1669D /* SSChatKeyboardEmotionData.m */; };
+		187C49A71E99BCBDB2A28438C5D0FC33 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 470C5CD1265270E95A8A89443C727427 /* MASConstraintMaker.m */; };
+		1B6AFE9EBE1519D4E4581738437FB746 /* SSChatKeyboardEmotionViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 567AD21045AC5C7DC5E0466057AAFEC9 /* SSChatKeyboardEmotionViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1D4536491772501FC91F95B2113CE2B4 /* Pods-EmotionKeyboard_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FBA0C4645ADD17123AD056476557C78 /* Pods-EmotionKeyboard_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DB3CF49EDA5FFE44871630006E089F3 /* 38.gif in Resources */ = {isa = PBXBuildFile; fileRef = EED31DB8280697FEB0D847909FAA400B /* 38.gif */; };
+		1E2C3C03E51EC6BDE7084CAD38531286 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 342C4D9B5E1E36390E7AF01E35444998 /* ViewController+MASAdditions.m */; };
+		1E7D43605D7AA54804A95FFA76BCCDD0 /* WWCustomPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FEB569FAB9FE6F12F147246872E8D1C /* WWCustomPageControl.m */; };
+		1F9938FDFCC86B8D31219214A156B9F3 /* SSChatKeyboardEmotionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AEC5DDA88E5220C438CE348737CD67B /* SSChatKeyboardEmotionView.m */; };
+		201208AC36820FAA8E0A2B15E3C72C45 /* 48.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8928C4BDC08989B268FCCF31E0790433 /* 48.gif */; };
 		21CBA1D9C3EFA7EF285B34DD69EB744F /* Pods-EmotionKeyboard_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 313FF480AE528242E07C4199CC62532C /* Pods-EmotionKeyboard_Example-dummy.m */; };
-		23CF00A1C078EB6CDD8843FC2F6E03C3 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 607937A372913475EE7EAE532760ACD4 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2A63E04C2DFC9375B596F7572CC8C848 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 02CA69FDFD4D7BB11F8E3E2E7A0B9879 /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2B76F8F6B1B54BDDB8693FBF69B7897E /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 470C5CD1265270E95A8A89443C727427 /* MASConstraintMaker.m */; };
-		36A8F5BBFDAACE7FE57F869B7F48398A /* SSChatKeyboardEmotionUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 510457DA5F770C6324F1649B251A4C98 /* SSChatKeyboardEmotionUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3C6A2D776A1151A97EC2801DD0C0DA12 /* CHCommonUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C748B2C4587AAEF539CBAF7111A8711 /* CHCommonUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4A11F3DDDEB70531BA5E4F570E372844 /* UIColor+CHSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = EB8E5D9491330363E2FEFB55621111B8 /* UIColor+CHSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4A8759171BB94B8231A82FB181B7AFCB /* NSAttributedString+EmojiExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = F396F84FBD0ED3600CAB5B28F77D7B58 /* NSAttributedString+EmojiExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4AADCA33A67464187138DA3BE6D211F8 /* SSChatEmotionBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AB05821E1D984DA556954AB79B1B2197 /* SSChatEmotionBaseCell.m */; };
-		4FA462D8557907152691DB2506D30ADC /* SSChatKeyboardEmotionUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B90B924DC8F13F0318F5372C17C2A0 /* SSChatKeyboardEmotionUtil.m */; };
-		58647DAF3585D7CD683311E01BFA1471 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = E7851906D7976272A721C8C4E0CE9092 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5FCD16B01755DE4545AEE8D398D8CFEE /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 30EC6C5D191587619B42076546EDC448 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		658833265E824660197798417A9FDD65 /* UIColor+CHSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 243AD45E9F83DAFC8EA616E417137A98 /* UIColor+CHSocket.m */; };
-		681323C794FDDFD599C3309B9EC5C8EA /* SSChatEmotionImageCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C11BEE527A2D0997ED3FD242BE9E3CC /* SSChatEmotionImageCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		72E5D3B3EE95C4DF5F83D6AC403F504A /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A95F8027E3EB86CB9AE2D7539201FE /* MASViewConstraint.m */; };
+		2395D81EC318636D22947AEFB08A9BFB /* 18.gif in Resources */ = {isa = PBXBuildFile; fileRef = F9471ED8C9CB91E517A99BC0F8102A46 /* 18.gif */; };
+		24CD084CA969730217C26E17E45774C9 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEEBD88282BA13360CAA867D8465C75 /* NSArray+MASAdditions.m */; };
+		24D0AD4C030745B58F06833CC84B0C23 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FF4AF21902029EC43C354AC0978CE49 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		255BB6A1A13E7EBEC61BD6BFF2EE419C /* 55.gif in Resources */ = {isa = PBXBuildFile; fileRef = CC27647C7F5810BC54AD77CE0E96769E /* 55.gif */; };
+		26ADDA0623927D0C815525FC582B14A7 /* 26.gif in Resources */ = {isa = PBXBuildFile; fileRef = CF89DBA0E155DB8F26CEA56943C745C6 /* 26.gif */; };
+		2ACE12F4E3EBEA7711D09EDB3A9333E6 /* 28.gif in Resources */ = {isa = PBXBuildFile; fileRef = F00DCA159B0F3E991769150EB706F94B /* 28.gif */; };
+		2B712801AD8519958982E93C1A4C27C4 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 047EE388CF208BD5F57049BD98558C94 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BEF36D8B2C4FACE9F407F6601D579C8 /* 8.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8C05F7F303933BF1AAF4472B8B90B3EA /* 8.gif */; };
+		31F0FF27BF1AD47E395B755D8A898143 /* SSChatEmotionTitleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C21DFA40E7D3F8DCC1664E9F831DF60D /* SSChatEmotionTitleCell.m */; };
+		3412178D7D78C6DEEB2AE3A3C22CD51E /* 69.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6A3F718A58DCBE42780472B3027C85BE /* 69.gif */; };
+		3776612383B7D3DDA1BEF12C335C1FD1 /* 25.gif in Resources */ = {isa = PBXBuildFile; fileRef = 61FCD3AE9BF85E50F9E4F4F1A2EFD547 /* 25.gif */; };
+		3AD47E262068D8B2BC848DEC3796A0DB /* NSBundle+Emotion.h in Headers */ = {isa = PBXBuildFile; fileRef = ED5CCA0CE38CDC5668F5AB232C9EF7CD /* NSBundle+Emotion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3BE138D592E18EE6C6EA243B5877FF14 /* 50.gif in Resources */ = {isa = PBXBuildFile; fileRef = D7FD48CF6B2A8322A6FAD3F44609FCDE /* 50.gif */; };
+		3C1E88E4F3A48036A2DA1BCE742A2F75 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = B28EC2F4C626ED77509645BE3805CB29 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FCB7355AD3E8DBF9B5783BB6E33F133 /* 21.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9A0A31531E1822DBF65CA8495497A43E /* 21.gif */; };
+		4044A72AE37C9B8BE1F4383CB1636684 /* SSChatKeyboardEmotionUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 62A852D2B021A83FDE513F76206C5716 /* SSChatKeyboardEmotionUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4073F2EFB59E8413B057C7CC9FCF685D /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CF8069504999FB8BF5FA1529175AA74 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40CA5E59059CF77364AEB58F3F08B4A3 /* CHCommonUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 2139174400C72133AFB6A19F18F3A60B /* CHCommonUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40F7ACC48C21AC5C8C38693085DCFADA /* 41.gif in Resources */ = {isa = PBXBuildFile; fileRef = DC765D2A4B2DD67C6F508D7EA33AFC1F /* 41.gif */; };
+		420C4969A6A167E430FAE948BC8E5E50 /* 27.gif in Resources */ = {isa = PBXBuildFile; fileRef = 33CF327D68962F2E5C1FA9A7E24428C9 /* 27.gif */; };
+		473C0393DEAF2B534AB7EB790E22D871 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 55960467D1B758EC688A18A171012E78 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		477A650DF9492C1FA0074B231249EE36 /* 61.gif in Resources */ = {isa = PBXBuildFile; fileRef = 88D21948891368777A64E64BDF3E36C5 /* 61.gif */; };
+		47E50A62EF90CE353609DB944C1BFB64 /* 4.gif in Resources */ = {isa = PBXBuildFile; fileRef = 389FF908AB2D184AB30F6F60E7437AA8 /* 4.gif */; };
+		498E6A969D26D1C121F33434F652A9F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFF909907D9794E4C781DAC1693A7018 /* UIKit.framework */; };
+		4B39E82E760700EB22B938C34F9079F0 /* EmotionKeyboard.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 14821CCD76005AEAD265C71E204F9391 /* EmotionKeyboard.bundle */; };
+		507F9EE0A3360DC516754F77890C26DA /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 86765B456E483806C4E13D2DD50E40A4 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		518AD8FD7FF3576BC95DC1E8DE9412CA /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 30EC6C5D191587619B42076546EDC448 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		574832897ACBB100E18C67EF7D38CDF7 /* 10.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8AA179DD91AE5A8DDE9914BEDB77BD3B /* 10.gif */; };
+		57F6A7DA07F421EB2AB4C3D29955A379 /* 29.gif in Resources */ = {isa = PBXBuildFile; fileRef = 864071C1C7E5140BDFEFFA242B773A7F /* 29.gif */; };
+		5AA75D74AC4CEA4A0896E1AF70329700 /* 5.gif in Resources */ = {isa = PBXBuildFile; fileRef = 91403A93FF872209E1267C249641C15C /* 5.gif */; };
+		5B765C0715C2D5B18B02FACD46EA4579 /* SSChatEmotionImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B86593066E0F180F60590F8D4B5FAE65 /* SSChatEmotionImageCell.m */; };
+		5CC7CACA4D9F7D8ED8039E9C307F743B /* 45.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1D3C281012A15E674C9D1CBA2045B6DB /* 45.gif */; };
+		5D3853628FCEB9C13C107EBFEF06D662 /* 47.gif in Resources */ = {isa = PBXBuildFile; fileRef = D09540CFECAF0C5B331F61452F57223A /* 47.gif */; };
+		5EB555C3C979FA00DAEEDBCF9BFBFFB1 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 071EEE0A3CE36E163E09EA7F7915F1DE /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		612D473736A23A51F3413FCB3D9300FA /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E17443EA85E103F4DD0553AB6BB942A /* MASLayoutConstraint.m */; };
+		614DFE9DA15B147D607A8F3FFBB23012 /* WWChatEmotionCollectionLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D58AB0D773CB734806D62CAE4AF79F9D /* WWChatEmotionCollectionLayout.m */; };
+		622D8514D341CB769C014053922698E1 /* SSChatKeyboardEmotionData.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B3D4DCA7ECEA0EC3D77C7E6B5C95FBF /* SSChatKeyboardEmotionData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62A23954901EC777885FD1BDE0AE8318 /* EmojiTextAttachment.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C1380D9277344B7D10299344365AD93 /* EmojiTextAttachment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63CA72182CB3278CDEEC49B1E3EBA80D /* UIColor+CHSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = D25D79ABA9A90C6CBFFC98E41EB4D763 /* UIColor+CHSocket.m */; };
+		65BEA324747AC08DE706AF09C1B453EA /* UIColor+CHSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = C9D3D9C88FCC25BB8FE8DED43449643F /* UIColor+CHSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6945D115633864B2028E3D6CF0E9056F /* SSChatEmotionTitleCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AB6956826CD97311E7D083C3E0EA065 /* SSChatEmotionTitleCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		696DBCB7C46B324400C695DFCD9F9071 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 27E12E3D2779B5C7A8301A94F715DB4C /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6BD49DDC1BAE3D88108FEE63D54CC771 /* EmojiTextAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 1521C49689A9A5E515D466BFEEE8026E /* EmojiTextAttachment.m */; };
+		6C0EB197398FC92B2969FB9773D102EA /* 64.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8A5577648F216B1F381184D7E880EA80 /* 64.gif */; };
+		6D8FFB6B3D9E53FC357829A736C0FF19 /* 23.gif in Resources */ = {isa = PBXBuildFile; fileRef = C8D2EE855C538AB6F24FB8696C163E8B /* 23.gif */; };
+		6FC5921AA530E5B583A09685CE75FD65 /* 9.gif in Resources */ = {isa = PBXBuildFile; fileRef = 44868801FF17778ACAC6C9D890C464DD /* 9.gif */; };
+		700A6C2F6637009927839C2468E40DC8 /* SSChatKeyboardEmotionUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F85BF56DEA2BB5D3CC800BF7A89292E2 /* SSChatKeyboardEmotionUtil.m */; };
+		7272983BCF47DF2E4BCF911389F7DFE1 /* 49.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1AB1A892673D1576F1B131BA33915C08 /* 49.gif */; };
+		727EF7A723DFF059F7A4DE3AA1F4586F /* 32.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0D93D4173C9749B9BF414E1C4C7994D8 /* 32.gif */; };
+		7367A1EA50EC6251A4833062FAD53C95 /* CHCommonUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = E94468FBD635AD7947864F8D21F71AA3 /* CHCommonUtil.m */; };
+		738F9D2BC3671C3B2385CC794B58EB0F /* NSBundle+Emotion.m in Sources */ = {isa = PBXBuildFile; fileRef = 201AE728F4C7B6C4C5CA5BC7130B4DBB /* NSBundle+Emotion.m */; };
+		764777EBD517F134DDE33DF98ACCD03A /* 12.gif in Resources */ = {isa = PBXBuildFile; fileRef = 32F2CF7BC27C946ED3B0429FBCC17C11 /* 12.gif */; };
 		7746C6538279C5232E95F38AC36A50A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28147EF640D73DD5BE8B797CFD199606 /* Foundation.framework */; };
-		79108975905CC2177250A418217A0ABB /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E17443EA85E103F4DD0553AB6BB942A /* MASLayoutConstraint.m */; };
-		7E0AAC7864FE4AF4B8208EBFC115BD7D /* NSAttributedString+CHAttrs.m in Sources */ = {isa = PBXBuildFile; fileRef = C8264EB252D7BE9DA0E0CFD2EC87CB82 /* NSAttributedString+CHAttrs.m */; };
-		805C61BB110758E4B89C49A30E3FE6DD /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 837834476F3329FA118B081516D4FC28 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		827F9EE446735B888144B37221588459 /* CHCommonUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 64303C5A0C901D8B900B990B4F42FC0C /* CHCommonUtil.m */; };
-		828E296FC215A4BF6F3D22CCA6F00451 /* EmojiTextAttachment.h in Headers */ = {isa = PBXBuildFile; fileRef = 76A1D63EC6DCE61B5514E644F0D27894 /* EmojiTextAttachment.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		84B4C109DE2D7CFB74A749ADE59C524A /* SSChatKeyboardEmotionViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = B4FD75426BB27FB643889A0589E37EC4 /* SSChatKeyboardEmotionViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		84F5CCBB6C6D19216F0FC9C4F2FD3DA3 /* NSAttributedString+EmojiExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = ED375D063274405770D307BF2725ED73 /* NSAttributedString+EmojiExtension.m */; };
-		8654AEDD46F1C88A6EA55C8FE2511C32 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7CC7527FD599A1064055C060E14B43 /* MASCompositeConstraint.m */; };
-		9250BA6D6F691CFD707A373DDB5FE7AB /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 86765B456E483806C4E13D2DD50E40A4 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9744546101B87F4396C5C314E67A46DB /* SSChatKeyboardEmotionData.h in Headers */ = {isa = PBXBuildFile; fileRef = C6024C9DB133C8C47255026B949978C5 /* SSChatKeyboardEmotionData.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		98AB790134B94BEDFADB67706D3D9B69 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BCCE8C6C17F326AFEDF4357C62ADAF /* MASViewAttribute.m */; };
-		9D64DA06D2EB652D8DD6FCFE4B6187C2 /* WWChatEmotionCollectionLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 156AB8D8EB3B8CA2DDA11311915A0667 /* WWChatEmotionCollectionLayout.m */; };
-		9DC12C285C3F100AED74FD057BA4A35F /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AD89987EC7EAE20D7034EEF9935E7CC /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA9A1FC57A6BD6DD6BB9E37702208046 /* WWCustomPageControl.h in Headers */ = {isa = PBXBuildFile; fileRef = FE9E32E91330B85DE94914989ED5E4F0 /* WWCustomPageControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AC989FE9E2F600AC1834D8EB31DF5BAF /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FF4AF21902029EC43C354AC0978CE49 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE3557547E9DB06FDF8711D0129A075A /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEEBD88282BA13360CAA867D8465C75 /* NSArray+MASAdditions.m */; };
-		B1B33E55360C7333058000CF22F45F3B /* SSChatEmotionTitleCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 797878C1C66879841672085E231C842C /* SSChatEmotionTitleCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B4758D284F0B83BFBEBEBA4772F21005 /* WWCustomPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 4914B156C85AE4B816E77446F108831A /* WWCustomPageControl.m */; };
-		B5A4D7BB3BF748C4C9F694F54CC07567 /* SSChatEmotionImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 43BC373C840A2097C0CEF81653E1DE03 /* SSChatEmotionImageCell.m */; };
-		B8B6352FC25700EB3D3F6D37713F4D5F /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 27E12E3D2779B5C7A8301A94F715DB4C /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BB6586E733768E798C146A1CF7CA461F /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 071EEE0A3CE36E163E09EA7F7915F1DE /* NSLayoutConstraint+MASDebugAdditions.m */; };
-		BBAB27E305A7AF9CAECBDC6DC520379D /* WWChatEmotionCollectionLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 33FA6A430677DD60966CD1224F466938 /* WWChatEmotionCollectionLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BCCD6FF4E4D41437700B2A6DFB79D866 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 55960467D1B758EC688A18A171012E78 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BD4BF52FC163FBE2263E93B232832825 /* SSChatKeyboardEmotionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5700C5C9AB4054200EA156FCE087AF93 /* SSChatKeyboardEmotionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BDA1A6E4E92BD074382FB31F75D5EDA4 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CF8069504999FB8BF5FA1529175AA74 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C02B3F9B9D7D6AF5CB6361326155E3A4 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 047EE388CF208BD5F57049BD98558C94 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C299C8839F42AC63713BAB3368D371AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28147EF640D73DD5BE8B797CFD199606 /* Foundation.framework */; };
-		C510415BA661B08B457CC3344DB87BD7 /* SSChatKeyboardEmotionViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6950381EDD7F535642F575FBE9204B /* SSChatKeyboardEmotionViewModel.m */; };
-		C552AC0289C9141BE6458E5993C1CF0E /* NSAttributedString+CHAttrs.h in Headers */ = {isa = PBXBuildFile; fileRef = 56DD7BC1470F8FB1172071AB3BB8A4EE /* NSAttributedString+CHAttrs.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CB7714BAAC2A0D898650E17A1881D349 /* EmotionKeyboard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BA21E5B27CA16E58667FDC441377F2B /* EmotionKeyboard-dummy.m */; };
-		CE54A4FB04AA5730AA2141847BA08706 /* SSChatEmotionTitleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FDED80665E21C10D0C66C714F9F2FA /* SSChatEmotionTitleCell.m */; };
-		CFDEE341BA1230CDFDD3BBC06239D47F /* EmojiTextAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C01D533BEC822059C477BDF2E44F637 /* EmojiTextAttachment.m */; };
-		D83EF10192A71E5316EB21402AD2ED31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28147EF640D73DD5BE8B797CFD199606 /* Foundation.framework */; };
-		D8B8336E9CDDDC6B221C4D9057521D5A /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 342C4D9B5E1E36390E7AF01E35444998 /* ViewController+MASAdditions.m */; };
-		DFD7E907E79DF3BF7A9A426548A2912F /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9073C3B74BC30C55B4EB5B2A596EAD72 /* MASConstraint.m */; };
-		E4373F6C2574EC350076A264 /* 21.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F212574EC350076A264 /* 21.gif */; };
-		E4373F6D2574EC350076A264 /* 35.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F222574EC350076A264 /* 35.gif */; };
-		E4373F6E2574EC350076A264 /* 34.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F232574EC350076A264 /* 34.gif */; };
-		E4373F6F2574EC350076A264 /* 20.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F242574EC350076A264 /* 20.gif */; };
-		E4373F702574EC350076A264 /* 36.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F252574EC350076A264 /* 36.gif */; };
-		E4373F712574EC350076A264 /* 22.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F262574EC350076A264 /* 22.gif */; };
-		E4373F722574EC350076A264 /* 23.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F272574EC350076A264 /* 23.gif */; };
-		E4373F732574EC350076A264 /* 37.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F282574EC350076A264 /* 37.gif */; };
-		E4373F742574EC350076A264 /* DeleteEmoticonBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E4373F292574EC350076A264 /* DeleteEmoticonBtn@2x.png */; };
-		E4373F752574EC350076A264 /* 33.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F2A2574EC350076A264 /* 33.gif */; };
-		E4373F762574EC350076A264 /* 27.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F2B2574EC350076A264 /* 27.gif */; };
-		E4373F772574EC350076A264 /* 26.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F2C2574EC350076A264 /* 26.gif */; };
-		E4373F782574EC350076A264 /* 32.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F2D2574EC350076A264 /* 32.gif */; };
-		E4373F792574EC350076A264 /* 18.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F2E2574EC350076A264 /* 18.gif */; };
-		E4373F7A2574EC350076A264 /* 24.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F2F2574EC350076A264 /* 24.gif */; };
-		E4373F7B2574EC350076A264 /* 30.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F302574EC350076A264 /* 30.gif */; };
-		E4373F7C2574EC350076A264 /* 31.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F312574EC350076A264 /* 31.gif */; };
-		E4373F7D2574EC350076A264 /* 25.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F322574EC350076A264 /* 25.gif */; };
-		E4373F7E2574EC350076A264 /* 19.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F332574EC350076A264 /* 19.gif */; };
-		E4373F7F2574EC350076A264 /* 42.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F342574EC350076A264 /* 42.gif */; };
-		E4373F802574EC350076A264 /* 56.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F352574EC350076A264 /* 56.gif */; };
-		E4373F812574EC350076A264 /* 4.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F362574EC350076A264 /* 4.gif */; };
-		E4373F822574EC350076A264 /* 57.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F372574EC350076A264 /* 57.gif */; };
-		E4373F832574EC350076A264 /* 5.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F382574EC350076A264 /* 5.gif */; };
-		E4373F842574EC350076A264 /* 43.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F392574EC350076A264 /* 43.gif */; };
-		E4373F852574EC350076A264 /* 7.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F3A2574EC350076A264 /* 7.gif */; };
-		E4373F862574EC350076A264 /* 55.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F3B2574EC350076A264 /* 55.gif */; };
-		E4373F872574EC350076A264 /* 41.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F3C2574EC350076A264 /* 41.gif */; };
-		E4373F882574EC350076A264 /* 69.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F3D2574EC350076A264 /* 69.gif */; };
-		E4373F892574EC350076A264 /* 68.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F3E2574EC350076A264 /* 68.gif */; };
-		E4373F8A2574EC350076A264 /* 40.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F3F2574EC350076A264 /* 40.gif */; };
-		E4373F8B2574EC350076A264 /* 6.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F402574EC350076A264 /* 6.gif */; };
-		E4373F8C2574EC350076A264 /* 54.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F412574EC350076A264 /* 54.gif */; };
-		E4373F8D2574EC350076A264 /* 50.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F422574EC350076A264 /* 50.gif */; };
-		E4373F8E2574EC350076A264 /* 2.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F432574EC350076A264 /* 2.gif */; };
-		E4373F8F2574EC350076A264 /* 44.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F442574EC350076A264 /* 44.gif */; };
-		E4373F902574EC350076A264 /* 45.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F452574EC350076A264 /* 45.gif */; };
-		E4373F912574EC350076A264 /* 51.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F462574EC350076A264 /* 51.gif */; };
-		E4373F922574EC350076A264 /* 3.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F472574EC350076A264 /* 3.gif */; };
-		E4373F932574EC350076A264 /* 47.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F482574EC350076A264 /* 47.gif */; };
-		E4373F942574EC350076A264 /* 1.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F492574EC350076A264 /* 1.gif */; };
-		E4373F952574EC350076A264 /* 53.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F4A2574EC350076A264 /* 53.gif */; };
-		E4373F962574EC350076A264 /* 0.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F4B2574EC350076A264 /* 0.gif */; };
-		E4373F972574EC350076A264 /* 52.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F4C2574EC350076A264 /* 52.gif */; };
-		E4373F982574EC350076A264 /* 46.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F4D2574EC350076A264 /* 46.gif */; };
-		E4373F992574EC350076A264 /* 63.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F4E2574EC350076A264 /* 63.gif */; };
-		E4373F9A2574EC350076A264 /* 62.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F4F2574EC350076A264 /* 62.gif */; };
-		E4373F9B2574EC350076A264 /* 60.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F502574EC350076A264 /* 60.gif */; };
-		E4373F9C2574EC350076A264 /* 48.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F512574EC350076A264 /* 48.gif */; };
-		E4373F9D2574EC350076A264 /* 49.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F522574EC350076A264 /* 49.gif */; };
-		E4373F9E2574EC350076A264 /* 61.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F532574EC350076A264 /* 61.gif */; };
-		E4373F9F2574EC350076A264 /* 59.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F542574EC350076A264 /* 59.gif */; };
-		E4373FA02574EC350076A264 /* 71.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F552574EC350076A264 /* 71.gif */; };
-		E4373FA12574EC350076A264 /* 65.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F562574EC350076A264 /* 65.gif */; };
-		E4373FA22574EC350076A264 /* 64.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F572574EC350076A264 /* 64.gif */; };
-		E4373FA32574EC350076A264 /* 70.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F582574EC350076A264 /* 70.gif */; };
-		E4373FA42574EC350076A264 /* 58.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F592574EC350076A264 /* 58.gif */; };
-		E4373FA52574EC350076A264 /* 8.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F5A2574EC350076A264 /* 8.gif */; };
-		E4373FA62574EC350076A264 /* 66.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F5B2574EC350076A264 /* 66.gif */; };
-		E4373FA72574EC350076A264 /* emotion.txt in Resources */ = {isa = PBXBuildFile; fileRef = E4373F5C2574EC350076A264 /* emotion.txt */; };
-		E4373FA82574EC350076A264 /* 67.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F5D2574EC350076A264 /* 67.gif */; };
-		E4373FA92574EC350076A264 /* 9.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F5E2574EC350076A264 /* 9.gif */; };
-		E4373FAA2574EC350076A264 /* 14.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F5F2574EC350076A264 /* 14.gif */; };
-		E4373FAB2574EC350076A264 /* 28.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F602574EC350076A264 /* 28.gif */; };
-		E4373FAC2574EC350076A264 /* 29.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F612574EC350076A264 /* 29.gif */; };
-		E4373FAD2574EC350076A264 /* 15.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F622574EC350076A264 /* 15.gif */; };
-		E4373FAE2574EC350076A264 /* 17.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F632574EC350076A264 /* 17.gif */; };
-		E4373FAF2574EC350076A264 /* 16.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F642574EC350076A264 /* 16.gif */; };
-		E4373FB02574EC350076A264 /* 12.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F652574EC350076A264 /* 12.gif */; };
-		E4373FB12574EC350076A264 /* DeleteEmoticonBtnHL@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E4373F662574EC350076A264 /* DeleteEmoticonBtnHL@2x.png */; };
-		E4373FB22574EC350076A264 /* 13.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F672574EC350076A264 /* 13.gif */; };
-		E4373FB32574EC350076A264 /* 39.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F682574EC350076A264 /* 39.gif */; };
-		E4373FB42574EC350076A264 /* 11.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F692574EC350076A264 /* 11.gif */; };
-		E4373FB52574EC350076A264 /* 10.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F6A2574EC350076A264 /* 10.gif */; };
-		E4373FB62574EC350076A264 /* 38.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4373F6B2574EC350076A264 /* 38.gif */; };
-		E88DEF0ADC63B04D6D8D11A076B2F5E2 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = EDA8A3885BC33F25CB32442EB2449111 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ED1AC64A6FC5A21D96E8B7D66449D1BF /* EmotionKeyboard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A5ADC23440A22ECE151C5C183F4A4C2 /* EmotionKeyboard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7761C1771857491291E843472B7C58A7 /* 54.gif in Resources */ = {isa = PBXBuildFile; fileRef = B23B2DE21F6F7585CEE75823C8041F0B /* 54.gif */; };
+		7822FEC50982AA018CF7949FAEAD5350 /* 59.gif in Resources */ = {isa = PBXBuildFile; fileRef = FAE8790BE6D4493E2CE6300006488F3A /* 59.gif */; };
+		7D21DB2C17C810D9CC5F49D42ABBDC55 /* 42.gif in Resources */ = {isa = PBXBuildFile; fileRef = A7CC30B2C2BE8CE0942A6FF25C2F6A24 /* 42.gif */; };
+		7D8C4B44A3A91EC66948DBCB671CB4E6 /* DeleteEmoticonBtnHL@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 989AAC8026B111641DB87B3E14EFED6E /* DeleteEmoticonBtnHL@2x.png */; };
+		8128ECF04B4473D1B0D9F77AC137AF31 /* 71.gif in Resources */ = {isa = PBXBuildFile; fileRef = 32A305EC3BCA989AB4CB71D5F61B9934 /* 71.gif */; };
+		83F9AF373DD9DD45AC4DCC37FABDEF3D /* 68.gif in Resources */ = {isa = PBXBuildFile; fileRef = F77193BE6C88EB197C26C8F9B0E7EBC5 /* 68.gif */; };
+		856209A8F057BC79643A55E50A90BA77 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = D12E9F350C1C8076BE92719B89951AD8 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85C99B0BF19D58CA736C6CAC8FBE23D6 /* 37.gif in Resources */ = {isa = PBXBuildFile; fileRef = 85ED2AF054C20B8186ABB980A491714C /* 37.gif */; };
+		8AFCE9EC60808E71D4FA57604E2BB810 /* 6.gif in Resources */ = {isa = PBXBuildFile; fileRef = BD3117D6CA5716CDC05A5F7522335464 /* 6.gif */; };
+		8B7A9EE46F4BE7D02055AAA100869EE6 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = E7851906D7976272A721C8C4E0CE9092 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C64FF259D0BF30B9335D07172EFD242 /* 0.gif in Resources */ = {isa = PBXBuildFile; fileRef = 45E145F24842AD7363D03A5A117E2710 /* 0.gif */; };
+		8C858FC4CC6EB9A49538309366CCE037 /* EmotionKeyboard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D4D43D81884403CEDC1A2E2C64D9A56 /* EmotionKeyboard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90F78E208EDE0F228053FEDE782E42DD /* NSAttributedString+EmojiExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D50CA71B87908EF98F0FF0A1540B5AE /* NSAttributedString+EmojiExtension.m */; };
+		91B5A8E2BE94CBD8DC915600ACAFE75A /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 607937A372913475EE7EAE532760ACD4 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		965B4C7F02CAC499F876CEB6E92AD663 /* 11.gif in Resources */ = {isa = PBXBuildFile; fileRef = FAF4C88137D9387BA5C41265A2163602 /* 11.gif */; };
+		965ED90A0ADF4607172762C04988C739 /* 51.gif in Resources */ = {isa = PBXBuildFile; fileRef = A2EBC868672A40B7465073C053BA74BF /* 51.gif */; };
+		9BF06DA6556871882717DA1EB85925AD /* 53.gif in Resources */ = {isa = PBXBuildFile; fileRef = 66A29AD6AEC529EEF5366272DA241EEF /* 53.gif */; };
+		9FA442160917B30D623686F9295CB25C /* 20.gif in Resources */ = {isa = PBXBuildFile; fileRef = 962134547FD1E33670CDCDF615D1FECD /* 20.gif */; };
+		A18ADCAEE4266E56892F917BF0DB61FA /* WWCustomPageControl.h in Headers */ = {isa = PBXBuildFile; fileRef = E89997FC8FD1CB7C6F8173D1179B950C /* WWCustomPageControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A303671A83D1CBF75A5D382E3AD72369 /* 65.gif in Resources */ = {isa = PBXBuildFile; fileRef = 478E80F84845807A4509839A563AA889 /* 65.gif */; };
+		A39FB938735D4D3645B0C1EF6EF4CEC0 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A95F8027E3EB86CB9AE2D7539201FE /* MASViewConstraint.m */; };
+		A3BD6351E4E830EA2CB6B68E8615DBB7 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BCCE8C6C17F326AFEDF4357C62ADAF /* MASViewAttribute.m */; };
+		A52A1D799F319D4DE6869E7B31490C39 /* 67.gif in Resources */ = {isa = PBXBuildFile; fileRef = 087B9981BB514522D6C9EAD9707B25F7 /* 67.gif */; };
+		A814378DDE590F2BEB1CD9456C580421 /* SSChatKeyboardEmotionViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B24F837A8D94F3D5BA19A57A1183CCD5 /* SSChatKeyboardEmotionViewModel.m */; };
+		A828F6FE5DD4BB92F37F7864B92F8773 /* SSChatEmotionImageCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A9EA6B6BBACC0854FB694B9BCAC9C4C /* SSChatEmotionImageCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA10B6F86920856E2CC985ACA7E5E6AB /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AD89987EC7EAE20D7034EEF9935E7CC /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABB72556722910F3E6D65BB66222AC16 /* 13.gif in Resources */ = {isa = PBXBuildFile; fileRef = 34916A4F1C49A424385E594BAB82366B /* 13.gif */; };
+		ADBCB9E42F9423AC4489051D0B8CBCB1 /* 40.gif in Resources */ = {isa = PBXBuildFile; fileRef = 793EF2A65EE53D06E03B4CF759836578 /* 40.gif */; };
+		B2995E72190792FCC926F0FFABC36BC4 /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B28864E3F11E1DDE7AEF55AFFD8B0FE /* Masonry.framework */; };
+		B3790B3AC421CC5CEF2C7384B0BB7AB7 /* 60.gif in Resources */ = {isa = PBXBuildFile; fileRef = 08AC12D98BA001EDB3BD3EF5845FA7BE /* 60.gif */; };
+		B54E57B2B9AF9E9845ADABEE9FD334D6 /* 58.gif in Resources */ = {isa = PBXBuildFile; fileRef = 302C06120B7CD3283481E9BCCF8931B4 /* 58.gif */; };
+		B62AB42937670DB4C8FB7CCD808F484A /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 837834476F3329FA118B081516D4FC28 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7E95392B5B911766B260B64131AC620 /* 63.gif in Resources */ = {isa = PBXBuildFile; fileRef = ED2963946671C80F8D0058148AA64667 /* 63.gif */; };
+		B94F5263A65BDB66D991C543FA938390 /* 19.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3FD81DBF8A2E063F20CFC486BCD002B0 /* 19.gif */; };
+		BA9CC0A47F354050B64BAB3190137357 /* 46.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9538E4C907382F7DC7FD5221153C6BE2 /* 46.gif */; };
+		BD4710ED1D964D48B9288BAFD891AD82 /* emotion.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7076FF13BC32EAEC9A1B60FB3C921F09 /* emotion.txt */; };
+		BEF1037860BAE7AA94FD86C485F3E52B /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A85AE9E36F67A1B513CB8DA940771B4F /* Masonry-dummy.m */; };
+		C247EC8E5C5636B37359145B101805AA /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9073C3B74BC30C55B4EB5B2A596EAD72 /* MASConstraint.m */; };
+		C2AA5539C64DC4AC89A2F963E1DD40B3 /* 24.gif in Resources */ = {isa = PBXBuildFile; fileRef = AC8F0CE4692A14C7155D6A1CD1B39109 /* 24.gif */; };
+		C4FF237FB33348813E8E928E0DAACCB4 /* SSChatKeyboardEmotionData.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A5B41DE4307ABC8E489104A0805182 /* SSChatKeyboardEmotionData.m */; };
+		C88084D4C46CED13161B631CF537CDFE /* NSAttributedString+CHAttrs.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2F78291417D2A014DA0ABF1F19F3B6 /* NSAttributedString+CHAttrs.m */; };
+		CBDE31AB721DDB6DA90E79A4C6FEBE96 /* 39.gif in Resources */ = {isa = PBXBuildFile; fileRef = 57FAC7B7AF8AD04F105DF7B91C1D8A45 /* 39.gif */; };
+		D2256A634E38459D25015D3D1CE99E8B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28147EF640D73DD5BE8B797CFD199606 /* Foundation.framework */; };
+		D23F3E128F945DEDE99C2ABE12CCCE8B /* SSChatKeyboardEmotionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BDCDD866BD10E7F4437B55FB73120BB /* SSChatKeyboardEmotionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D47B1044B76EA22644BCC6E3E144491C /* 30.gif in Resources */ = {isa = PBXBuildFile; fileRef = AE3B5443AE92992040C72713AB71A4E9 /* 30.gif */; };
+		D9980EBC24AC8986B7164B053E4DF62B /* SSChatEmotionBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A9E33A2845F80B057B76F813250756 /* SSChatEmotionBaseCell.m */; };
+		DC587DAAA92010D1708F89E1C60C3DE4 /* 62.gif in Resources */ = {isa = PBXBuildFile; fileRef = 54217931F04D7DB62EBF9AC249BC4715 /* 62.gif */; };
+		E00EBD263910BDA0A2E1BD8E339E3454 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 02CA69FDFD4D7BB11F8E3E2E7A0B9879 /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3D1B5C992BF1353EBCC4E0A5A58B3BE /* 34.gif in Resources */ = {isa = PBXBuildFile; fileRef = 12407E848F759B185F8FA406E64F2730 /* 34.gif */; };
+		E43DBB3C1BA53ECC7C03940FF08B020C /* 66.gif in Resources */ = {isa = PBXBuildFile; fileRef = FC195741117B086BE7331D6A64E86A05 /* 66.gif */; };
+		E670E49FA040896AE82606AF5D065726 /* 14.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5EA40755E51D39DBF43C62760FF8F2A0 /* 14.gif */; };
+		E828847D90F53999A36ABA58C40E5EC2 /* 1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5CA15E1C8D1DDF571342E653B0DC276F /* 1.gif */; };
+		E9C5C57994E7C3B66A3EC0E60D68D1E7 /* 15.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6108F8A9D3EEB8518572B9C64816DBAB /* 15.gif */; };
+		EED3860AF173105751E030CFDD6F987A /* 35.gif in Resources */ = {isa = PBXBuildFile; fileRef = 528502766A716C5F6503244CEE411FC4 /* 35.gif */; };
+		EEF41D60A5224A3C5E3B93149E47CB58 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4497913DB548AE2E03103D3A97F34F /* View+MASAdditions.m */; };
 		F18D8FA991154E504F9B0BC0054DED80 /* Pods-EmotionKeyboard_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7225738EA99373D1604E40774D1FAA9B /* Pods-EmotionKeyboard_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F5EDD09CE9F612A8FEA603869E0D3FDC /* SSChatKeyboardEmotionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DEE59E39F58A05D4E7A2E28CEBC2A31 /* SSChatKeyboardEmotionView.m */; };
-		FCADC8EF82EB9A4444574B20E59A47B6 /* SSChatEmotionBaseCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 72D7C7F2EA3A107DFF654649430D228F /* SSChatEmotionBaseCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FDDB24C84B63EF7FD59DFCDCA82C55AA /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = B28EC2F4C626ED77509645BE3805CB29 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FEBEBF4FB4725BBB59A03C660989FFCE /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B28864E3F11E1DDE7AEF55AFFD8B0FE /* Masonry.framework */; };
+		F2AB86A88CA76F17BB5F4B504A7E73A1 /* 16.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1CB8D17006221BAF30419BD7A4FCD6CA /* 16.gif */; };
+		F3371937E770270B2AC04D6CBD6987AC /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = EDA8A3885BC33F25CB32442EB2449111 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F49B669A52F2EE0D73287059D9AF457A /* 70.gif in Resources */ = {isa = PBXBuildFile; fileRef = FA695E23C16E16C54A3152389B7CA824 /* 70.gif */; };
+		F866E7A502D4AE6C5D54FBFAD8C28692 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = A78D3443F105E00FC21FE5A357C8F716 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9E03864A15388F6E080C08BB520387C /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7CC7527FD599A1064055C060E14B43 /* MASCompositeConstraint.m */; };
+		FA46C237E9A7A191CE9A3833BCF3E80D /* 44.gif in Resources */ = {isa = PBXBuildFile; fileRef = D6ED9328299F2EC0BA934E041EBE2970 /* 44.gif */; };
+		FAA86F9444B497C522620E23D2774893 /* NSAttributedString+CHAttrs.h in Headers */ = {isa = PBXBuildFile; fileRef = 72A8BC19908CDBA76BD43A0A3446B9A3 /* NSAttributedString+CHAttrs.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEC8EF85556E9E948083084000E71A98 /* 36.gif in Resources */ = {isa = PBXBuildFile; fileRef = CADBCB94FED29EEAD5D9801AFC9723D0 /* 36.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -160,13 +162,6 @@
 			remoteGlobalIDString = D67BA460DE80959EE06EE261F2AC6910;
 			remoteInfo = EmotionKeyboard;
 		};
-		6B8D1F5357CB441D06FB6AA7FD6C33B2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
-			remoteInfo = Masonry;
-		};
 		AD60AC636869343EB186EBC3ECA702F8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -174,7 +169,14 @@
 			remoteGlobalIDString = B88EA9A9C3F6E1256C43956C1C4C247A;
 			remoteInfo = "Pods-EmotionKeyboard_Example";
 		};
-		C8E0DF5F8F1D71E51E9DDC513A3E947A /* PBXContainerItemProxy */ = {
+		CE9F5B2B5401BE10A979C890FD9B0146 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
+			remoteInfo = Masonry;
+		};
+		F8BD1FECDF986DECB97E95787915B69A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -192,181 +194,183 @@
 
 /* Begin PBXFileReference section */
 		02CA69FDFD4D7BB11F8E3E2E7A0B9879 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
-		04013FD5EC5DAB048BF5184340C1669D /* SSChatKeyboardEmotionData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SSChatKeyboardEmotionData.m; sourceTree = "<group>"; };
+		041432E20B76C7BA3C1B0090D84C130D /* EmotionKeyboard-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EmotionKeyboard-Info.plist"; sourceTree = "<group>"; };
 		047EE388CF208BD5F57049BD98558C94 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
 		071EEE0A3CE36E163E09EA7F7915F1DE /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		087B9981BB514522D6C9EAD9707B25F7 /* 67.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = 67.gif; path = EmotionKeyboard/Assets/67.gif; sourceTree = "<group>"; };
+		08AC12D98BA001EDB3BD3EF5845FA7BE /* 60.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = 60.gif; path = EmotionKeyboard/Assets/60.gif; sourceTree = "<group>"; };
 		098FD72F80A71A8A651F3CC4EE316BCA /* Pods-EmotionKeyboard_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EmotionKeyboard_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0C01D533BEC822059C477BDF2E44F637 /* EmojiTextAttachment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EmojiTextAttachment.m; path = EmotionKeyboard/Classes/Emotion/EmojiTextAttachment.m; sourceTree = "<group>"; };
-		0E1BEFDAD5175825EEBB8C05723923E6 /* EmotionKeyboard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EmotionKeyboard.modulemap; sourceTree = "<group>"; };
-		145A9305E8AA7D5A4D28B444DD2161E3 /* EmotionKeyboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EmotionKeyboard.debug.xcconfig; sourceTree = "<group>"; };
-		14821CCD76005AEAD265C71E204F9391 /* EmotionKeyboard.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmotionKeyboard.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		156AB8D8EB3B8CA2DDA11311915A0667 /* WWChatEmotionCollectionLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WWChatEmotionCollectionLayout.m; sourceTree = "<group>"; };
+		0B7B1E303516F04BB1FE0F76F1AE0A75 /* 52.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = 52.gif; path = EmotionKeyboard/Assets/52.gif; sourceTree = "<group>"; };
+		0D50CA71B87908EF98F0FF0A1540B5AE /* NSAttributedString+EmojiExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSAttributedString+EmojiExtension.m"; path = "EmotionKeyboard/Classes/Emotion/NSAttributedString+EmojiExtension.m"; sourceTree = "<group>"; };
+		0D93D4173C9749B9BF414E1C4C7994D8 /* 32.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = 32.gif; path = EmotionKeyboard/Assets/32.gif; sourceTree = "<group>"; };
+		0ECB66679E3CE4AA24BD15B11D38768C /* EmotionKeyboard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EmotionKeyboard.modulemap; sourceTree = "<group>"; };
+		12407E848F759B185F8FA406E64F2730 /* 34.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = 34.gif; path = EmotionKeyboard/Assets/34.gif; sourceTree = "<group>"; };
+		14821CCD76005AEAD265C71E204F9391 /* EmotionKeyboard.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = EmotionKeyboard.bundle; path = "EmotionKeyboard-EmotionKeyboard.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1521C49689A9A5E515D466BFEEE8026E /* EmojiTextAttachment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EmojiTextAttachment.m; path = EmotionKeyboard/Classes/Emotion/EmojiTextAttachment.m; sourceTree = "<group>"; };
 		17E620F30061BAB4EAC5F3D88E19C5C6 /* Pods-EmotionKeyboard_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EmotionKeyboard_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		1A5ADC23440A22ECE151C5C183F4A4C2 /* EmotionKeyboard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EmotionKeyboard-umbrella.h"; sourceTree = "<group>"; };
-		1BA21E5B27CA16E58667FDC441377F2B /* EmotionKeyboard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EmotionKeyboard-dummy.m"; sourceTree = "<group>"; };
-		1C11BEE527A2D0997ED3FD242BE9E3CC /* SSChatEmotionImageCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SSChatEmotionImageCell.h; sourceTree = "<group>"; };
-		1FFED36A657123030ABB700256D73F15 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AB1A892673D1576F1B131BA33915C08 /* 49.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = 49.gif; path = EmotionKeyboard/Assets/49.gif; sourceTree = "<group>"; };
+		1B35B8DF6CD2AAF0A7C7977FF259D0E9 /* 56.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = 56.gif; path = EmotionKeyboard/Assets/56.gif; sourceTree = "<group>"; };
+		1B3D4DCA7ECEA0EC3D77C7E6B5C95FBF /* SSChatKeyboardEmotionData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SSChatKeyboardEmotionData.h; sourceTree = "<group>"; };
+		1CB8D17006221BAF30419BD7A4FCD6CA /* 16.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = 16.gif; path = EmotionKeyboard/Assets/16.gif; sourceTree = "<group>"; };
+		1D3C281012A15E674C9D1CBA2045B6DB /* 45.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = 45.gif; path = EmotionKeyboard/Assets/45.gif; sourceTree = "<group>"; };
+		1EF7A5C1421B564C1513514CBFC23901 /* EmotionKeyboard.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = EmotionKeyboard.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1FEB569FAB9FE6F12F147246872E8D1C /* WWCustomPageControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WWCustomPageControl.m; sourceTree = "<group>"; };
+		1FFED36A657123030ABB700256D73F15 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		201AE728F4C7B6C4C5CA5BC7130B4DBB /* NSBundle+Emotion.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+Emotion.m"; path = "EmotionKeyboard/Classes/Emotion/NSBundle+Emotion.m"; sourceTree = "<group>"; };
+		2139174400C72133AFB6A19F18F3A60B /* CHCommonUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CHCommonUtil.h; path = EmotionKeyboard/Classes/Emotion/CHCommonUtil.h; sourceTree = "<group>"; };
+		229EC06B075A351073A40FA523B39193 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		23AED61E3DBCE3C8DD656111186E36B5 /* Pods-EmotionKeyboard_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EmotionKeyboard_Tests-Info.plist"; sourceTree = "<group>"; };
-		243AD45E9F83DAFC8EA616E417137A98 /* UIColor+CHSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+CHSocket.m"; path = "EmotionKeyboard/Classes/Emotion/UIColor+CHSocket.m"; sourceTree = "<group>"; };
 		27E12E3D2779B5C7A8301A94F715DB4C /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		28147EF640D73DD5BE8B797CFD199606 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		2C748B2C4587AAEF539CBAF7111A8711 /* CHCommonUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CHCommonUtil.h; path = EmotionKeyboard/Classes/Emotion/CHCommonUtil.h; sourceTree = "<group>"; };
+		2A9EA6B6BBACC0854FB694B9BCAC9C4C /* SSChatEmotionImageCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SSChatEmotionImageCell.h; sourceTree = "<group>"; };
+		2AEC5DDA88E5220C438CE348737CD67B /* SSChatKeyboardEmotionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SSChatKeyboardEmotionView.m; sourceTree = "<group>"; };
+		2F2F78291417D2A014DA0ABF1F19F3B6 /* NSAttributedString+CHAttrs.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSAttributedString+CHAttrs.m"; path = "EmotionKeyboard/Classes/Emotion/NSAttributedString+CHAttrs.m"; sourceTree = "<group>"; };
 		2FBA0C4645ADD17123AD056476557C78 /* Pods-EmotionKeyboard_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EmotionKeyboard_Tests-umbrella.h"; sourceTree = "<group>"; };
+		302C06120B7CD3283481E9BCCF8931B4 /* 58.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = 58.gif; path = EmotionKeyboard/Assets/58.gif; sourceTree = "<group>"; };
 		30EC6C5D191587619B42076546EDC448 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
 		313FF480AE528242E07C4199CC62532C /* Pods-EmotionKeyboard_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EmotionKeyboard_Example-dummy.m"; sourceTree = "<group>"; };
-		33FA6A430677DD60966CD1224F466938 /* WWChatEmotionCollectionLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WWChatEmotionCollectionLayout.h; sourceTree = "<group>"; };
+		31A779398B2AB51B2DEDE768B8ED2151 /* 31.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = 31.gif; path = EmotionKeyboard/Assets/31.gif; sourceTree = "<group>"; };
+		32A305EC3BCA989AB4CB71D5F61B9934 /* 71.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = 71.gif; path = EmotionKeyboard/Assets/71.gif; sourceTree = "<group>"; };
+		32F2CF7BC27C946ED3B0429FBCC17C11 /* 12.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = 12.gif; path = EmotionKeyboard/Assets/12.gif; sourceTree = "<group>"; };
+		33CF327D68962F2E5C1FA9A7E24428C9 /* 27.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = 27.gif; path = EmotionKeyboard/Assets/27.gif; sourceTree = "<group>"; };
 		342C4D9B5E1E36390E7AF01E35444998 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
-		35FDED80665E21C10D0C66C714F9F2FA /* SSChatEmotionTitleCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SSChatEmotionTitleCell.m; sourceTree = "<group>"; };
-		3B84FF314D7E409CF51EF952F6E2E3E3 /* EmotionKeyboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EmotionKeyboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3DEE59E39F58A05D4E7A2E28CEBC2A31 /* SSChatKeyboardEmotionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SSChatKeyboardEmotionView.m; sourceTree = "<group>"; };
+		34916A4F1C49A424385E594BAB82366B /* 13.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = 13.gif; path = EmotionKeyboard/Assets/13.gif; sourceTree = "<group>"; };
+		389FF908AB2D184AB30F6F60E7437AA8 /* 4.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = 4.gif; path = EmotionKeyboard/Assets/4.gif; sourceTree = "<group>"; };
+		3B3B6D76066D29008A3B3D16574DD478 /* 7.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = 7.gif; path = EmotionKeyboard/Assets/7.gif; sourceTree = "<group>"; };
+		3B84FF314D7E409CF51EF952F6E2E3E3 /* EmotionKeyboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EmotionKeyboard.framework; path = EmotionKeyboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E537C1F47DA8B06DA4A71E3D14F4DE4 /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
+		3FD81DBF8A2E063F20CFC486BCD002B0 /* 19.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = 19.gif; path = EmotionKeyboard/Assets/19.gif; sourceTree = "<group>"; };
 		419A961AD957E23BAB6A998ED7623134 /* Masonry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.release.xcconfig; sourceTree = "<group>"; };
-		43BC373C840A2097C0CEF81653E1DE03 /* SSChatEmotionImageCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SSChatEmotionImageCell.m; sourceTree = "<group>"; };
+		4231588254C44B21383ED7442048FB6E /* 43.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = 43.gif; path = EmotionKeyboard/Assets/43.gif; sourceTree = "<group>"; };
+		44868801FF17778ACAC6C9D890C464DD /* 9.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = 9.gif; path = EmotionKeyboard/Assets/9.gif; sourceTree = "<group>"; };
+		45E145F24842AD7363D03A5A117E2710 /* 0.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = 0.gif; path = EmotionKeyboard/Assets/0.gif; sourceTree = "<group>"; };
 		470C5CD1265270E95A8A89443C727427 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
-		480F2E76C643A72242D5289A8E66E263 /* EmotionKeyboard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EmotionKeyboard-prefix.pch"; sourceTree = "<group>"; };
-		4914B156C85AE4B816E77446F108831A /* WWCustomPageControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WWCustomPageControl.m; sourceTree = "<group>"; };
+		478E80F84845807A4509839A563AA889 /* 65.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = 65.gif; path = EmotionKeyboard/Assets/65.gif; sourceTree = "<group>"; };
+		479FED84E8F82E88B002F33F788A93D6 /* DeleteEmoticonBtn@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "DeleteEmoticonBtn@2x.png"; path = "EmotionKeyboard/Assets/DeleteEmoticonBtn@2x.png"; sourceTree = "<group>"; };
 		4AD89987EC7EAE20D7034EEF9935E7CC /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
-		510457DA5F770C6324F1649B251A4C98 /* SSChatKeyboardEmotionUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SSChatKeyboardEmotionUtil.h; sourceTree = "<group>"; };
+		4D4D43D81884403CEDC1A2E2C64D9A56 /* EmotionKeyboard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EmotionKeyboard-umbrella.h"; sourceTree = "<group>"; };
+		5184E43F870B6EB634A72610D7B2264D /* WWChatEmotionCollectionLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WWChatEmotionCollectionLayout.h; sourceTree = "<group>"; };
+		528502766A716C5F6503244CEE411FC4 /* 35.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = 35.gif; path = EmotionKeyboard/Assets/35.gif; sourceTree = "<group>"; };
+		540D11348E31AE15C052FA7E546E0636 /* 2.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = 2.gif; path = EmotionKeyboard/Assets/2.gif; sourceTree = "<group>"; };
+		54217931F04D7DB62EBF9AC249BC4715 /* 62.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = 62.gif; path = EmotionKeyboard/Assets/62.gif; sourceTree = "<group>"; };
 		55960467D1B758EC688A18A171012E78 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
-		56DD7BC1470F8FB1172071AB3BB8A4EE /* NSAttributedString+CHAttrs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSAttributedString+CHAttrs.h"; path = "EmotionKeyboard/Classes/Emotion/NSAttributedString+CHAttrs.h"; sourceTree = "<group>"; };
-		5700C5C9AB4054200EA156FCE087AF93 /* SSChatKeyboardEmotionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SSChatKeyboardEmotionView.h; sourceTree = "<group>"; };
+		567AD21045AC5C7DC5E0466057AAFEC9 /* SSChatKeyboardEmotionViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SSChatKeyboardEmotionViewModel.h; sourceTree = "<group>"; };
+		567FF9AAD547071F87E2BAB3033D3FC7 /* EmotionKeyboard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EmotionKeyboard-prefix.pch"; sourceTree = "<group>"; };
 		57868399F89B6C4580B0468E40EF78AF /* Pods-EmotionKeyboard_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EmotionKeyboard_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		5D726C6F9569D5B262A5BCBC4B726F40 /* EmotionKeyboard.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = EmotionKeyboard.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		57FAC7B7AF8AD04F105DF7B91C1D8A45 /* 39.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = 39.gif; path = EmotionKeyboard/Assets/39.gif; sourceTree = "<group>"; };
+		5BDCDD866BD10E7F4437B55FB73120BB /* SSChatKeyboardEmotionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SSChatKeyboardEmotionView.h; sourceTree = "<group>"; };
+		5C1380D9277344B7D10299344365AD93 /* EmojiTextAttachment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EmojiTextAttachment.h; path = EmotionKeyboard/Classes/Emotion/EmojiTextAttachment.h; sourceTree = "<group>"; };
+		5CA15E1C8D1DDF571342E653B0DC276F /* 1.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = 1.gif; path = EmotionKeyboard/Assets/1.gif; sourceTree = "<group>"; };
+		5EA40755E51D39DBF43C62760FF8F2A0 /* 14.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = 14.gif; path = EmotionKeyboard/Assets/14.gif; sourceTree = "<group>"; };
 		607937A372913475EE7EAE532760ACD4 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
-		60B90B924DC8F13F0318F5372C17C2A0 /* SSChatKeyboardEmotionUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SSChatKeyboardEmotionUtil.m; sourceTree = "<group>"; };
-		64303C5A0C901D8B900B990B4F42FC0C /* CHCommonUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CHCommonUtil.m; path = EmotionKeyboard/Classes/Emotion/CHCommonUtil.m; sourceTree = "<group>"; };
+		6108F8A9D3EEB8518572B9C64816DBAB /* 15.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = 15.gif; path = EmotionKeyboard/Assets/15.gif; sourceTree = "<group>"; };
+		61FCD3AE9BF85E50F9E4F4F1A2EFD547 /* 25.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = 25.gif; path = EmotionKeyboard/Assets/25.gif; sourceTree = "<group>"; };
+		62A852D2B021A83FDE513F76206C5716 /* SSChatKeyboardEmotionUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SSChatKeyboardEmotionUtil.h; sourceTree = "<group>"; };
+		63E999752C70AC4F6829048BEAE898DA /* EmotionKeyboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EmotionKeyboard.debug.xcconfig; sourceTree = "<group>"; };
+		66A29AD6AEC529EEF5366272DA241EEF /* 53.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = 53.gif; path = EmotionKeyboard/Assets/53.gif; sourceTree = "<group>"; };
+		68A9E33A2845F80B057B76F813250756 /* SSChatEmotionBaseCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SSChatEmotionBaseCell.m; sourceTree = "<group>"; };
+		6A3F718A58DCBE42780472B3027C85BE /* 69.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = 69.gif; path = EmotionKeyboard/Assets/69.gif; sourceTree = "<group>"; };
 		6B28864E3F11E1DDE7AEF55AFFD8B0FE /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CF8069504999FB8BF5FA1529175AA74 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
 		6E17443EA85E103F4DD0553AB6BB942A /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
 		6FF4AF21902029EC43C354AC0978CE49 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		7076FF13BC32EAEC9A1B60FB3C921F09 /* emotion.txt */ = {isa = PBXFileReference; includeInIndex = 1; name = emotion.txt; path = EmotionKeyboard/Assets/emotion.txt; sourceTree = "<group>"; };
 		7225738EA99373D1604E40774D1FAA9B /* Pods-EmotionKeyboard_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EmotionKeyboard_Example-umbrella.h"; sourceTree = "<group>"; };
+		72A8BC19908CDBA76BD43A0A3446B9A3 /* NSAttributedString+CHAttrs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSAttributedString+CHAttrs.h"; path = "EmotionKeyboard/Classes/Emotion/NSAttributedString+CHAttrs.h"; sourceTree = "<group>"; };
 		72A95F8027E3EB86CB9AE2D7539201FE /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
-		72D7C7F2EA3A107DFF654649430D228F /* SSChatEmotionBaseCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SSChatEmotionBaseCell.h; sourceTree = "<group>"; };
-		75B8E5494CC8FFBDF411AD829C7B0424 /* Pods_EmotionKeyboard_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EmotionKeyboard_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		76A1D63EC6DCE61B5514E644F0D27894 /* EmojiTextAttachment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EmojiTextAttachment.h; path = EmotionKeyboard/Classes/Emotion/EmojiTextAttachment.h; sourceTree = "<group>"; };
-		797878C1C66879841672085E231C842C /* SSChatEmotionTitleCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SSChatEmotionTitleCell.h; sourceTree = "<group>"; };
+		75B8E5494CC8FFBDF411AD829C7B0424 /* Pods_EmotionKeyboard_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EmotionKeyboard_Example.framework; path = "Pods-EmotionKeyboard_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		778B03F6345FAA29E36E7943CA2B15A6 /* 33.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = 33.gif; path = EmotionKeyboard/Assets/33.gif; sourceTree = "<group>"; };
+		793EF2A65EE53D06E03B4CF759836578 /* 40.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = 40.gif; path = EmotionKeyboard/Assets/40.gif; sourceTree = "<group>"; };
+		7AB6956826CD97311E7D083C3E0EA065 /* SSChatEmotionTitleCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SSChatEmotionTitleCell.h; sourceTree = "<group>"; };
+		7B6F43453819EC846C2329EBF6C782B3 /* NSAttributedString+EmojiExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSAttributedString+EmojiExtension.h"; path = "EmotionKeyboard/Classes/Emotion/NSAttributedString+EmojiExtension.h"; sourceTree = "<group>"; };
 		837834476F3329FA118B081516D4FC28 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		85ED2AF054C20B8186ABB980A491714C /* 37.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = 37.gif; path = EmotionKeyboard/Assets/37.gif; sourceTree = "<group>"; };
+		864071C1C7E5140BDFEFFA242B773A7F /* 29.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = 29.gif; path = EmotionKeyboard/Assets/29.gif; sourceTree = "<group>"; };
 		86765B456E483806C4E13D2DD50E40A4 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		88D21948891368777A64E64BDF3E36C5 /* 61.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = 61.gif; path = EmotionKeyboard/Assets/61.gif; sourceTree = "<group>"; };
+		8928C4BDC08989B268FCCF31E0790433 /* 48.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = 48.gif; path = EmotionKeyboard/Assets/48.gif; sourceTree = "<group>"; };
+		8A5577648F216B1F381184D7E880EA80 /* 64.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = 64.gif; path = EmotionKeyboard/Assets/64.gif; sourceTree = "<group>"; };
+		8AA179DD91AE5A8DDE9914BEDB77BD3B /* 10.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = 10.gif; path = EmotionKeyboard/Assets/10.gif; sourceTree = "<group>"; };
 		8AEEBD88282BA13360CAA867D8465C75 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
-		8D6FEF08BEE1537AFF3FDCDBCBAFCD18 /* ResourceBundle-EmotionKeyboard-EmotionKeyboard-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-EmotionKeyboard-EmotionKeyboard-Info.plist"; sourceTree = "<group>"; };
-		8DC21FEC866EB59FE7583D4473C2BE9A /* EmotionKeyboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EmotionKeyboard.release.xcconfig; sourceTree = "<group>"; };
+		8C05F7F303933BF1AAF4472B8B90B3EA /* 8.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = 8.gif; path = EmotionKeyboard/Assets/8.gif; sourceTree = "<group>"; };
+		8DA7407FA43C3226DC3778C1AF79E61C /* 22.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = 22.gif; path = EmotionKeyboard/Assets/22.gif; sourceTree = "<group>"; };
 		8E23757325C51F2EFFF2F9C14E940347 /* Pods-EmotionKeyboard_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EmotionKeyboard_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9073C3B74BC30C55B4EB5B2A596EAD72 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
+		91403A93FF872209E1267C249641C15C /* 5.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = 5.gif; path = EmotionKeyboard/Assets/5.gif; sourceTree = "<group>"; };
+		9538E4C907382F7DC7FD5221153C6BE2 /* 46.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = 46.gif; path = EmotionKeyboard/Assets/46.gif; sourceTree = "<group>"; };
+		962134547FD1E33670CDCDF615D1FECD /* 20.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = 20.gif; path = EmotionKeyboard/Assets/20.gif; sourceTree = "<group>"; };
+		989AAC8026B111641DB87B3E14EFED6E /* DeleteEmoticonBtnHL@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "DeleteEmoticonBtnHL@2x.png"; path = "EmotionKeyboard/Assets/DeleteEmoticonBtnHL@2x.png"; sourceTree = "<group>"; };
+		9A0A31531E1822DBF65CA8495497A43E /* 21.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = 21.gif; path = EmotionKeyboard/Assets/21.gif; sourceTree = "<group>"; };
 		9C5278AC89EDC4C6F1AB62B03F478B56 /* Pods-EmotionKeyboard_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EmotionKeyboard_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2EBC868672A40B7465073C053BA74BF /* 51.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = 51.gif; path = EmotionKeyboard/Assets/51.gif; sourceTree = "<group>"; };
 		A78D3443F105E00FC21FE5A357C8F716 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		A7CC30B2C2BE8CE0942A6FF25C2F6A24 /* 42.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = 42.gif; path = EmotionKeyboard/Assets/42.gif; sourceTree = "<group>"; };
 		A7E8057DE6AB91E7A4E90DA78A67311D /* Pods-EmotionKeyboard_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EmotionKeyboard_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A85AE9E36F67A1B513CB8DA940771B4F /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
 		A8BCCE8C6C17F326AFEDF4357C62ADAF /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
-		AB05821E1D984DA556954AB79B1B2197 /* SSChatEmotionBaseCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SSChatEmotionBaseCell.m; sourceTree = "<group>"; };
+		AC8F0CE4692A14C7155D6A1CD1B39109 /* 24.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = 24.gif; path = EmotionKeyboard/Assets/24.gif; sourceTree = "<group>"; };
+		AE124786CEC757AF6E4DC0F45D182102 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		AE3B5443AE92992040C72713AB71A4E9 /* 30.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = 30.gif; path = EmotionKeyboard/Assets/30.gif; sourceTree = "<group>"; };
 		AF4497913DB548AE2E03103D3A97F34F /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
+		B191B17D8EC6ED098241E2DB3C8ADB64 /* 17.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = 17.gif; path = EmotionKeyboard/Assets/17.gif; sourceTree = "<group>"; };
 		B1D8F42FCB31116F8C62E3D9E3C59DB1 /* Pods-EmotionKeyboard_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EmotionKeyboard_Tests-dummy.m"; sourceTree = "<group>"; };
+		B23B2DE21F6F7585CEE75823C8041F0B /* 54.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = 54.gif; path = EmotionKeyboard/Assets/54.gif; sourceTree = "<group>"; };
+		B24F837A8D94F3D5BA19A57A1183CCD5 /* SSChatKeyboardEmotionViewModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SSChatKeyboardEmotionViewModel.m; sourceTree = "<group>"; };
 		B28EC2F4C626ED77509645BE3805CB29 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
-		B4FD75426BB27FB643889A0589E37EC4 /* SSChatKeyboardEmotionViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SSChatKeyboardEmotionViewModel.h; sourceTree = "<group>"; };
+		B7A00C4F3F1D913C7207B879921F9CAC /* 3.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = 3.gif; path = EmotionKeyboard/Assets/3.gif; sourceTree = "<group>"; };
+		B86593066E0F180F60590F8D4B5FAE65 /* SSChatEmotionImageCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SSChatEmotionImageCell.m; sourceTree = "<group>"; };
 		B968F8459CB86D68D5893580B0ABA2CE /* Pods-EmotionKeyboard_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EmotionKeyboard_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		BD3117D6CA5716CDC05A5F7522335464 /* 6.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = 6.gif; path = EmotionKeyboard/Assets/6.gif; sourceTree = "<group>"; };
+		BD65DE3F5CA35C406967178D687A0EBC /* SSChatEmotionBaseCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SSChatEmotionBaseCell.h; sourceTree = "<group>"; };
 		BDB676D9D5D3AFD89D8DDCE3369D4BAC /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
-		C27D6C561E8F43A041FF2FC011EE88AF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C21DFA40E7D3F8DCC1664E9F831DF60D /* SSChatEmotionTitleCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SSChatEmotionTitleCell.m; sourceTree = "<group>"; };
 		C45E0212834EF78AE5CD92F498310A2A /* Pods-EmotionKeyboard_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EmotionKeyboard_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C6024C9DB133C8C47255026B949978C5 /* SSChatKeyboardEmotionData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SSChatKeyboardEmotionData.h; sourceTree = "<group>"; };
-		C6773F6685035B819FD4D9AFEBED046C /* Pods_EmotionKeyboard_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EmotionKeyboard_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C8264EB252D7BE9DA0E0CFD2EC87CB82 /* NSAttributedString+CHAttrs.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSAttributedString+CHAttrs.m"; path = "EmotionKeyboard/Classes/Emotion/NSAttributedString+CHAttrs.m"; sourceTree = "<group>"; };
+		C6773F6685035B819FD4D9AFEBED046C /* Pods_EmotionKeyboard_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EmotionKeyboard_Tests.framework; path = "Pods-EmotionKeyboard_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7A5B41DE4307ABC8E489104A0805182 /* SSChatKeyboardEmotionData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SSChatKeyboardEmotionData.m; sourceTree = "<group>"; };
 		C86FE1C1906012A813989E52BA19B056 /* Pods-EmotionKeyboard_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EmotionKeyboard_Example-frameworks.sh"; sourceTree = "<group>"; };
-		CF6950381EDD7F535642F575FBE9204B /* SSChatKeyboardEmotionViewModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SSChatKeyboardEmotionViewModel.m; sourceTree = "<group>"; };
+		C8D2EE855C538AB6F24FB8696C163E8B /* 23.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = 23.gif; path = EmotionKeyboard/Assets/23.gif; sourceTree = "<group>"; };
+		C9D3D9C88FCC25BB8FE8DED43449643F /* UIColor+CHSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+CHSocket.h"; path = "EmotionKeyboard/Classes/Emotion/UIColor+CHSocket.h"; sourceTree = "<group>"; };
+		CADBCB94FED29EEAD5D9801AFC9723D0 /* 36.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = 36.gif; path = EmotionKeyboard/Assets/36.gif; sourceTree = "<group>"; };
+		CC27647C7F5810BC54AD77CE0E96769E /* 55.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = 55.gif; path = EmotionKeyboard/Assets/55.gif; sourceTree = "<group>"; };
 		CF76023D03D160C0D8A56AA4B36905A3 /* Pods-EmotionKeyboard_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EmotionKeyboard_Example-Info.plist"; sourceTree = "<group>"; };
+		CF89DBA0E155DB8F26CEA56943C745C6 /* 26.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = 26.gif; path = EmotionKeyboard/Assets/26.gif; sourceTree = "<group>"; };
+		D09540CFECAF0C5B331F61452F57223A /* 47.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = 47.gif; path = EmotionKeyboard/Assets/47.gif; sourceTree = "<group>"; };
 		D12E9F350C1C8076BE92719B89951AD8 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
-		DB4E6CBA541FF93B9BB4F91903FB6CEB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		D25D79ABA9A90C6CBFFC98E41EB4D763 /* UIColor+CHSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+CHSocket.m"; path = "EmotionKeyboard/Classes/Emotion/UIColor+CHSocket.m"; sourceTree = "<group>"; };
+		D58AB0D773CB734806D62CAE4AF79F9D /* WWChatEmotionCollectionLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WWChatEmotionCollectionLayout.m; sourceTree = "<group>"; };
+		D6ED9328299F2EC0BA934E041EBE2970 /* 44.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = 44.gif; path = EmotionKeyboard/Assets/44.gif; sourceTree = "<group>"; };
+		D7FD48CF6B2A8322A6FAD3F44609FCDE /* 50.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = 50.gif; path = EmotionKeyboard/Assets/50.gif; sourceTree = "<group>"; };
+		DC765D2A4B2DD67C6F508D7EA33AFC1F /* 41.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = 41.gif; path = EmotionKeyboard/Assets/41.gif; sourceTree = "<group>"; };
 		DFA1012B6A8BD076CD9F09831AE37A01 /* Masonry-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Masonry-Info.plist"; sourceTree = "<group>"; };
-		E4373F212574EC350076A264 /* 21.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 21.gif; sourceTree = "<group>"; };
-		E4373F222574EC350076A264 /* 35.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 35.gif; sourceTree = "<group>"; };
-		E4373F232574EC350076A264 /* 34.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 34.gif; sourceTree = "<group>"; };
-		E4373F242574EC350076A264 /* 20.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 20.gif; sourceTree = "<group>"; };
-		E4373F252574EC350076A264 /* 36.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 36.gif; sourceTree = "<group>"; };
-		E4373F262574EC350076A264 /* 22.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 22.gif; sourceTree = "<group>"; };
-		E4373F272574EC350076A264 /* 23.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 23.gif; sourceTree = "<group>"; };
-		E4373F282574EC350076A264 /* 37.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 37.gif; sourceTree = "<group>"; };
-		E4373F292574EC350076A264 /* DeleteEmoticonBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DeleteEmoticonBtn@2x.png"; sourceTree = "<group>"; };
-		E4373F2A2574EC350076A264 /* 33.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 33.gif; sourceTree = "<group>"; };
-		E4373F2B2574EC350076A264 /* 27.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 27.gif; sourceTree = "<group>"; };
-		E4373F2C2574EC350076A264 /* 26.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 26.gif; sourceTree = "<group>"; };
-		E4373F2D2574EC350076A264 /* 32.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 32.gif; sourceTree = "<group>"; };
-		E4373F2E2574EC350076A264 /* 18.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 18.gif; sourceTree = "<group>"; };
-		E4373F2F2574EC350076A264 /* 24.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 24.gif; sourceTree = "<group>"; };
-		E4373F302574EC350076A264 /* 30.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 30.gif; sourceTree = "<group>"; };
-		E4373F312574EC350076A264 /* 31.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 31.gif; sourceTree = "<group>"; };
-		E4373F322574EC350076A264 /* 25.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 25.gif; sourceTree = "<group>"; };
-		E4373F332574EC350076A264 /* 19.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 19.gif; sourceTree = "<group>"; };
-		E4373F342574EC350076A264 /* 42.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 42.gif; sourceTree = "<group>"; };
-		E4373F352574EC350076A264 /* 56.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 56.gif; sourceTree = "<group>"; };
-		E4373F362574EC350076A264 /* 4.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 4.gif; sourceTree = "<group>"; };
-		E4373F372574EC350076A264 /* 57.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 57.gif; sourceTree = "<group>"; };
-		E4373F382574EC350076A264 /* 5.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 5.gif; sourceTree = "<group>"; };
-		E4373F392574EC350076A264 /* 43.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 43.gif; sourceTree = "<group>"; };
-		E4373F3A2574EC350076A264 /* 7.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 7.gif; sourceTree = "<group>"; };
-		E4373F3B2574EC350076A264 /* 55.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 55.gif; sourceTree = "<group>"; };
-		E4373F3C2574EC350076A264 /* 41.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 41.gif; sourceTree = "<group>"; };
-		E4373F3D2574EC350076A264 /* 69.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 69.gif; sourceTree = "<group>"; };
-		E4373F3E2574EC350076A264 /* 68.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 68.gif; sourceTree = "<group>"; };
-		E4373F3F2574EC350076A264 /* 40.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 40.gif; sourceTree = "<group>"; };
-		E4373F402574EC350076A264 /* 6.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 6.gif; sourceTree = "<group>"; };
-		E4373F412574EC350076A264 /* 54.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 54.gif; sourceTree = "<group>"; };
-		E4373F422574EC350076A264 /* 50.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 50.gif; sourceTree = "<group>"; };
-		E4373F432574EC350076A264 /* 2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 2.gif; sourceTree = "<group>"; };
-		E4373F442574EC350076A264 /* 44.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 44.gif; sourceTree = "<group>"; };
-		E4373F452574EC350076A264 /* 45.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 45.gif; sourceTree = "<group>"; };
-		E4373F462574EC350076A264 /* 51.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 51.gif; sourceTree = "<group>"; };
-		E4373F472574EC350076A264 /* 3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 3.gif; sourceTree = "<group>"; };
-		E4373F482574EC350076A264 /* 47.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 47.gif; sourceTree = "<group>"; };
-		E4373F492574EC350076A264 /* 1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 1.gif; sourceTree = "<group>"; };
-		E4373F4A2574EC350076A264 /* 53.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 53.gif; sourceTree = "<group>"; };
-		E4373F4B2574EC350076A264 /* 0.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 0.gif; sourceTree = "<group>"; };
-		E4373F4C2574EC350076A264 /* 52.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 52.gif; sourceTree = "<group>"; };
-		E4373F4D2574EC350076A264 /* 46.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 46.gif; sourceTree = "<group>"; };
-		E4373F4E2574EC350076A264 /* 63.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 63.gif; sourceTree = "<group>"; };
-		E4373F4F2574EC350076A264 /* 62.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 62.gif; sourceTree = "<group>"; };
-		E4373F502574EC350076A264 /* 60.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 60.gif; sourceTree = "<group>"; };
-		E4373F512574EC350076A264 /* 48.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 48.gif; sourceTree = "<group>"; };
-		E4373F522574EC350076A264 /* 49.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 49.gif; sourceTree = "<group>"; };
-		E4373F532574EC350076A264 /* 61.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 61.gif; sourceTree = "<group>"; };
-		E4373F542574EC350076A264 /* 59.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 59.gif; sourceTree = "<group>"; };
-		E4373F552574EC350076A264 /* 71.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 71.gif; sourceTree = "<group>"; };
-		E4373F562574EC350076A264 /* 65.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 65.gif; sourceTree = "<group>"; };
-		E4373F572574EC350076A264 /* 64.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 64.gif; sourceTree = "<group>"; };
-		E4373F582574EC350076A264 /* 70.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 70.gif; sourceTree = "<group>"; };
-		E4373F592574EC350076A264 /* 58.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 58.gif; sourceTree = "<group>"; };
-		E4373F5A2574EC350076A264 /* 8.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 8.gif; sourceTree = "<group>"; };
-		E4373F5B2574EC350076A264 /* 66.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 66.gif; sourceTree = "<group>"; };
-		E4373F5C2574EC350076A264 /* emotion.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = emotion.txt; sourceTree = "<group>"; };
-		E4373F5D2574EC350076A264 /* 67.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 67.gif; sourceTree = "<group>"; };
-		E4373F5E2574EC350076A264 /* 9.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 9.gif; sourceTree = "<group>"; };
-		E4373F5F2574EC350076A264 /* 14.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 14.gif; sourceTree = "<group>"; };
-		E4373F602574EC350076A264 /* 28.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 28.gif; sourceTree = "<group>"; };
-		E4373F612574EC350076A264 /* 29.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 29.gif; sourceTree = "<group>"; };
-		E4373F622574EC350076A264 /* 15.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 15.gif; sourceTree = "<group>"; };
-		E4373F632574EC350076A264 /* 17.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 17.gif; sourceTree = "<group>"; };
-		E4373F642574EC350076A264 /* 16.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 16.gif; sourceTree = "<group>"; };
-		E4373F652574EC350076A264 /* 12.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 12.gif; sourceTree = "<group>"; };
-		E4373F662574EC350076A264 /* DeleteEmoticonBtnHL@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DeleteEmoticonBtnHL@2x.png"; sourceTree = "<group>"; };
-		E4373F672574EC350076A264 /* 13.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 13.gif; sourceTree = "<group>"; };
-		E4373F682574EC350076A264 /* 39.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 39.gif; sourceTree = "<group>"; };
-		E4373F692574EC350076A264 /* 11.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 11.gif; sourceTree = "<group>"; };
-		E4373F6A2574EC350076A264 /* 10.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 10.gif; sourceTree = "<group>"; };
-		E4373F6B2574EC350076A264 /* 38.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 38.gif; sourceTree = "<group>"; };
+		E1B5AD1F4B4654DE3D2F59D7397934C5 /* 57.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = 57.gif; path = EmotionKeyboard/Assets/57.gif; sourceTree = "<group>"; };
+		E3741B2945707F7D26ED2FFB0D706B7B /* EmotionKeyboard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EmotionKeyboard-dummy.m"; sourceTree = "<group>"; };
+		E7370655752BAC34C63FDE9C68A2C447 /* EmotionKeyboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EmotionKeyboard.release.xcconfig; sourceTree = "<group>"; };
 		E7851906D7976272A721C8C4E0CE9092 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		E89997FC8FD1CB7C6F8173D1179B950C /* WWCustomPageControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WWCustomPageControl.h; sourceTree = "<group>"; };
+		E94468FBD635AD7947864F8D21F71AA3 /* CHCommonUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CHCommonUtil.m; path = EmotionKeyboard/Classes/Emotion/CHCommonUtil.m; sourceTree = "<group>"; };
 		EB7CC7527FD599A1064055C060E14B43 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
-		EB8E5D9491330363E2FEFB55621111B8 /* UIColor+CHSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+CHSocket.h"; path = "EmotionKeyboard/Classes/Emotion/UIColor+CHSocket.h"; sourceTree = "<group>"; };
-		ED375D063274405770D307BF2725ED73 /* NSAttributedString+EmojiExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSAttributedString+EmojiExtension.m"; path = "EmotionKeyboard/Classes/Emotion/NSAttributedString+EmojiExtension.m"; sourceTree = "<group>"; };
+		ED2963946671C80F8D0058148AA64667 /* 63.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = 63.gif; path = EmotionKeyboard/Assets/63.gif; sourceTree = "<group>"; };
+		ED5CCA0CE38CDC5668F5AB232C9EF7CD /* NSBundle+Emotion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+Emotion.h"; path = "EmotionKeyboard/Classes/Emotion/NSBundle+Emotion.h"; sourceTree = "<group>"; };
 		EDA8A3885BC33F25CB32442EB2449111 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
+		EED31DB8280697FEB0D847909FAA400B /* 38.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = 38.gif; path = EmotionKeyboard/Assets/38.gif; sourceTree = "<group>"; };
 		EFF909907D9794E4C781DAC1693A7018 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		F0D8822C23981DEDFA1203DE0074CE13 /* EmotionKeyboard-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EmotionKeyboard-Info.plist"; sourceTree = "<group>"; };
+		F00DCA159B0F3E991769150EB706F94B /* 28.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = 28.gif; path = EmotionKeyboard/Assets/28.gif; sourceTree = "<group>"; };
 		F139D932040499669F57BBEA75EB97A8 /* Pods-EmotionKeyboard_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EmotionKeyboard_Tests.modulemap"; sourceTree = "<group>"; };
 		F287598D192FA586BD4AECCD85B988A4 /* Masonry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.debug.xcconfig; sourceTree = "<group>"; };
-		F396F84FBD0ED3600CAB5B28F77D7B58 /* NSAttributedString+EmojiExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSAttributedString+EmojiExtension.h"; path = "EmotionKeyboard/Classes/Emotion/NSAttributedString+EmojiExtension.h"; sourceTree = "<group>"; };
 		F6BB02B60EFA4BEE9AB483A43D889F58 /* Pods-EmotionKeyboard_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EmotionKeyboard_Example.modulemap"; sourceTree = "<group>"; };
-		FE9E32E91330B85DE94914989ED5E4F0 /* WWCustomPageControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WWCustomPageControl.h; sourceTree = "<group>"; };
+		F77193BE6C88EB197C26C8F9B0E7EBC5 /* 68.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = 68.gif; path = EmotionKeyboard/Assets/68.gif; sourceTree = "<group>"; };
+		F85BF56DEA2BB5D3CC800BF7A89292E2 /* SSChatKeyboardEmotionUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SSChatKeyboardEmotionUtil.m; sourceTree = "<group>"; };
+		F9471ED8C9CB91E517A99BC0F8102A46 /* 18.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = 18.gif; path = EmotionKeyboard/Assets/18.gif; sourceTree = "<group>"; };
+		FA3E5BCB69D0B550AF2AF561D2BB9149 /* ResourceBundle-EmotionKeyboard-EmotionKeyboard-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-EmotionKeyboard-EmotionKeyboard-Info.plist"; sourceTree = "<group>"; };
+		FA695E23C16E16C54A3152389B7CA824 /* 70.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = 70.gif; path = EmotionKeyboard/Assets/70.gif; sourceTree = "<group>"; };
+		FAE8790BE6D4493E2CE6300006488F3A /* 59.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = 59.gif; path = EmotionKeyboard/Assets/59.gif; sourceTree = "<group>"; };
+		FAF4C88137D9387BA5C41265A2163602 /* 11.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = 11.gif; path = EmotionKeyboard/Assets/11.gif; sourceTree = "<group>"; };
+		FC195741117B086BE7331D6A64E86A05 /* 66.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = 66.gif; path = EmotionKeyboard/Assets/66.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		065AE1F4A094815A5A4B52F4FC8CD9A3 /* Frameworks */ = {
+		2990448411EE1A68435636D1A2CEBBD7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -381,12 +385,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6D769364C098D49F5DFD8234BD5D885B /* Frameworks */ = {
+		8175B019A4428597A22BB296F74F741C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D83EF10192A71E5316EB21402AD2ED31 /* Foundation.framework in Frameworks */,
-				00998883DE39AC75AF08E9C0FCCE4533 /* UIKit.framework in Frameworks */,
+				D2256A634E38459D25015D3D1CE99E8B /* Foundation.framework in Frameworks */,
+				B2995E72190792FCC926F0FFABC36BC4 /* Masonry.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,12 +402,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E1830A98227227677CA22D28CD791135 /* Frameworks */ = {
+		A1080AE7FB71A618A42BFCCE9BB8A32E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C299C8839F42AC63713BAB3368D371AF /* Foundation.framework in Frameworks */,
-				FEBEBF4FB4725BBB59A03C660989FFCE /* Masonry.framework in Frameworks */,
+				07D5C99F5BE42AD6007E78C5E5324B4D /* Foundation.framework in Frameworks */,
+				498E6A969D26D1C121F33434F652A9F5 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,6 +444,7 @@
 				342C4D9B5E1E36390E7AF01E35444998 /* ViewController+MASAdditions.m */,
 				C84A449C2DE4F91F0620A5147DD42E0F /* Support Files */,
 			);
+			name = Masonry;
 			path = Masonry;
 			sourceTree = "<group>";
 		};
@@ -450,6 +455,50 @@
 				F622ED583314B5AE904DFA5BC90F1891 /* Pods-EmotionKeyboard_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2503929F89BBA65CEDD6F2DA1382E79D /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				BD65DE3F5CA35C406967178D687A0EBC /* SSChatEmotionBaseCell.h */,
+				68A9E33A2845F80B057B76F813250756 /* SSChatEmotionBaseCell.m */,
+				2A9EA6B6BBACC0854FB694B9BCAC9C4C /* SSChatEmotionImageCell.h */,
+				B86593066E0F180F60590F8D4B5FAE65 /* SSChatEmotionImageCell.m */,
+				7AB6956826CD97311E7D083C3E0EA065 /* SSChatEmotionTitleCell.h */,
+				C21DFA40E7D3F8DCC1664E9F831DF60D /* SSChatEmotionTitleCell.m */,
+			);
+			name = Cell;
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		29673A09AC86C5C2FD7BF294A6EC6C0D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0ECB66679E3CE4AA24BD15B11D38768C /* EmotionKeyboard.modulemap */,
+				E3741B2945707F7D26ED2FFB0D706B7B /* EmotionKeyboard-dummy.m */,
+				041432E20B76C7BA3C1B0090D84C130D /* EmotionKeyboard-Info.plist */,
+				567FF9AAD547071F87E2BAB3033D3FC7 /* EmotionKeyboard-prefix.pch */,
+				4D4D43D81884403CEDC1A2E2C64D9A56 /* EmotionKeyboard-umbrella.h */,
+				63E999752C70AC4F6829048BEAE898DA /* EmotionKeyboard.debug.xcconfig */,
+				E7370655752BAC34C63FDE9C68A2C447 /* EmotionKeyboard.release.xcconfig */,
+				FA3E5BCB69D0B550AF2AF561D2BB9149 /* ResourceBundle-EmotionKeyboard-EmotionKeyboard-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/EmotionKeyboard";
+			sourceTree = "<group>";
+		};
+		2F516DFE600CCF655949A903081B68A7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1B3D4DCA7ECEA0EC3D77C7E6B5C95FBF /* SSChatKeyboardEmotionData.h */,
+				C7A5B41DE4307ABC8E489104A0805182 /* SSChatKeyboardEmotionData.m */,
+				62A852D2B021A83FDE513F76206C5716 /* SSChatKeyboardEmotionUtil.h */,
+				F85BF56DEA2BB5D3CC800BF7A89292E2 /* SSChatKeyboardEmotionUtil.m */,
+				567AD21045AC5C7DC5E0466057AAFEC9 /* SSChatKeyboardEmotionViewModel.h */,
+				B24F837A8D94F3D5BA19A57A1183CCD5 /* SSChatKeyboardEmotionViewModel.m */,
+			);
+			name = Model;
+			path = EmotionKeyboard/Classes/Emotion/Model;
 			sourceTree = "<group>";
 		};
 		5E8591D5BFC6C3F85ECE8EB8285057C7 /* Products */ = {
@@ -464,54 +513,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		60AB7568E4B40D2BAC8AA48E9AAF52E3 /* EmotionKeyboard */ = {
-			isa = PBXGroup;
-			children = (
-				E4373F202574EC350076A264 /* Assets */,
-				2C748B2C4587AAEF539CBAF7111A8711 /* CHCommonUtil.h */,
-				64303C5A0C901D8B900B990B4F42FC0C /* CHCommonUtil.m */,
-				76A1D63EC6DCE61B5514E644F0D27894 /* EmojiTextAttachment.h */,
-				0C01D533BEC822059C477BDF2E44F637 /* EmojiTextAttachment.m */,
-				56DD7BC1470F8FB1172071AB3BB8A4EE /* NSAttributedString+CHAttrs.h */,
-				C8264EB252D7BE9DA0E0CFD2EC87CB82 /* NSAttributedString+CHAttrs.m */,
-				F396F84FBD0ED3600CAB5B28F77D7B58 /* NSAttributedString+EmojiExtension.h */,
-				ED375D063274405770D307BF2725ED73 /* NSAttributedString+EmojiExtension.m */,
-				EB8E5D9491330363E2FEFB55621111B8 /* UIColor+CHSocket.h */,
-				243AD45E9F83DAFC8EA616E417137A98 /* UIColor+CHSocket.m */,
-				8BC6550147B9EE8CC6F03CE43E3EDB6F /* Model */,
-				6A9303141418F72AD2FCB4C61F2B8BA0 /* View */,
-				64B557ECF8818D59CB42708E356B42EF /* Pod */,
-				928EE1B6405FA1F013CE14416E724804 /* Support Files */,
-			);
-			name = EmotionKeyboard;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		64B557ECF8818D59CB42708E356B42EF /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				5D726C6F9569D5B262A5BCBC4B726F40 /* EmotionKeyboard.podspec */,
-				DB4E6CBA541FF93B9BB4F91903FB6CEB /* LICENSE */,
-				C27D6C561E8F43A041FF2FC011EE88AF /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		6A9303141418F72AD2FCB4C61F2B8BA0 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				5700C5C9AB4054200EA156FCE087AF93 /* SSChatKeyboardEmotionView.h */,
-				3DEE59E39F58A05D4E7A2E28CEBC2A31 /* SSChatKeyboardEmotionView.m */,
-				33FA6A430677DD60966CD1224F466938 /* WWChatEmotionCollectionLayout.h */,
-				156AB8D8EB3B8CA2DDA11311915A0667 /* WWChatEmotionCollectionLayout.m */,
-				FE9E32E91330B85DE94914989ED5E4F0 /* WWCustomPageControl.h */,
-				4914B156C85AE4B816E77446F108831A /* WWCustomPageControl.m */,
-				D8DE76F7628193191F2273D3161C585F /* Cell */,
-			);
-			name = View;
-			path = EmotionKeyboard/Classes/Emotion/View;
-			sourceTree = "<group>";
-		};
 		7529FD53BCE26816CCD46658378AAF1B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -520,34 +521,94 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		8BC6550147B9EE8CC6F03CE43E3EDB6F /* Model */ = {
+		79B869B96CE559643C9AA22DE50EE3A7 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C6024C9DB133C8C47255026B949978C5 /* SSChatKeyboardEmotionData.h */,
-				04013FD5EC5DAB048BF5184340C1669D /* SSChatKeyboardEmotionData.m */,
-				510457DA5F770C6324F1649B251A4C98 /* SSChatKeyboardEmotionUtil.h */,
-				60B90B924DC8F13F0318F5372C17C2A0 /* SSChatKeyboardEmotionUtil.m */,
-				B4FD75426BB27FB643889A0589E37EC4 /* SSChatKeyboardEmotionViewModel.h */,
-				CF6950381EDD7F535642F575FBE9204B /* SSChatKeyboardEmotionViewModel.m */,
+				F9B22591475A9A500EAFC1A057BF3D5E /* EmotionKeyboard */,
 			);
-			name = Model;
-			path = EmotionKeyboard/Classes/Emotion/Model;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		928EE1B6405FA1F013CE14416E724804 /* Support Files */ = {
+		9F2353BD5BA27A210612517F829AB7A1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				0E1BEFDAD5175825EEBB8C05723923E6 /* EmotionKeyboard.modulemap */,
-				1BA21E5B27CA16E58667FDC441377F2B /* EmotionKeyboard-dummy.m */,
-				F0D8822C23981DEDFA1203DE0074CE13 /* EmotionKeyboard-Info.plist */,
-				480F2E76C643A72242D5289A8E66E263 /* EmotionKeyboard-prefix.pch */,
-				1A5ADC23440A22ECE151C5C183F4A4C2 /* EmotionKeyboard-umbrella.h */,
-				145A9305E8AA7D5A4D28B444DD2161E3 /* EmotionKeyboard.debug.xcconfig */,
-				8DC21FEC866EB59FE7583D4473C2BE9A /* EmotionKeyboard.release.xcconfig */,
-				8D6FEF08BEE1537AFF3FDCDBCBAFCD18 /* ResourceBundle-EmotionKeyboard-EmotionKeyboard-Info.plist */,
+				45E145F24842AD7363D03A5A117E2710 /* 0.gif */,
+				5CA15E1C8D1DDF571342E653B0DC276F /* 1.gif */,
+				8AA179DD91AE5A8DDE9914BEDB77BD3B /* 10.gif */,
+				FAF4C88137D9387BA5C41265A2163602 /* 11.gif */,
+				32F2CF7BC27C946ED3B0429FBCC17C11 /* 12.gif */,
+				34916A4F1C49A424385E594BAB82366B /* 13.gif */,
+				5EA40755E51D39DBF43C62760FF8F2A0 /* 14.gif */,
+				6108F8A9D3EEB8518572B9C64816DBAB /* 15.gif */,
+				1CB8D17006221BAF30419BD7A4FCD6CA /* 16.gif */,
+				B191B17D8EC6ED098241E2DB3C8ADB64 /* 17.gif */,
+				F9471ED8C9CB91E517A99BC0F8102A46 /* 18.gif */,
+				3FD81DBF8A2E063F20CFC486BCD002B0 /* 19.gif */,
+				540D11348E31AE15C052FA7E546E0636 /* 2.gif */,
+				962134547FD1E33670CDCDF615D1FECD /* 20.gif */,
+				9A0A31531E1822DBF65CA8495497A43E /* 21.gif */,
+				8DA7407FA43C3226DC3778C1AF79E61C /* 22.gif */,
+				C8D2EE855C538AB6F24FB8696C163E8B /* 23.gif */,
+				AC8F0CE4692A14C7155D6A1CD1B39109 /* 24.gif */,
+				61FCD3AE9BF85E50F9E4F4F1A2EFD547 /* 25.gif */,
+				CF89DBA0E155DB8F26CEA56943C745C6 /* 26.gif */,
+				33CF327D68962F2E5C1FA9A7E24428C9 /* 27.gif */,
+				F00DCA159B0F3E991769150EB706F94B /* 28.gif */,
+				864071C1C7E5140BDFEFFA242B773A7F /* 29.gif */,
+				B7A00C4F3F1D913C7207B879921F9CAC /* 3.gif */,
+				AE3B5443AE92992040C72713AB71A4E9 /* 30.gif */,
+				31A779398B2AB51B2DEDE768B8ED2151 /* 31.gif */,
+				0D93D4173C9749B9BF414E1C4C7994D8 /* 32.gif */,
+				778B03F6345FAA29E36E7943CA2B15A6 /* 33.gif */,
+				12407E848F759B185F8FA406E64F2730 /* 34.gif */,
+				528502766A716C5F6503244CEE411FC4 /* 35.gif */,
+				CADBCB94FED29EEAD5D9801AFC9723D0 /* 36.gif */,
+				85ED2AF054C20B8186ABB980A491714C /* 37.gif */,
+				EED31DB8280697FEB0D847909FAA400B /* 38.gif */,
+				57FAC7B7AF8AD04F105DF7B91C1D8A45 /* 39.gif */,
+				389FF908AB2D184AB30F6F60E7437AA8 /* 4.gif */,
+				793EF2A65EE53D06E03B4CF759836578 /* 40.gif */,
+				DC765D2A4B2DD67C6F508D7EA33AFC1F /* 41.gif */,
+				A7CC30B2C2BE8CE0942A6FF25C2F6A24 /* 42.gif */,
+				4231588254C44B21383ED7442048FB6E /* 43.gif */,
+				D6ED9328299F2EC0BA934E041EBE2970 /* 44.gif */,
+				1D3C281012A15E674C9D1CBA2045B6DB /* 45.gif */,
+				9538E4C907382F7DC7FD5221153C6BE2 /* 46.gif */,
+				D09540CFECAF0C5B331F61452F57223A /* 47.gif */,
+				8928C4BDC08989B268FCCF31E0790433 /* 48.gif */,
+				1AB1A892673D1576F1B131BA33915C08 /* 49.gif */,
+				91403A93FF872209E1267C249641C15C /* 5.gif */,
+				D7FD48CF6B2A8322A6FAD3F44609FCDE /* 50.gif */,
+				A2EBC868672A40B7465073C053BA74BF /* 51.gif */,
+				0B7B1E303516F04BB1FE0F76F1AE0A75 /* 52.gif */,
+				66A29AD6AEC529EEF5366272DA241EEF /* 53.gif */,
+				B23B2DE21F6F7585CEE75823C8041F0B /* 54.gif */,
+				CC27647C7F5810BC54AD77CE0E96769E /* 55.gif */,
+				1B35B8DF6CD2AAF0A7C7977FF259D0E9 /* 56.gif */,
+				E1B5AD1F4B4654DE3D2F59D7397934C5 /* 57.gif */,
+				302C06120B7CD3283481E9BCCF8931B4 /* 58.gif */,
+				FAE8790BE6D4493E2CE6300006488F3A /* 59.gif */,
+				BD3117D6CA5716CDC05A5F7522335464 /* 6.gif */,
+				08AC12D98BA001EDB3BD3EF5845FA7BE /* 60.gif */,
+				88D21948891368777A64E64BDF3E36C5 /* 61.gif */,
+				54217931F04D7DB62EBF9AC249BC4715 /* 62.gif */,
+				ED2963946671C80F8D0058148AA64667 /* 63.gif */,
+				8A5577648F216B1F381184D7E880EA80 /* 64.gif */,
+				478E80F84845807A4509839A563AA889 /* 65.gif */,
+				FC195741117B086BE7331D6A64E86A05 /* 66.gif */,
+				087B9981BB514522D6C9EAD9707B25F7 /* 67.gif */,
+				F77193BE6C88EB197C26C8F9B0E7EBC5 /* 68.gif */,
+				6A3F718A58DCBE42780472B3027C85BE /* 69.gif */,
+				3B3B6D76066D29008A3B3D16574DD478 /* 7.gif */,
+				FA695E23C16E16C54A3152389B7CA824 /* 70.gif */,
+				32A305EC3BCA989AB4CB71D5F61B9934 /* 71.gif */,
+				8C05F7F303933BF1AAF4472B8B90B3EA /* 8.gif */,
+				44868801FF17778ACAC6C9D890C464DD /* 9.gif */,
+				479FED84E8F82E88B002F33F788A93D6 /* DeleteEmoticonBtn@2x.png */,
+				989AAC8026B111641DB87B3E14EFED6E /* DeleteEmoticonBtnHL@2x.png */,
+				7076FF13BC32EAEC9A1B60FB3C921F09 /* emotion.txt */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/EmotionKeyboard";
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		B8E2C472EF7E7FDC3762375EC6A7F033 /* iOS */ = {
@@ -595,7 +656,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				FC5AF048E814DCCF9A010185FAC62FD7 /* Development Pods */,
+				79B869B96CE559643C9AA22DE50EE3A7 /* Development Pods */,
 				DF275781DF9628A2D5BF35F5D74F7BC1 /* Frameworks */,
 				7529FD53BCE26816CCD46658378AAF1B /* Pods */,
 				5E8591D5BFC6C3F85ECE8EB8285057C7 /* Products */,
@@ -603,17 +664,29 @@
 			);
 			sourceTree = "<group>";
 		};
-		D8DE76F7628193191F2273D3161C585F /* Cell */ = {
+		D15728F9939C75AC0F595A433D19FF27 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				72D7C7F2EA3A107DFF654649430D228F /* SSChatEmotionBaseCell.h */,
-				AB05821E1D984DA556954AB79B1B2197 /* SSChatEmotionBaseCell.m */,
-				1C11BEE527A2D0997ED3FD242BE9E3CC /* SSChatEmotionImageCell.h */,
-				43BC373C840A2097C0CEF81653E1DE03 /* SSChatEmotionImageCell.m */,
-				797878C1C66879841672085E231C842C /* SSChatEmotionTitleCell.h */,
-				35FDED80665E21C10D0C66C714F9F2FA /* SSChatEmotionTitleCell.m */,
+				1EF7A5C1421B564C1513514CBFC23901 /* EmotionKeyboard.podspec */,
+				AE124786CEC757AF6E4DC0F45D182102 /* LICENSE */,
+				229EC06B075A351073A40FA523B39193 /* README.md */,
 			);
-			path = Cell;
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		D1E6E9D482B2B13EF9085B286BA12319 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5BDCDD866BD10E7F4437B55FB73120BB /* SSChatKeyboardEmotionView.h */,
+				2AEC5DDA88E5220C438CE348737CD67B /* SSChatKeyboardEmotionView.m */,
+				5184E43F870B6EB634A72610D7B2264D /* WWChatEmotionCollectionLayout.h */,
+				D58AB0D773CB734806D62CAE4AF79F9D /* WWChatEmotionCollectionLayout.m */,
+				E89997FC8FD1CB7C6F8173D1179B950C /* WWCustomPageControl.h */,
+				1FEB569FAB9FE6F12F147246872E8D1C /* WWCustomPageControl.m */,
+				2503929F89BBA65CEDD6F2DA1382E79D /* Cell */,
+			);
+			name = View;
+			path = EmotionKeyboard/Classes/Emotion/View;
 			sourceTree = "<group>";
 		};
 		DF275781DF9628A2D5BF35F5D74F7BC1 /* Frameworks */ = {
@@ -623,89 +696,6 @@
 				B8E2C472EF7E7FDC3762375EC6A7F033 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		E4373F202574EC350076A264 /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				E4373F212574EC350076A264 /* 21.gif */,
-				E4373F222574EC350076A264 /* 35.gif */,
-				E4373F232574EC350076A264 /* 34.gif */,
-				E4373F242574EC350076A264 /* 20.gif */,
-				E4373F252574EC350076A264 /* 36.gif */,
-				E4373F262574EC350076A264 /* 22.gif */,
-				E4373F272574EC350076A264 /* 23.gif */,
-				E4373F282574EC350076A264 /* 37.gif */,
-				E4373F292574EC350076A264 /* DeleteEmoticonBtn@2x.png */,
-				E4373F2A2574EC350076A264 /* 33.gif */,
-				E4373F2B2574EC350076A264 /* 27.gif */,
-				E4373F2C2574EC350076A264 /* 26.gif */,
-				E4373F2D2574EC350076A264 /* 32.gif */,
-				E4373F2E2574EC350076A264 /* 18.gif */,
-				E4373F2F2574EC350076A264 /* 24.gif */,
-				E4373F302574EC350076A264 /* 30.gif */,
-				E4373F312574EC350076A264 /* 31.gif */,
-				E4373F322574EC350076A264 /* 25.gif */,
-				E4373F332574EC350076A264 /* 19.gif */,
-				E4373F342574EC350076A264 /* 42.gif */,
-				E4373F352574EC350076A264 /* 56.gif */,
-				E4373F362574EC350076A264 /* 4.gif */,
-				E4373F372574EC350076A264 /* 57.gif */,
-				E4373F382574EC350076A264 /* 5.gif */,
-				E4373F392574EC350076A264 /* 43.gif */,
-				E4373F3A2574EC350076A264 /* 7.gif */,
-				E4373F3B2574EC350076A264 /* 55.gif */,
-				E4373F3C2574EC350076A264 /* 41.gif */,
-				E4373F3D2574EC350076A264 /* 69.gif */,
-				E4373F3E2574EC350076A264 /* 68.gif */,
-				E4373F3F2574EC350076A264 /* 40.gif */,
-				E4373F402574EC350076A264 /* 6.gif */,
-				E4373F412574EC350076A264 /* 54.gif */,
-				E4373F422574EC350076A264 /* 50.gif */,
-				E4373F432574EC350076A264 /* 2.gif */,
-				E4373F442574EC350076A264 /* 44.gif */,
-				E4373F452574EC350076A264 /* 45.gif */,
-				E4373F462574EC350076A264 /* 51.gif */,
-				E4373F472574EC350076A264 /* 3.gif */,
-				E4373F482574EC350076A264 /* 47.gif */,
-				E4373F492574EC350076A264 /* 1.gif */,
-				E4373F4A2574EC350076A264 /* 53.gif */,
-				E4373F4B2574EC350076A264 /* 0.gif */,
-				E4373F4C2574EC350076A264 /* 52.gif */,
-				E4373F4D2574EC350076A264 /* 46.gif */,
-				E4373F4E2574EC350076A264 /* 63.gif */,
-				E4373F4F2574EC350076A264 /* 62.gif */,
-				E4373F502574EC350076A264 /* 60.gif */,
-				E4373F512574EC350076A264 /* 48.gif */,
-				E4373F522574EC350076A264 /* 49.gif */,
-				E4373F532574EC350076A264 /* 61.gif */,
-				E4373F542574EC350076A264 /* 59.gif */,
-				E4373F552574EC350076A264 /* 71.gif */,
-				E4373F562574EC350076A264 /* 65.gif */,
-				E4373F572574EC350076A264 /* 64.gif */,
-				E4373F582574EC350076A264 /* 70.gif */,
-				E4373F592574EC350076A264 /* 58.gif */,
-				E4373F5A2574EC350076A264 /* 8.gif */,
-				E4373F5B2574EC350076A264 /* 66.gif */,
-				E4373F5C2574EC350076A264 /* emotion.txt */,
-				E4373F5D2574EC350076A264 /* 67.gif */,
-				E4373F5E2574EC350076A264 /* 9.gif */,
-				E4373F5F2574EC350076A264 /* 14.gif */,
-				E4373F602574EC350076A264 /* 28.gif */,
-				E4373F612574EC350076A264 /* 29.gif */,
-				E4373F622574EC350076A264 /* 15.gif */,
-				E4373F632574EC350076A264 /* 17.gif */,
-				E4373F642574EC350076A264 /* 16.gif */,
-				E4373F652574EC350076A264 /* 12.gif */,
-				E4373F662574EC350076A264 /* DeleteEmoticonBtnHL@2x.png */,
-				E4373F672574EC350076A264 /* 13.gif */,
-				E4373F682574EC350076A264 /* 39.gif */,
-				E4373F692574EC350076A264 /* 11.gif */,
-				E4373F6A2574EC350076A264 /* 10.gif */,
-				E4373F6B2574EC350076A264 /* 38.gif */,
-			);
-			name = Assets;
-			path = EmotionKeyboard/Assets;
 			sourceTree = "<group>";
 		};
 		F622ED583314B5AE904DFA5BC90F1891 /* Pods-EmotionKeyboard_Tests */ = {
@@ -724,37 +714,77 @@
 			path = "Target Support Files/Pods-EmotionKeyboard_Tests";
 			sourceTree = "<group>";
 		};
-		FC5AF048E814DCCF9A010185FAC62FD7 /* Development Pods */ = {
+		F9B22591475A9A500EAFC1A057BF3D5E /* EmotionKeyboard */ = {
 			isa = PBXGroup;
 			children = (
-				60AB7568E4B40D2BAC8AA48E9AAF52E3 /* EmotionKeyboard */,
+				2139174400C72133AFB6A19F18F3A60B /* CHCommonUtil.h */,
+				E94468FBD635AD7947864F8D21F71AA3 /* CHCommonUtil.m */,
+				5C1380D9277344B7D10299344365AD93 /* EmojiTextAttachment.h */,
+				1521C49689A9A5E515D466BFEEE8026E /* EmojiTextAttachment.m */,
+				72A8BC19908CDBA76BD43A0A3446B9A3 /* NSAttributedString+CHAttrs.h */,
+				2F2F78291417D2A014DA0ABF1F19F3B6 /* NSAttributedString+CHAttrs.m */,
+				7B6F43453819EC846C2329EBF6C782B3 /* NSAttributedString+EmojiExtension.h */,
+				0D50CA71B87908EF98F0FF0A1540B5AE /* NSAttributedString+EmojiExtension.m */,
+				ED5CCA0CE38CDC5668F5AB232C9EF7CD /* NSBundle+Emotion.h */,
+				201AE728F4C7B6C4C5CA5BC7130B4DBB /* NSBundle+Emotion.m */,
+				C9D3D9C88FCC25BB8FE8DED43449643F /* UIColor+CHSocket.h */,
+				D25D79ABA9A90C6CBFFC98E41EB4D763 /* UIColor+CHSocket.m */,
+				2F516DFE600CCF655949A903081B68A7 /* Model */,
+				D15728F9939C75AC0F595A433D19FF27 /* Pod */,
+				9F2353BD5BA27A210612517F829AB7A1 /* Resources */,
+				29673A09AC86C5C2FD7BF294A6EC6C0D /* Support Files */,
+				D1E6E9D482B2B13EF9085B286BA12319 /* View */,
 			);
-			name = "Development Pods";
+			name = EmotionKeyboard;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		47DF94AD86CD95531FF80B108DFCF3C3 /* Headers */ = {
+		2C8A843998C7C879B80BEE772D88F3B2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DC12C285C3F100AED74FD057BA4A35F /* MASCompositeConstraint.h in Headers */,
-				805C61BB110758E4B89C49A30E3FE6DD /* MASConstraint+Private.h in Headers */,
-				2A63E04C2DFC9375B596F7572CC8C848 /* MASConstraint.h in Headers */,
-				FDDB24C84B63EF7FD59DFCDCA82C55AA /* MASConstraintMaker.h in Headers */,
-				AC989FE9E2F600AC1834D8EB31DF5BAF /* MASLayoutConstraint.h in Headers */,
-				BDA1A6E4E92BD074382FB31F75D5EDA4 /* Masonry-umbrella.h in Headers */,
-				E88DEF0ADC63B04D6D8D11A076B2F5E2 /* Masonry.h in Headers */,
-				23CF00A1C078EB6CDD8843FC2F6E03C3 /* MASUtilities.h in Headers */,
-				0B7DF3FC3AFFAE7734930CF7308412C4 /* MASViewAttribute.h in Headers */,
-				0B73D050F8ABC37D02E7F792900B1BCA /* MASViewConstraint.h in Headers */,
-				5FCD16B01755DE4545AEE8D398D8CFEE /* NSArray+MASAdditions.h in Headers */,
-				B8B6352FC25700EB3D3F6D37713F4D5F /* NSArray+MASShorthandAdditions.h in Headers */,
-				58647DAF3585D7CD683311E01BFA1471 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
-				C02B3F9B9D7D6AF5CB6361326155E3A4 /* View+MASAdditions.h in Headers */,
-				9250BA6D6F691CFD707A373DDB5FE7AB /* View+MASShorthandAdditions.h in Headers */,
-				BCCD6FF4E4D41437700B2A6DFB79D866 /* ViewController+MASAdditions.h in Headers */,
+				AA10B6F86920856E2CC985ACA7E5E6AB /* MASCompositeConstraint.h in Headers */,
+				B62AB42937670DB4C8FB7CCD808F484A /* MASConstraint+Private.h in Headers */,
+				E00EBD263910BDA0A2E1BD8E339E3454 /* MASConstraint.h in Headers */,
+				3C1E88E4F3A48036A2DA1BCE742A2F75 /* MASConstraintMaker.h in Headers */,
+				24D0AD4C030745B58F06833CC84B0C23 /* MASLayoutConstraint.h in Headers */,
+				4073F2EFB59E8413B057C7CC9FCF685D /* Masonry-umbrella.h in Headers */,
+				F3371937E770270B2AC04D6CBD6987AC /* Masonry.h in Headers */,
+				91B5A8E2BE94CBD8DC915600ACAFE75A /* MASUtilities.h in Headers */,
+				F866E7A502D4AE6C5D54FBFAD8C28692 /* MASViewAttribute.h in Headers */,
+				856209A8F057BC79643A55E50A90BA77 /* MASViewConstraint.h in Headers */,
+				518AD8FD7FF3576BC95DC1E8DE9412CA /* NSArray+MASAdditions.h in Headers */,
+				696DBCB7C46B324400C695DFCD9F9071 /* NSArray+MASShorthandAdditions.h in Headers */,
+				8B7A9EE46F4BE7D02055AAA100869EE6 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				2B712801AD8519958982E93C1A4C27C4 /* View+MASAdditions.h in Headers */,
+				507F9EE0A3360DC516754F77890C26DA /* View+MASShorthandAdditions.h in Headers */,
+				473C0393DEAF2B534AB7EB790E22D871 /* ViewController+MASAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70E8FDD6D35AFE3209F73EE51B8650F4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40CA5E59059CF77364AEB58F3F08B4A3 /* CHCommonUtil.h in Headers */,
+				62A23954901EC777885FD1BDE0AE8318 /* EmojiTextAttachment.h in Headers */,
+				8C858FC4CC6EB9A49538309366CCE037 /* EmotionKeyboard-umbrella.h in Headers */,
+				FAA86F9444B497C522620E23D2774893 /* NSAttributedString+CHAttrs.h in Headers */,
+				0CF1747A6C013FB9CB5573032F0E632D /* NSAttributedString+EmojiExtension.h in Headers */,
+				3AD47E262068D8B2BC848DEC3796A0DB /* NSBundle+Emotion.h in Headers */,
+				10595DC0D9123AC40B6B6CBF2EF681C9 /* SSChatEmotionBaseCell.h in Headers */,
+				A828F6FE5DD4BB92F37F7864B92F8773 /* SSChatEmotionImageCell.h in Headers */,
+				6945D115633864B2028E3D6CF0E9056F /* SSChatEmotionTitleCell.h in Headers */,
+				622D8514D341CB769C014053922698E1 /* SSChatKeyboardEmotionData.h in Headers */,
+				4044A72AE37C9B8BE1F4383CB1636684 /* SSChatKeyboardEmotionUtil.h in Headers */,
+				D23F3E128F945DEDE99C2ABE12CCCE8B /* SSChatKeyboardEmotionView.h in Headers */,
+				1B6AFE9EBE1519D4E4581738437FB746 /* SSChatKeyboardEmotionViewModel.h in Headers */,
+				65BEA324747AC08DE706AF09C1B453EA /* UIColor+CHSocket.h in Headers */,
+				0418BF052695FC343B19E864899F15D2 /* WWChatEmotionCollectionLayout.h in Headers */,
+				A18ADCAEE4266E56892F917BF0DB61FA /* WWCustomPageControl.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -763,28 +793,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D4536491772501FC91F95B2113CE2B4 /* Pods-EmotionKeyboard_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BB111DD0FDA110CA18CCFF71ADF3F4F8 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3C6A2D776A1151A97EC2801DD0C0DA12 /* CHCommonUtil.h in Headers */,
-				828E296FC215A4BF6F3D22CCA6F00451 /* EmojiTextAttachment.h in Headers */,
-				ED1AC64A6FC5A21D96E8B7D66449D1BF /* EmotionKeyboard-umbrella.h in Headers */,
-				C552AC0289C9141BE6458E5993C1CF0E /* NSAttributedString+CHAttrs.h in Headers */,
-				4A8759171BB94B8231A82FB181B7AFCB /* NSAttributedString+EmojiExtension.h in Headers */,
-				FCADC8EF82EB9A4444574B20E59A47B6 /* SSChatEmotionBaseCell.h in Headers */,
-				681323C794FDDFD599C3309B9EC5C8EA /* SSChatEmotionImageCell.h in Headers */,
-				B1B33E55360C7333058000CF22F45F3B /* SSChatEmotionTitleCell.h in Headers */,
-				9744546101B87F4396C5C314E67A46DB /* SSChatKeyboardEmotionData.h in Headers */,
-				36A8F5BBFDAACE7FE57F869B7F48398A /* SSChatKeyboardEmotionUtil.h in Headers */,
-				BD4BF52FC163FBE2263E93B232832825 /* SSChatKeyboardEmotionView.h in Headers */,
-				84B4C109DE2D7CFB74A749ADE59C524A /* SSChatKeyboardEmotionViewModel.h in Headers */,
-				4A11F3DDDEB70531BA5E4F570E372844 /* UIColor+CHSocket.h in Headers */,
-				BBAB27E305A7AF9CAECBDC6DC520379D /* WWChatEmotionCollectionLayout.h in Headers */,
-				AA9A1FC57A6BD6DD6BB9E37702208046 /* WWCustomPageControl.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -820,11 +828,11 @@
 		};
 		44257D9B5304609FA8855C78F2C483FB /* EmotionKeyboard-EmotionKeyboard */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D693AD62667FFAD38DD9BFA872451CC0 /* Build configuration list for PBXNativeTarget "EmotionKeyboard-EmotionKeyboard" */;
+			buildConfigurationList = F495BFB978AADFEB29D2C7E00CE29AC5 /* Build configuration list for PBXNativeTarget "EmotionKeyboard-EmotionKeyboard" */;
 			buildPhases = (
-				6DAF32C74DF1179491F3E4C1B55409B2 /* Sources */,
-				065AE1F4A094815A5A4B52F4FC8CD9A3 /* Frameworks */,
-				324702E63209735D258E81A6B7D9AEEF /* Resources */,
+				C82D06BD3742A9C3C7766A5525D80487 /* Sources */,
+				2990448411EE1A68435636D1A2CEBBD7 /* Frameworks */,
+				268D54343D06BAA1619E7F6AF0096443 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -837,12 +845,12 @@
 		};
 		55AF53E6C77A10ED4985E04D74A8878E /* Masonry */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D07EEE55D998C384B786603F69B24867 /* Build configuration list for PBXNativeTarget "Masonry" */;
+			buildConfigurationList = A216E7BDBAB79F945F079EF0021D1E64 /* Build configuration list for PBXNativeTarget "Masonry" */;
 			buildPhases = (
-				47DF94AD86CD95531FF80B108DFCF3C3 /* Headers */,
-				CAEBE0B3CED62C9CF84043B772912AF2 /* Sources */,
-				6D769364C098D49F5DFD8234BD5D885B /* Frameworks */,
-				B76E7C07ED5E5A7C56C5A7E8379A2F37 /* Resources */,
+				2C8A843998C7C879B80BEE772D88F3B2 /* Headers */,
+				02AF9032A22774249223D2B51EB819A1 /* Sources */,
+				A1080AE7FB71A618A42BFCCE9BB8A32E /* Frameworks */,
+				AC8065271E801F22BB93CB4404E342FF /* Resources */,
 			);
 			buildRules = (
 			);
@@ -875,18 +883,18 @@
 		};
 		D67BA460DE80959EE06EE261F2AC6910 /* EmotionKeyboard */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 38DBCBDD58BA2620732F85EFF8871B11 /* Build configuration list for PBXNativeTarget "EmotionKeyboard" */;
+			buildConfigurationList = 8F70934895E68EE4C796FF294C7CE1AB /* Build configuration list for PBXNativeTarget "EmotionKeyboard" */;
 			buildPhases = (
-				BB111DD0FDA110CA18CCFF71ADF3F4F8 /* Headers */,
-				C5FB04B098F7438098FA3F0ED1F3F747 /* Sources */,
-				E1830A98227227677CA22D28CD791135 /* Frameworks */,
-				F8A75AD8316D00EBC733726EE55244E8 /* Resources */,
+				70E8FDD6D35AFE3209F73EE51B8650F4 /* Headers */,
+				70FEA546DC45B8FE3E4E22F81E452363 /* Sources */,
+				8175B019A4428597A22BB296F74F741C /* Frameworks */,
+				75D3549E223C74F436660A7DD838CC5F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5EF25CB8834438DA0B18E7D5B30BE2CE /* PBXTargetDependency */,
-				F2F9EBEE70F4CB2881C20FC4E86E4FF8 /* PBXTargetDependency */,
+				41C21DAC0CBE82075F179E0AFEB9AEAA /* PBXTargetDependency */,
+				06F3ED2A2218996AA46D5124FFEE05BA /* PBXTargetDependency */,
 			);
 			name = EmotionKeyboard;
 			productName = EmotionKeyboard;
@@ -925,10 +933,85 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		324702E63209735D258E81A6B7D9AEEF /* Resources */ = {
+		268D54343D06BAA1619E7F6AF0096443 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C64FF259D0BF30B9335D07172EFD242 /* 0.gif in Resources */,
+				E828847D90F53999A36ABA58C40E5EC2 /* 1.gif in Resources */,
+				574832897ACBB100E18C67EF7D38CDF7 /* 10.gif in Resources */,
+				965B4C7F02CAC499F876CEB6E92AD663 /* 11.gif in Resources */,
+				764777EBD517F134DDE33DF98ACCD03A /* 12.gif in Resources */,
+				ABB72556722910F3E6D65BB66222AC16 /* 13.gif in Resources */,
+				E670E49FA040896AE82606AF5D065726 /* 14.gif in Resources */,
+				E9C5C57994E7C3B66A3EC0E60D68D1E7 /* 15.gif in Resources */,
+				F2AB86A88CA76F17BB5F4B504A7E73A1 /* 16.gif in Resources */,
+				0F514D07120ED7C3155A2994AC8CCE65 /* 17.gif in Resources */,
+				2395D81EC318636D22947AEFB08A9BFB /* 18.gif in Resources */,
+				B94F5263A65BDB66D991C543FA938390 /* 19.gif in Resources */,
+				161E4ECF241830C6101D33A731FA41A7 /* 2.gif in Resources */,
+				9FA442160917B30D623686F9295CB25C /* 20.gif in Resources */,
+				3FCB7355AD3E8DBF9B5783BB6E33F133 /* 21.gif in Resources */,
+				0EC547E336B1A74FB9B6EE32E277AB40 /* 22.gif in Resources */,
+				6D8FFB6B3D9E53FC357829A736C0FF19 /* 23.gif in Resources */,
+				C2AA5539C64DC4AC89A2F963E1DD40B3 /* 24.gif in Resources */,
+				3776612383B7D3DDA1BEF12C335C1FD1 /* 25.gif in Resources */,
+				26ADDA0623927D0C815525FC582B14A7 /* 26.gif in Resources */,
+				420C4969A6A167E430FAE948BC8E5E50 /* 27.gif in Resources */,
+				2ACE12F4E3EBEA7711D09EDB3A9333E6 /* 28.gif in Resources */,
+				57F6A7DA07F421EB2AB4C3D29955A379 /* 29.gif in Resources */,
+				10D309F7075BCF31A7F30CA8E02A09EF /* 3.gif in Resources */,
+				D47B1044B76EA22644BCC6E3E144491C /* 30.gif in Resources */,
+				1691963E190143CBEB70DB18F6600614 /* 31.gif in Resources */,
+				727EF7A723DFF059F7A4DE3AA1F4586F /* 32.gif in Resources */,
+				0A62A372EE7ED8C1F001C4DB0A0F6F5A /* 33.gif in Resources */,
+				E3D1B5C992BF1353EBCC4E0A5A58B3BE /* 34.gif in Resources */,
+				EED3860AF173105751E030CFDD6F987A /* 35.gif in Resources */,
+				FEC8EF85556E9E948083084000E71A98 /* 36.gif in Resources */,
+				85C99B0BF19D58CA736C6CAC8FBE23D6 /* 37.gif in Resources */,
+				1DB3CF49EDA5FFE44871630006E089F3 /* 38.gif in Resources */,
+				CBDE31AB721DDB6DA90E79A4C6FEBE96 /* 39.gif in Resources */,
+				47E50A62EF90CE353609DB944C1BFB64 /* 4.gif in Resources */,
+				ADBCB9E42F9423AC4489051D0B8CBCB1 /* 40.gif in Resources */,
+				40F7ACC48C21AC5C8C38693085DCFADA /* 41.gif in Resources */,
+				7D21DB2C17C810D9CC5F49D42ABBDC55 /* 42.gif in Resources */,
+				063D5746321E75C2926778E9318722E3 /* 43.gif in Resources */,
+				FA46C237E9A7A191CE9A3833BCF3E80D /* 44.gif in Resources */,
+				5CC7CACA4D9F7D8ED8039E9C307F743B /* 45.gif in Resources */,
+				BA9CC0A47F354050B64BAB3190137357 /* 46.gif in Resources */,
+				5D3853628FCEB9C13C107EBFEF06D662 /* 47.gif in Resources */,
+				201208AC36820FAA8E0A2B15E3C72C45 /* 48.gif in Resources */,
+				7272983BCF47DF2E4BCF911389F7DFE1 /* 49.gif in Resources */,
+				5AA75D74AC4CEA4A0896E1AF70329700 /* 5.gif in Resources */,
+				3BE138D592E18EE6C6EA243B5877FF14 /* 50.gif in Resources */,
+				965ED90A0ADF4607172762C04988C739 /* 51.gif in Resources */,
+				0793F184EA5141B8A114094D8F09814D /* 52.gif in Resources */,
+				9BF06DA6556871882717DA1EB85925AD /* 53.gif in Resources */,
+				7761C1771857491291E843472B7C58A7 /* 54.gif in Resources */,
+				255BB6A1A13E7EBEC61BD6BFF2EE419C /* 55.gif in Resources */,
+				0770F3AC410B6D5A104504E0DCE8BC63 /* 56.gif in Resources */,
+				0BD99088D01F0DE0CC700633D7A63099 /* 57.gif in Resources */,
+				B54E57B2B9AF9E9845ADABEE9FD334D6 /* 58.gif in Resources */,
+				7822FEC50982AA018CF7949FAEAD5350 /* 59.gif in Resources */,
+				8AFCE9EC60808E71D4FA57604E2BB810 /* 6.gif in Resources */,
+				B3790B3AC421CC5CEF2C7384B0BB7AB7 /* 60.gif in Resources */,
+				477A650DF9492C1FA0074B231249EE36 /* 61.gif in Resources */,
+				DC587DAAA92010D1708F89E1C60C3DE4 /* 62.gif in Resources */,
+				B7E95392B5B911766B260B64131AC620 /* 63.gif in Resources */,
+				6C0EB197398FC92B2969FB9773D102EA /* 64.gif in Resources */,
+				A303671A83D1CBF75A5D382E3AD72369 /* 65.gif in Resources */,
+				E43DBB3C1BA53ECC7C03940FF08B020C /* 66.gif in Resources */,
+				A52A1D799F319D4DE6869E7B31490C39 /* 67.gif in Resources */,
+				83F9AF373DD9DD45AC4DCC37FABDEF3D /* 68.gif in Resources */,
+				3412178D7D78C6DEEB2AE3A3C22CD51E /* 69.gif in Resources */,
+				00016CE08587ED5AD1FC8A48AC313B3C /* 7.gif in Resources */,
+				F49B669A52F2EE0D73287059D9AF457A /* 70.gif in Resources */,
+				8128ECF04B4473D1B0D9F77AC137AF31 /* 71.gif in Resources */,
+				2BEF36D8B2C4FACE9F407F6601D579C8 /* 8.gif in Resources */,
+				6FC5921AA530E5B583A09685CE75FD65 /* 9.gif in Resources */,
+				11C229C0667DD3DD14C521AC38559418 /* DeleteEmoticonBtn@2x.png in Resources */,
+				7D8C4B44A3A91EC66948DBCB671CB4E6 /* DeleteEmoticonBtnHL@2x.png in Resources */,
+				BD4710ED1D964D48B9288BAFD891AD82 /* emotion.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -939,7 +1022,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B76E7C07ED5E5A7C56C5A7E8379A2F37 /* Resources */ = {
+		75D3549E223C74F436660A7DD838CC5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B39E82E760700EB22B938C34F9079F0 /* EmotionKeyboard.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC8065271E801F22BB93CB4404E342FF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -953,92 +1044,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F8A75AD8316D00EBC733726EE55244E8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E4373FAB2574EC350076A264 /* 28.gif in Resources */,
-				E4373FA92574EC350076A264 /* 9.gif in Resources */,
-				E4373F8B2574EC350076A264 /* 6.gif in Resources */,
-				E4373FA32574EC350076A264 /* 70.gif in Resources */,
-				E4373F9F2574EC350076A264 /* 59.gif in Resources */,
-				E4373F7E2574EC350076A264 /* 19.gif in Resources */,
-				E4373F812574EC350076A264 /* 4.gif in Resources */,
-				E4373F8E2574EC350076A264 /* 2.gif in Resources */,
-				E4373FA12574EC350076A264 /* 65.gif in Resources */,
-				E4373F982574EC350076A264 /* 46.gif in Resources */,
-				E4373FAF2574EC350076A264 /* 16.gif in Resources */,
-				E4373F922574EC350076A264 /* 3.gif in Resources */,
-				E4373F7A2574EC350076A264 /* 24.gif in Resources */,
-				E4373F772574EC350076A264 /* 26.gif in Resources */,
-				E4373F802574EC350076A264 /* 56.gif in Resources */,
-				E4373F6F2574EC350076A264 /* 20.gif in Resources */,
-				E4373F852574EC350076A264 /* 7.gif in Resources */,
-				E4373FAA2574EC350076A264 /* 14.gif in Resources */,
-				E4373FA02574EC350076A264 /* 71.gif in Resources */,
-				0FADFE0DF558AC6071F1CB32DCD6C170 /* EmotionKeyboard.bundle in Resources */,
-				E4373F7B2574EC350076A264 /* 30.gif in Resources */,
-				E4373FA82574EC350076A264 /* 67.gif in Resources */,
-				E4373FB22574EC350076A264 /* 13.gif in Resources */,
-				E4373F9E2574EC350076A264 /* 61.gif in Resources */,
-				E4373F742574EC350076A264 /* DeleteEmoticonBtn@2x.png in Resources */,
-				E4373FA72574EC350076A264 /* emotion.txt in Resources */,
-				E4373FB02574EC350076A264 /* 12.gif in Resources */,
-				E4373F8C2574EC350076A264 /* 54.gif in Resources */,
-				E4373F912574EC350076A264 /* 51.gif in Resources */,
-				E4373F992574EC350076A264 /* 63.gif in Resources */,
-				E4373F752574EC350076A264 /* 33.gif in Resources */,
-				E4373F7F2574EC350076A264 /* 42.gif in Resources */,
-				E4373FB32574EC350076A264 /* 39.gif in Resources */,
-				E4373F8F2574EC350076A264 /* 44.gif in Resources */,
-				E4373FAE2574EC350076A264 /* 17.gif in Resources */,
-				E4373F942574EC350076A264 /* 1.gif in Resources */,
-				E4373FAD2574EC350076A264 /* 15.gif in Resources */,
-				E4373F862574EC350076A264 /* 55.gif in Resources */,
-				E4373F902574EC350076A264 /* 45.gif in Resources */,
-				E4373F7D2574EC350076A264 /* 25.gif in Resources */,
-				E4373FA22574EC350076A264 /* 64.gif in Resources */,
-				E4373FA62574EC350076A264 /* 66.gif in Resources */,
-				E4373F8A2574EC350076A264 /* 40.gif in Resources */,
-				E4373FA42574EC350076A264 /* 58.gif in Resources */,
-				E4373F792574EC350076A264 /* 18.gif in Resources */,
-				E4373F952574EC350076A264 /* 53.gif in Resources */,
-				E4373F892574EC350076A264 /* 68.gif in Resources */,
-				E4373FAC2574EC350076A264 /* 29.gif in Resources */,
-				E4373F882574EC350076A264 /* 69.gif in Resources */,
-				E4373F8D2574EC350076A264 /* 50.gif in Resources */,
-				E4373F9C2574EC350076A264 /* 48.gif in Resources */,
-				E4373F842574EC350076A264 /* 43.gif in Resources */,
-				E4373F6E2574EC350076A264 /* 34.gif in Resources */,
-				E4373FA52574EC350076A264 /* 8.gif in Resources */,
-				E4373F972574EC350076A264 /* 52.gif in Resources */,
-				E4373F712574EC350076A264 /* 22.gif in Resources */,
-				E4373F9A2574EC350076A264 /* 62.gif in Resources */,
-				E4373F702574EC350076A264 /* 36.gif in Resources */,
-				E4373F9D2574EC350076A264 /* 49.gif in Resources */,
-				E4373F932574EC350076A264 /* 47.gif in Resources */,
-				E4373F962574EC350076A264 /* 0.gif in Resources */,
-				E4373FB62574EC350076A264 /* 38.gif in Resources */,
-				E4373F762574EC350076A264 /* 27.gif in Resources */,
-				E4373F872574EC350076A264 /* 41.gif in Resources */,
-				E4373F9B2574EC350076A264 /* 60.gif in Resources */,
-				E4373FB42574EC350076A264 /* 11.gif in Resources */,
-				E4373F782574EC350076A264 /* 32.gif in Resources */,
-				E4373F6D2574EC350076A264 /* 35.gif in Resources */,
-				E4373FB12574EC350076A264 /* DeleteEmoticonBtnHL@2x.png in Resources */,
-				E4373F7C2574EC350076A264 /* 31.gif in Resources */,
-				E4373F832574EC350076A264 /* 5.gif in Resources */,
-				E4373FB52574EC350076A264 /* 10.gif in Resources */,
-				E4373F6C2574EC350076A264 /* 21.gif in Resources */,
-				E4373F722574EC350076A264 /* 23.gif in Resources */,
-				E4373F822574EC350076A264 /* 57.gif in Resources */,
-				E4373F732574EC350076A264 /* 37.gif in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		02AF9032A22774249223D2B51EB819A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9E03864A15388F6E080C08BB520387C /* MASCompositeConstraint.m in Sources */,
+				C247EC8E5C5636B37359145B101805AA /* MASConstraint.m in Sources */,
+				187C49A71E99BCBDB2A28438C5D0FC33 /* MASConstraintMaker.m in Sources */,
+				612D473736A23A51F3413FCB3D9300FA /* MASLayoutConstraint.m in Sources */,
+				BEF1037860BAE7AA94FD86C485F3E52B /* Masonry-dummy.m in Sources */,
+				A3BD6351E4E830EA2CB6B68E8615DBB7 /* MASViewAttribute.m in Sources */,
+				A39FB938735D4D3645B0C1EF6EF4CEC0 /* MASViewConstraint.m in Sources */,
+				24CD084CA969730217C26E17E45774C9 /* NSArray+MASAdditions.m in Sources */,
+				5EB555C3C979FA00DAEEDBCF9BFBFFB1 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				EEF41D60A5224A3C5E3B93149E47CB58 /* View+MASAdditions.m in Sources */,
+				1E2C3C03E51EC6BDE7084CAD38531286 /* ViewController+MASAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3B014903EF7A934FEAE76245EDBC25EF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1047,50 +1073,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6DAF32C74DF1179491F3E4C1B55409B2 /* Sources */ = {
+		70FEA546DC45B8FE3E4E22F81E452363 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7367A1EA50EC6251A4833062FAD53C95 /* CHCommonUtil.m in Sources */,
+				6BD49DDC1BAE3D88108FEE63D54CC771 /* EmojiTextAttachment.m in Sources */,
+				16AB41A6B4EAF5A4043D64181FAB0EE3 /* EmotionKeyboard-dummy.m in Sources */,
+				C88084D4C46CED13161B631CF537CDFE /* NSAttributedString+CHAttrs.m in Sources */,
+				90F78E208EDE0F228053FEDE782E42DD /* NSAttributedString+EmojiExtension.m in Sources */,
+				738F9D2BC3671C3B2385CC794B58EB0F /* NSBundle+Emotion.m in Sources */,
+				D9980EBC24AC8986B7164B053E4DF62B /* SSChatEmotionBaseCell.m in Sources */,
+				5B765C0715C2D5B18B02FACD46EA4579 /* SSChatEmotionImageCell.m in Sources */,
+				31F0FF27BF1AD47E395B755D8A898143 /* SSChatEmotionTitleCell.m in Sources */,
+				C4FF237FB33348813E8E928E0DAACCB4 /* SSChatKeyboardEmotionData.m in Sources */,
+				700A6C2F6637009927839C2468E40DC8 /* SSChatKeyboardEmotionUtil.m in Sources */,
+				1F9938FDFCC86B8D31219214A156B9F3 /* SSChatKeyboardEmotionView.m in Sources */,
+				A814378DDE590F2BEB1CD9456C580421 /* SSChatKeyboardEmotionViewModel.m in Sources */,
+				63CA72182CB3278CDEEC49B1E3EBA80D /* UIColor+CHSocket.m in Sources */,
+				614DFE9DA15B147D607A8F3FFBB23012 /* WWChatEmotionCollectionLayout.m in Sources */,
+				1E7D43605D7AA54804A95FFA76BCCDD0 /* WWCustomPageControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C5FB04B098F7438098FA3F0ED1F3F747 /* Sources */ = {
+		C82D06BD3742A9C3C7766A5525D80487 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				827F9EE446735B888144B37221588459 /* CHCommonUtil.m in Sources */,
-				CFDEE341BA1230CDFDD3BBC06239D47F /* EmojiTextAttachment.m in Sources */,
-				CB7714BAAC2A0D898650E17A1881D349 /* EmotionKeyboard-dummy.m in Sources */,
-				7E0AAC7864FE4AF4B8208EBFC115BD7D /* NSAttributedString+CHAttrs.m in Sources */,
-				84F5CCBB6C6D19216F0FC9C4F2FD3DA3 /* NSAttributedString+EmojiExtension.m in Sources */,
-				4AADCA33A67464187138DA3BE6D211F8 /* SSChatEmotionBaseCell.m in Sources */,
-				B5A4D7BB3BF748C4C9F694F54CC07567 /* SSChatEmotionImageCell.m in Sources */,
-				CE54A4FB04AA5730AA2141847BA08706 /* SSChatEmotionTitleCell.m in Sources */,
-				1D26D6DF5577E5CA078F3312FA651252 /* SSChatKeyboardEmotionData.m in Sources */,
-				4FA462D8557907152691DB2506D30ADC /* SSChatKeyboardEmotionUtil.m in Sources */,
-				F5EDD09CE9F612A8FEA603869E0D3FDC /* SSChatKeyboardEmotionView.m in Sources */,
-				C510415BA661B08B457CC3344DB87BD7 /* SSChatKeyboardEmotionViewModel.m in Sources */,
-				658833265E824660197798417A9FDD65 /* UIColor+CHSocket.m in Sources */,
-				9D64DA06D2EB652D8DD6FCFE4B6187C2 /* WWChatEmotionCollectionLayout.m in Sources */,
-				B4758D284F0B83BFBEBEBA4772F21005 /* WWCustomPageControl.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CAEBE0B3CED62C9CF84043B772912AF2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8654AEDD46F1C88A6EA55C8FE2511C32 /* MASCompositeConstraint.m in Sources */,
-				DFD7E907E79DF3BF7A9A426548A2912F /* MASConstraint.m in Sources */,
-				2B76F8F6B1B54BDDB8693FBF69B7897E /* MASConstraintMaker.m in Sources */,
-				79108975905CC2177250A418217A0ABB /* MASLayoutConstraint.m in Sources */,
-				04CA58D4E35B0B140CD182B8D40C7F11 /* Masonry-dummy.m in Sources */,
-				98AB790134B94BEDFADB67706D3D9B69 /* MASViewAttribute.m in Sources */,
-				72E5D3B3EE95C4DF5F83D6AC403F504A /* MASViewConstraint.m in Sources */,
-				AE3557547E9DB06FDF8711D0129A075A /* NSArray+MASAdditions.m in Sources */,
-				BB6586E733768E798C146A1CF7CA461F /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
-				0FEBD3813791BE1D44C1FDD0E50FA45B /* View+MASAdditions.m in Sources */,
-				D8B8336E9CDDDC6B221C4D9057521D5A /* ViewController+MASAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1105,6 +1114,18 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		06F3ED2A2218996AA46D5124FFEE05BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = CE9F5B2B5401BE10A979C890FD9B0146 /* PBXContainerItemProxy */;
+		};
+		41C21DAC0CBE82075F179E0AFEB9AEAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "EmotionKeyboard-EmotionKeyboard";
+			target = 44257D9B5304609FA8855C78F2C483FB /* EmotionKeyboard-EmotionKeyboard */;
+			targetProxy = F8BD1FECDF986DECB97E95787915B69A /* PBXContainerItemProxy */;
+		};
 		4ADCF238C8346CDAC399BD828102E5AA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-EmotionKeyboard_Example";
@@ -1117,58 +1138,15 @@
 			target = D67BA460DE80959EE06EE261F2AC6910 /* EmotionKeyboard */;
 			targetProxy = 00F732CF7C7B40071A1734DF88F4E0E0 /* PBXContainerItemProxy */;
 		};
-		5EF25CB8834438DA0B18E7D5B30BE2CE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "EmotionKeyboard-EmotionKeyboard";
-			target = 44257D9B5304609FA8855C78F2C483FB /* EmotionKeyboard-EmotionKeyboard */;
-			targetProxy = C8E0DF5F8F1D71E51E9DDC513A3E947A /* PBXContainerItemProxy */;
-		};
 		7F52F9BBC5D52328B29D76C9A7BD0DB0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Masonry;
 			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
 			targetProxy = F95DCEDE38DEA02D698326036CED9D41 /* PBXContainerItemProxy */;
 		};
-		F2F9EBEE70F4CB2881C20FC4E86E4FF8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Masonry;
-			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
-			targetProxy = 6B8D1F5357CB441D06FB6AA7FD6C33B2 /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		15365D6AA16F575093EB853284D95239 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F287598D192FA586BD4AECCD85B988A4 /* Masonry.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
-				PRODUCT_MODULE_NAME = Masonry;
-				PRODUCT_NAME = Masonry;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		17435AB200F6075EB3938C9B2C0FD1BA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A7E8057DE6AB91E7A4E90DA78A67311D /* Pods-EmotionKeyboard_Tests.debug.xcconfig */;
@@ -1201,38 +1179,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		3692D05364B941D00F21A5E214407288 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 419A961AD957E23BAB6A998ED7623134 /* Masonry.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
-				PRODUCT_MODULE_NAME = Masonry;
-				PRODUCT_NAME = Masonry;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1287,15 +1233,16 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		5B03B6E1FE52E421E8C6A3E511C619BC /* Release */ = {
+		592A7133137EEA0EB9EA78E816BE9F78 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8DC21FEC866EB59FE7583D4473C2BE9A /* EmotionKeyboard.release.xcconfig */;
+			baseConfigurationReference = 63E999752C70AC4F6829048BEAE898DA /* EmotionKeyboard.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/EmotionKeyboard";
@@ -1307,38 +1254,6 @@
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		5EE85338376DC4ECCA817BA9EDCB20BD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 145A9305E8AA7D5A4D28B444DD2161E3 /* EmotionKeyboard.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/EmotionKeyboard/EmotionKeyboard-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/EmotionKeyboard/EmotionKeyboard-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/EmotionKeyboard/EmotionKeyboard.modulemap";
-				PRODUCT_MODULE_NAME = EmotionKeyboard;
-				PRODUCT_NAME = EmotionKeyboard;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -1507,9 +1422,121 @@
 			};
 			name = Debug;
 		};
-		D3BD4E161158218C3EECBD6148FAB3FC /* Release */ = {
+		9AACBE9F2A40586B8BB4BA7A03F5069B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8DC21FEC866EB59FE7583D4473C2BE9A /* EmotionKeyboard.release.xcconfig */;
+			baseConfigurationReference = 63E999752C70AC4F6829048BEAE898DA /* EmotionKeyboard.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EmotionKeyboard/EmotionKeyboard-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EmotionKeyboard/EmotionKeyboard-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EmotionKeyboard/EmotionKeyboard.modulemap";
+				PRODUCT_MODULE_NAME = EmotionKeyboard;
+				PRODUCT_NAME = EmotionKeyboard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C718F32DF8F21DD55977FA42D7603982 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F287598D192FA586BD4AECCD85B988A4 /* Masonry.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CC680DD6D912287EB0239FA1739DC85F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 419A961AD957E23BAB6A998ED7623134 /* Masonry.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CFCB7978464EE549EAFB3530B26BBEC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7370655752BAC34C63FDE9C68A2C447 /* EmotionKeyboard.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/EmotionKeyboard";
+				IBSC_MODULE = EmotionKeyboard;
+				INFOPLIST_FILE = "Target Support Files/EmotionKeyboard/ResourceBundle-EmotionKeyboard-EmotionKeyboard-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = EmotionKeyboard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		D850DDEFB1089A78A9F66755A80DC04E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7370655752BAC34C63FDE9C68A2C447 /* EmotionKeyboard.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -1540,23 +1567,6 @@
 			};
 			name = Release;
 		};
-		E30C5D31D1858FEC71571F6EE41C065D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 145A9305E8AA7D5A4D28B444DD2161E3 /* EmotionKeyboard.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/EmotionKeyboard";
-				IBSC_MODULE = EmotionKeyboard;
-				INFOPLIST_FILE = "Target Support Files/EmotionKeyboard/ResourceBundle-EmotionKeyboard-EmotionKeyboard-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_NAME = EmotionKeyboard;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1565,15 +1575,6 @@
 			buildConfigurations = (
 				628224544BF7748736AE2A19B3525A16 /* Debug */,
 				6C7AAE7E6516EAF61394E63C910C3DDE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		38DBCBDD58BA2620732F85EFF8871B11 /* Build configuration list for PBXNativeTarget "EmotionKeyboard" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5EE85338376DC4ECCA817BA9EDCB20BD /* Debug */,
-				D3BD4E161158218C3EECBD6148FAB3FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1587,6 +1588,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		8F70934895E68EE4C796FF294C7CE1AB /* Build configuration list for PBXNativeTarget "EmotionKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AACBE9F2A40586B8BB4BA7A03F5069B /* Debug */,
+				D850DDEFB1089A78A9F66755A80DC04E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		93586013F07C80EDBBBB0F1A81ACC2CD /* Build configuration list for PBXNativeTarget "Pods-EmotionKeyboard_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1596,20 +1606,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D07EEE55D998C384B786603F69B24867 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
+		A216E7BDBAB79F945F079EF0021D1E64 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				15365D6AA16F575093EB853284D95239 /* Debug */,
-				3692D05364B941D00F21A5E214407288 /* Release */,
+				C718F32DF8F21DD55977FA42D7603982 /* Debug */,
+				CC680DD6D912287EB0239FA1739DC85F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D693AD62667FFAD38DD9BFA872451CC0 /* Build configuration list for PBXNativeTarget "EmotionKeyboard-EmotionKeyboard" */ = {
+		F495BFB978AADFEB29D2C7E00CE29AC5 /* Build configuration list for PBXNativeTarget "EmotionKeyboard-EmotionKeyboard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E30C5D31D1858FEC71571F6EE41C065D /* Debug */,
-				5B03B6E1FE52E421E8C6A3E511C619BC /* Release */,
+				592A7133137EEA0EB9EA78E816BE9F78 /* Debug */,
+				CFCB7978464EE549EAFB3530B26BBEC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

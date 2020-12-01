@@ -9,6 +9,7 @@
 #import "SSChatKeyboardEmotionUtil.h"
 #import "CHCommonUtil.h"
 #import "NSAttributedString+CHAttrs.h"
+#import "NSBundle+Emotion.h"
 
 @implementation SSChatKeyboardEmotionUtil
 
@@ -28,7 +29,9 @@
 -(void)creatData{
     self.imageMapStr = [NSMutableDictionary dictionary];
     //获取系统表情
-    NSString *path = [[NSBundle bundleForClass:self.class] pathForResource:@"emotion.txt" ofType:nil];
+    
+    NSString *path = [[NSBundle currentBundleWithClass:self.class] pathForResource:@"emotion.txt" ofType:nil];
+    
     NSString * emotionContent = [NSString stringWithContentsOfFile:path encoding:NSUTF8StringEncoding error:nil];
     NSArray * emotionArr = [[emotionContent stringByReplacingOccurrencesOfString:@", \"" withString:@""]componentsSeparatedByString:@"\""];
 //    [emotionArr remove];

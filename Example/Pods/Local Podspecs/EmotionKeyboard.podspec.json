@@ -21,7 +21,7 @@
   "source_files": "EmotionKeyboard/Classes/Emotion/**/*",
   "resource_bundles": {
     "EmotionKeyboard": [
-      "EmotionKeyboard/Assets/*.png"
+      "EmotionKeyboard/Assets/*"
     ]
   },
   "dependencies": {

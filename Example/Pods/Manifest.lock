@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  EmotionKeyboard: ed843bc2815b0a17f496ab5790ad7f4cb9a80e3a
+  EmotionKeyboard: 43a2ed8c1a7b95b56d02d91b238980d46f553af9
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
 PODFILE CHECKSUM: 6a2213ab972feaa24e868f01d9f2fac0125250e9

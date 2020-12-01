@@ -17,6 +17,7 @@
 #import "SSChatKeyboardEmotionViewModel.h"
 #import "NSAttributedString+CHAttrs.h"
 #import "NSAttributedString+EmojiExtension.h"
+#import "NSBundle+Emotion.h"
 #import "UIColor+CHSocket.h"
 #import "SSChatEmotionBaseCell.h"
 #import "SSChatEmotionImageCell.h"

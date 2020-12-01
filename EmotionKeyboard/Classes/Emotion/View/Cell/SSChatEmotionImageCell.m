@@ -9,6 +9,7 @@
 #import "SSChatEmotionImageCell.h"
 #import <Masonry/Masonry.h>
 #import "UIColor+CHSocket.h"
+#import "NSBundle+Emotion.h"
 //#import "UIImage+GIF.h"
 //#import "FLAnimatedImageView+WebCache.h"
 
@@ -44,7 +45,7 @@
 //        self.layer.borderColor = [UIColor colorWithHex:0xf7f7f7].CGColor;
 //        self.layer.borderWidth = 1;
     }else{
-        self.imageView.image =  [UIImage imageNamed:data.name inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil];;
+        self.imageView.image =  [UIImage imageNamed:data.name inBundle:[NSBundle currentBundleWithClass:self.class] compatibleWithTraitCollection:nil];;
     }
 
 }

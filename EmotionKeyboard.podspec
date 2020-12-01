@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
   s.source_files = 'EmotionKeyboard/Classes/Emotion/**/*'
   
    s.resource_bundles = {
-     'EmotionKeyboard' => ['EmotionKeyboard/Assets/*.png']
+     'EmotionKeyboard' => ['EmotionKeyboard/Assets/*']
    }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'

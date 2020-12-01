@@ -8,6 +8,7 @@
 
 #import "SSChatKeyboardEmotionViewModel.h"
 #import "SSChatKeyboardEmotionView.h"
+#import "NSBundle+Emotion.h"
 
 @implementation SSChatKeyboardEmotionViewModel
 
@@ -26,7 +27,7 @@
     for (int i = 0; i < sysDatas.count ; i ++) {
         if ((i+1) % (row * col) == 0) {
             SSChatSystemEmotionCellData * data = [[SSChatSystemEmotionCellData alloc] initWith:SSChatKeyboardEmotionDataTypeImage name:deletEmoName];
-            data.icon = [UIImage imageNamed:deletEmoName inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil];
+            data.icon = [UIImage imageNamed:deletEmoName inBundle:[NSBundle currentBundleWithClass:self.class] compatibleWithTraitCollection:nil];
             [sysDatas insertObject:data atIndex:i];
         }
     }
@@ -41,7 +42,7 @@
             [sysDatas addObject:data];
         }
         SSChatSystemEmotionCellData * data = [[SSChatSystemEmotionCellData alloc] initWith:SSChatKeyboardEmotionDataTypeImage name:deletEmoName];
-        data.icon = [UIImage imageNamed:deletEmoName inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil];
+        data.icon = [UIImage imageNamed:deletEmoName inBundle:[NSBundle currentBundleWithClass:self.class] compatibleWithTraitCollection:nil];
         [sysDatas addObject:data];
     }
     
