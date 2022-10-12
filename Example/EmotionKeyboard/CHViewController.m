@@ -12,6 +12,7 @@
 #import <EmotionKeyboard/CHCommonUtil.h>
 #import "WWBaseTextView.h"
 
+
 @interface CHViewController ()<SSChatKeyBordEmotionViewDelegate,WWBaseTextViewDelegte>
 @property(nonatomic,strong)SSChatKeyboardEmotionView * emotionView;
 

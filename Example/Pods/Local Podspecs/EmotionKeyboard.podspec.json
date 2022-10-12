@@ -1,13 +1,7 @@
 {
   "name": "EmotionKeyboard",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "summary": "custom EmotionKeyboard",
-  "xcconfig": {
-    "VALID_ARCHS": "armv7s arm64 armv7"
-  },
-  "pod_target_xcconfig": {
-    "ARCHS[sdk=iphonesimulator*]": "$(ARCHS_STANDARD_64_BIT)"
-  },
   "description": "表情键盘 使用见测试",
   "homepage": "https://github.com/wokua/CHEmotionKeyboard",
   "license": {
@@ -19,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/wokua/CHEmotionKeyboard.git",
-    "tag": "0.0.3"
+    "tag": "0.0.4"
   },
   "platforms": {
     "ios": "9.0"

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'EmotionKeyboard'
-  s.version          = '0.0.3'
+  s.version          = '0.0.4'
   s.summary          = 'custom EmotionKeyboard '
 
 # This description is used to generate tags and improve search results.
@@ -16,13 +16,13 @@ Pod::Spec.new do |s|
 #   * Try to keep it short, snappy and to the point.
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
-valid_archs = ['armv7s','arm64','armv7']
-s.xcconfig = {
-  'VALID_ARCHS' =>  valid_archs.join(' '),
-}
-s.pod_target_xcconfig = {
-    'ARCHS[sdk=iphonesimulator*]' => '$(ARCHS_STANDARD_64_BIT)'
-}
+#valid_archs = []
+#s.xcconfig = {
+#  'VALID_ARCHS' =>  valid_archs.join(' '),
+#}
+#s.pod_target_xcconfig = {
+#    'ARCHS[sdk=iphonesimulator*]' => 'x86_64,arm64,armv7'
+#}
   s.description      = <<-DESC
 表情键盘 使用见测试 
                        DESC

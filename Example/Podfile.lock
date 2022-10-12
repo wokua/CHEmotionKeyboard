@@ -1,5 +1,5 @@
 PODS:
-  - EmotionKeyboard (0.0.3):
+  - EmotionKeyboard (0.0.4):
     - Masonry
   - Masonry (1.1.0)
 
@@ -15,9 +15,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  EmotionKeyboard: 4273e906c8524deb85bb0f8309ce80014c44e2d7
+  EmotionKeyboard: 75823fa5b9d9a444d07fc7bdf3d71138f08ab3a3
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
 PODFILE CHECKSUM: e23073886954316f3cd0c33cf7d983e5b5bda30b
 
-COCOAPODS: 1.9.0.beta.2
+COCOAPODS: 1.11.2
